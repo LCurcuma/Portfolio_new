@@ -2,6 +2,8 @@
     display: none;
 }
 
+/*header styles*/
+
 .header{
     display: flex;
     flex-direction: row;
@@ -12,6 +14,8 @@
     left: 0;
 }
 
+/*language styles*/
+
 .language{
     display: flex;
     flex-direction: row;
@@ -20,8 +24,38 @@
     margin-top: -20px;
 }
 
+/*navigation styles*/
+
 .navigation{
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
+
+/*main styles*/
+
+/*hero section*/
+
+.hero_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.hero_image{
+    width: 150px;
+    height: 150px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.hero_p{
+    text-align: center;
+    margin-top: -10px;
+}
+
+/*footer styles*/

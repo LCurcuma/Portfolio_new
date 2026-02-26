@@ -1,0 +1,24 @@
+.hidden{
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

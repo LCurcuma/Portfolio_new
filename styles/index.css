@@ -1,5 +1,17 @@
+/*styles for all or just random elements*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .hidden{
     display: none;
+}
+
+body{
+    padding: 0 3vw;
 }
 
 /*header styles*/
@@ -8,7 +20,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 15px;
+    padding: 40px 0;
     position: sticky;
     top: 0;
     left: 0;
@@ -41,7 +53,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 85vh;
+    margin-top: -20px;
+    margin-left: -25px;
 }
 
 .hero_image{
@@ -51,11 +65,51 @@
 
 .h1{
     text-align: center;
+    margin-top: 10px;
 }
 
 .hero_p{
     text-align: center;
-    margin-top: -10px;
+    margin-top: 10px;
+}
+
+/*about me section*/
+
+.about_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 30px;
+    min-width: 100%;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-column-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    margin-top: 25px;
+    margin-left: -25px;
+}
+
+.about_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*footer styles*/

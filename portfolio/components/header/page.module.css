@@ -6,6 +6,12 @@
     position: sticky;
     top: 0;
     left: 0;
+    padding: 6vh 3vw 5vh 3vw;
+
+    /*visuals*/
+    font-size: 24px;
+    background-color: rgb(2, 3, 30);
+    font-weight: 800;
 }
 
 .language{
@@ -13,11 +19,26 @@
     flex-direction: row;
     gap: 5px;
     align-items: center;
-    margin-top: -20px;
 }
 
 .navigation{
     display: flex;
     flex-direction: row;
     gap: 15px;
+}
+
+.link{
+    color: rgb(244, 193, 210);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(254, 180, 151);
+}
+
+.symbol{
+    color: rgb(244, 193, 210);
+    font-weight: 800;
+    font-size: 30px;
 }

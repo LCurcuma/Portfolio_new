@@ -5,22 +5,38 @@ export default function Header() {
     <header className={styles.header}>
       {/*language container*/}
       <div className={`${styles.language} introBig`}>
-        <a href="">EN</a>
+        <a href="" className={styles.link}>
+          EN
+        </a>
         {/*hidden languages*/}
         <div className="hidden">
-          <a href="">UA</a>
-          <a href="">DK</a>
+          <a href="" className={styles.link}>
+            UA
+          </a>
+          <a href="" className={styles.link}>
+            DK
+          </a>
         </div>
         {/*This should have animation of rotation*/}
-        <span className="introBig">{">"}</span>
+        <span className={`${styles.symbol} introBig`}>{">"}</span>
       </div>
 
       <nav className={`${styles.navigation} introBig`}>
-        <a href="">About me</a>
-        <a href="">Websites</a>
-        <a href="">Art</a>
-        <a href="">Animation</a>
-        <a href="">Contact</a>
+        <a href="" className={styles.link}>
+          About me
+        </a>
+        <a href="" className={styles.link}>
+          Websites
+        </a>
+        <a href="" className={styles.link}>
+          Art
+        </a>
+        <a href="" className={styles.link}>
+          Animation
+        </a>
+        <a href="" className={styles.link}>
+          Contact
+        </a>
       </nav>
     </header>
   );

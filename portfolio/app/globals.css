@@ -19,7 +19,8 @@
 }
 
 body{
-  padding: 0 3vw;
+  padding: 0;
+  /*background-color: rgb(2, 3, 30);*/
 }
 
 .introBig{

@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
-import Websites from "@/components/websites/Websites";
+import Project from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Websites />
+        <Project />
       </main>
       <Footer />
     </div>

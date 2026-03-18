@@ -6,12 +6,12 @@ export default function Hero() {
       {/*Hero section*/}
       <section className={styles.hero_section}>
         <img src="" alt="" className={styles.hero_image} />
-        <h1 className={styles.h1}>
+        <h1 className={`${styles.h1} introBig`}>
           Hello!
           <br />
           I'm Nadiia
         </h1>
-        <p className={styles.hero_p}>
+        <p className={`${styles.hero_p} introMain`}>
           Multimedia designer,
           <br />
           frontend-developer and
@@ -24,18 +24,18 @@ export default function Hero() {
       <section className={styles.about_sec}>
         <div className={styles.about_div}>
           <div className={styles.flex_column_div}>
-            <h2>About me</h2>
+            <h2 className="introBig">About me</h2>
             <p></p>
             <img src="" />
           </div>
 
           {/*Skills*/}
           <div className={styles.flex_column_div}>
-            <h2>Skills</h2>
+            <h2 className="introBig">Skills</h2>
 
             {/*Design and multimedia*/}
             <div className={styles.flex_column_div}>
-              <h3>Design and multimedia</h3>
+              <h3 className="introBig">Design and multimedia</h3>
               {/*Icons*/}
               <div className={styles.icons}>
                 <img src="" alt="" className={styles.icon} />
@@ -47,7 +47,7 @@ export default function Hero() {
 
             {/*Programming*/}
             <div className={styles.flex_column_div}>
-              <h3>Frontend-development</h3>
+              <h3 className="introBig">Frontend-development</h3>
 
               {/*Icons*/}
               <div className={styles.icons}>
@@ -59,13 +59,13 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <button className={styles.btn}>More</button>
+        <button className={`${styles.btn} introMain`}>More</button>
 
         {/*Hidden container with info about education or experience*/}
         <div className="hidden">
           {/*Experience*/}
           <div className={styles.flex_column_div}>
-            <h2>Experience</h2>
+            <h2 className="introBig">Experience</h2>
             <dl>
               <dt></dt>
               <dd></dd>
@@ -74,7 +74,7 @@ export default function Hero() {
 
           {/*Education*/}
           <div className={styles.flex_column_div}>
-            <h2>Education</h2>
+            <h2 className="introBig">Education</h2>
             <dl>
               <dt></dt>
               <dd></dd>

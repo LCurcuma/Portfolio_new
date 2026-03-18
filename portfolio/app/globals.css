@@ -1,3 +1,13 @@
+@font-face {
+  font-family: h1Font;
+  src: url("@/font/Intro.otf");
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url("@/font/IntroHead.otf");
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -10,4 +20,12 @@
 
 body{
   padding: 0 3vw;
+}
+
+.introBig{
+  font-family: h1Font;
+}
+
+.introMain{
+  font-family: mainFont;
 }

@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       {/*language container*/}
-      <div className={styles.language}>
+      <div className={`${styles.language} introBig`}>
         <a href="">EN</a>
         {/*hidden languages*/}
         <div className="hidden">
@@ -12,10 +12,10 @@ export default function Header() {
           <a href="">DK</a>
         </div>
         {/*This should have animation of rotation*/}
-        <span>{">"}</span>
+        <span className="introBig">{">"}</span>
       </div>
 
-      <nav className={styles.navigation}>
+      <nav className={`${styles.navigation} introBig`}>
         <a href="">About me</a>
         <a href="">Websites</a>
         <a href="">Art</a>

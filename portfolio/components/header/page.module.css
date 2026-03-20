@@ -17,20 +17,22 @@
 .language{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
+    margin-top: -12px;
 }
 
 .navigation{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
 }
 
 .link{
     color: rgb(244, 193, 210);
     font-weight: 800;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
 
 .link:hover{
@@ -40,5 +42,11 @@
 .symbol{
     color: rgb(244, 193, 210);
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.symbol:hover{
+    color: rgb(254, 180, 151);
 }

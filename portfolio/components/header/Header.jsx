@@ -18,16 +18,16 @@ export default function Header() {
     <header className={styles.header}>
       {/*language container*/}
       <div className={`${styles.language} introBig`}>
-        <a href="" className={styles.link}>
+        <a href="/en" className={styles.link}>
           EN
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
           <div className={styles.hiddenLang}>
-            <a href="" className={styles.link}>
+            <a href="/ua" className={styles.link}>
               UA
             </a>
-            <a href="" className={styles.link}>
+            <a href="/dk" className={styles.link}>
               DK
             </a>
           </div>
@@ -51,19 +51,19 @@ export default function Header() {
       </div>
 
       <nav className={`${styles.navigation} introBig`}>
-        <a href="" className={styles.link}>
+        <a href="#about_me" className={styles.link}>
           About me
         </a>
-        <a href="" className={styles.link}>
+        <a href="#websites" className={styles.link}>
           Websites
         </a>
-        <a href="" className={styles.link}>
+        <a href="#art" className={styles.link}>
           Art
         </a>
-        <a href="" className={styles.link}>
+        <a href="#animation" className={styles.link}>
           Animation
         </a>
-        <a href="" className={styles.link}>
+        <a href="#contact" className={styles.link}>
           Contact
         </a>
       </nav>

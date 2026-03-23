@@ -1,6 +1,19 @@
+"use client";
+
 import styles from "./page.module.css";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [isClickedLang, setClicked] = useState(false);
+
+  function checkClicked() {
+    if (isClickedLang) {
+      setClicked(false);
+    } else {
+      setClicked(true);
+    }
+  }
+
   return (
     <header className={styles.header}>
       {/*language container*/}
@@ -9,16 +22,32 @@ export default function Header() {
           EN
         </a>
         {/*hidden languages*/}
-        <div className="hidden">
-          <a href="" className={styles.link}>
-            UA
-          </a>
-          <a href="" className={styles.link}>
-            DK
-          </a>
-        </div>
+        {isClickedLang && (
+          <div className={styles.hiddenLang}>
+            <a href="" className={styles.link}>
+              UA
+            </a>
+            <a href="" className={styles.link}>
+              DK
+            </a>
+          </div>
+        )}
         {/*This should have animation of rotation*/}
-        <span className={`${styles.symbol} introBig`}>{">"}</span>
+        {isClickedLang ? (
+          <span
+            className={`${styles.symbol} introBig`}
+            onClick={() => checkClicked()}
+          >
+            {"<"}
+          </span>
+        ) : (
+          <span
+            className={`${styles.symbol} introBig`}
+            onClick={() => checkClicked()}
+          >
+            {">"}
+          </span>
+        )}
       </div>
 
       <nav className={`${styles.navigation} introBig`}>

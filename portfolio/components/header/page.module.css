@@ -50,3 +50,9 @@
 .symbol:hover{
     color: rgb(254, 180, 151);
 }
+
+.hiddenLang{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

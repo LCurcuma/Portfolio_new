@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "./page.module.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Header() {
   const [isClickedLang, setClicked] = useState(false);

@@ -57,6 +57,55 @@
   gap: 15px;
 }
 
+.hover_underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hover_underline::after,
+.hover_underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1.8px;
+  background: linear-gradient(to right, rgb(244, 193, 210), rgb(254, 180, 151));
+  bottom: -1px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-out;
+  border-radius: 25px;
+}
+
+.hover_underline:hover::after,
+.hover_underline:hover::before {
+  transform: scaleX(1.1);
+}
+
+.hover_underline_nav {
+  position: relative;
+  display: inline-block;
+}
+
+.hover_underline_nav::after,
+.hover_underline_nav::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1.8px;
+  background: linear-gradient(to right, rgb(244, 193, 210), rgb(254, 180, 151));
+  bottom: 7px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-out;
+  border-radius: 25px;
+}
+
+.hover_underline_nav:hover::after,
+.hover_underline_nav:hover::before {
+  transform: scaleX(1.05);
+}
 /*animation*/
 
 .fadeIn {

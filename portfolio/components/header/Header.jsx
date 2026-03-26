@@ -19,16 +19,22 @@ export default function Header() {
     <header className={styles.header}>
       {/*language container*/}
       <div className={`${styles.language} introBig`}>
-        <a href="/en" className={styles.link}>
+        <a href="/en" className={`${styles.link} ${styles.hover_underline}`}>
           EN
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
           <div className={`${styles.hiddenLang} ${styles.fadeIn}`}>
-            <a href="/ua" className={styles.link}>
+            <a
+              href="/ua"
+              className={`${styles.link} ${styles.hover_underline}`}
+            >
               UA
             </a>
-            <a href="/dk" className={styles.link}>
+            <a
+              href="/dk"
+              className={`${styles.link} ${styles.hover_underline}`}
+            >
               DK
             </a>
           </div>
@@ -52,19 +58,31 @@ export default function Header() {
       </div>
 
       <nav className={`${styles.navigation} introBig`}>
-        <a href="#about_me" className={styles.link}>
+        <a
+          href="#about_me"
+          className={`${styles.link} ${styles.hover_underline_nav}`}
+        >
           About me
         </a>
-        <a href="#websites" className={styles.link}>
+        <a
+          href="#websites"
+          className={`${styles.link} ${styles.hover_underline_nav}`}
+        >
           Websites
         </a>
-        <a href="#art" className={styles.link}>
+        <a href="#art" className={`${styles.link} ${styles.hover_underline_nav}`}>
           Art
         </a>
-        <a href="#animation" className={styles.link}>
+        <a
+          href="#animation"
+          className={`${styles.link} ${styles.hover_underline_nav}`}
+        >
           Animation
         </a>
-        <a href="#contact" className={styles.link}>
+        <a
+          href="#contact"
+          className={`${styles.link} ${styles.hover_underline_nav}`}
+        >
           Contact
         </a>
       </nav>

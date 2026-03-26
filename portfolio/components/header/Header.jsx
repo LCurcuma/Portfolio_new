@@ -2,6 +2,7 @@
 
 import styles from "./page.module.css";
 import { useState } from "react";
+import "animate.css";
 
 export default function Header() {
   const [isClickedLang, setClicked] = useState(false);
@@ -23,7 +24,7 @@ export default function Header() {
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
-          <div className={styles.hiddenLang}>
+          <div className={`${styles.hiddenLang} ${styles.fadeIn}`}>
             <a href="/ua" className={styles.link}>
               UA
             </a>
@@ -35,14 +36,14 @@ export default function Header() {
         {/*This should have animation of rotation*/}
         {isClickedLang ? (
           <span
-            className={`${styles.symbol} introBig`}
+            className={`${styles.symbol} introBig ${styles.fadeInRide}`}
             onClick={() => checkClicked()}
           >
             {"<"}
           </span>
         ) : (
           <span
-            className={`${styles.symbol} introBig`}
+            className={`${styles.symbol} introBig ${styles.fadeInRideRight}`}
             onClick={() => checkClicked()}
           >
             {">"}

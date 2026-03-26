@@ -3,8 +3,9 @@
 import styles from "./page.module.css";
 import { useState } from "react";
 import "animate.css";
+//import translation from "@/components/translations/TranslationEN.json";
 
-export default function Header() {
+export default function Header({ translation }) {
   const [isClickedLang, setClicked] = useState(false);
 
   function checkClicked() {
@@ -20,7 +21,7 @@ export default function Header() {
       {/*language container*/}
       <div className={`${styles.language} introBig`}>
         <a href="/en" className={`${styles.link} ${styles.hover_underline}`}>
-          EN
+          {translation.header.languages[0]}
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
@@ -29,13 +30,13 @@ export default function Header() {
               href="/ua"
               className={`${styles.link} ${styles.hover_underline}`}
             >
-              UA
+              {translation.header.languages[1]}
             </a>
             <a
               href="/dk"
               className={`${styles.link} ${styles.hover_underline}`}
             >
-              DK
+              {translation.header.languages[2]}
             </a>
           </div>
         )}
@@ -58,33 +59,15 @@ export default function Header() {
       </div>
 
       <nav className={`${styles.navigation} introBig`}>
-        <a
-          href="#about_me"
-          className={`${styles.link} ${styles.hover_underline_nav}`}
-        >
-          About me
-        </a>
-        <a
-          href="#websites"
-          className={`${styles.link} ${styles.hover_underline_nav}`}
-        >
-          Websites
-        </a>
-        <a href="#art" className={`${styles.link} ${styles.hover_underline_nav}`}>
-          Art
-        </a>
-        <a
-          href="#animation"
-          className={`${styles.link} ${styles.hover_underline_nav}`}
-        >
-          Animation
-        </a>
-        <a
-          href="#contact"
-          className={`${styles.link} ${styles.hover_underline_nav}`}
-        >
-          Contact
-        </a>
+        {translation.header.hooks.map((hook, index) => (
+          <a
+            key={index}
+            href={hook}
+            className={`${styles.link} ${styles.hover_underline_nav}`}
+          >
+            {translation.header.navigation[index]}
+          </a>
+        ))}
       </nav>
     </header>
   );

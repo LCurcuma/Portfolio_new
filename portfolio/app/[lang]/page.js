@@ -1,10 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
+import Header from "@/components/header/Header";
+import translationEN from "@/components/translations/TranslationEN.json";
+import translationDK from "@/components/translations/TranslationDK.json";
+import translationUA from "@/components/translations/TranslationUA.json";
 
-export default function MainPage({params}) {
+export default function MainPage({ params }) {
   const [lang, setLang] = useState("");
-  const [currentTranslation, setTranslation] = useState();
   const l = useParams();
 
   useState(() => {
@@ -14,19 +17,19 @@ export default function MainPage({params}) {
   if (lang === "en") {
     return (
       <>
-        <p>Hello</p>
+        <Header translation={translationEN}/>
       </>
     );
   } else if (lang === "dk") {
     return (
       <>
-        <p>Hej</p>
+        <Header translation={translationDK}/>
       </>
     );
   } else {
     return (
       <>
-        <p>Привіт</p>
+        <Header translation={translationUA}/>
       </>
     );
   }

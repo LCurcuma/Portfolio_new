@@ -1,0 +1,7 @@
+{
+  "header": {
+    "languages": ["EN", "UA", "DK"],
+    "navigation": ["Om mig", "Hjemmesider", "Art", "Animationer", "Kontakter"],
+    "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
+  }
+}

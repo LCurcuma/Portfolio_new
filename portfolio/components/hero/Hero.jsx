@@ -21,7 +21,7 @@ export default function Hero() {
       </section>
 
       {/*About me section*/}
-      <section className={styles.about_sec}>
+      <section className={styles.about_sec} id="about_me">
         <div className={styles.about_div}>
           <div className={styles.flex_column_div}>
             <h2 className="introBig">About me</h2>

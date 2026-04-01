@@ -5,6 +5,7 @@ import Header from "@/components/header/Header";
 import translationEN from "@/components/translations/TranslationEN.json";
 import translationDK from "@/components/translations/TranslationDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
+import Hero from "@/components/hero/Hero";
 
 export default function MainPage({ params }) {
   const [lang, setLang] = useState("");
@@ -17,19 +18,22 @@ export default function MainPage({ params }) {
   if (lang === "en") {
     return (
       <>
-        <Header translation={translationEN}/>
+        <Header translation={translationEN} />
+        <Hero translation={translationEN} />
       </>
     );
   } else if (lang === "dk") {
     return (
       <>
-        <Header translation={translationDK}/>
+        <Header translation={translationDK} />
+        <Hero translation={translationDK} />
       </>
     );
   } else {
     return (
       <>
-        <Header translation={translationUA}/>
+        <Header translation={translationUA} />
+        <Hero translation={translationUA} />
       </>
     );
   }

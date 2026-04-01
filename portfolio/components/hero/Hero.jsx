@@ -1,22 +1,29 @@
 import styles from "./page.module.css";
+import Image from "next/image";
 
-export default function Hero() {
+export default function Hero({ translation }) {
   return (
     <>
       {/*Hero section*/}
       <section className={styles.hero_section}>
-        <img src="" alt="" className={styles.hero_image} />
+        <Image
+          width={200}
+          height={200}
+          src="/images/nadiia.jpg"
+          alt=""
+          className={styles.hero_image}
+        />
         <h1 className={`${styles.h1} introBig`}>
-          Hello!
+          {translation.hero.h1_1}
           <br />
-          I'm Nadiia
+          {translation.hero.h1_2}
         </h1>
-        <p className={`${styles.hero_p} introMain`}>
-          Multimedia designer,
+        <p className={`${styles.hero_p} introBig`}>
+          {translation.hero.p1}
           <br />
-          frontend-developer and
+          {translation.hero.p2}
           <br />
-          digital artist
+          {translation.hero.p3}
         </p>
       </section>
 

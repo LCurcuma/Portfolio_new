@@ -4,5 +4,12 @@
     "lang_link": ["/dk", "/en", "/ua"],
     "navigation": ["Om mig", "Hjemmesider", "Art", "Animationer", "Kontakter"],
     "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
+  },
+  "hero":{
+    "h1_1": "Hej!",
+    "h1_2": "Jeg er Nadiia",
+    "p1": "Multimediedesigner,",
+    "p2": "frontend-udvikler og",
+    "p3": "digital kunstner"
   }
 }

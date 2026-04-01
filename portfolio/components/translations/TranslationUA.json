@@ -1,6 +1,7 @@
 {
   "header": {
-    "languages": ["EN", "UA", "DK"],
+    "languages": ["UA", "EN", "DK"],
+    "lang_link": ["/ua", "/en", "/dk"],
     "navigation": ["Хто я?", "Вебсайти", "Арти", "Анімації", "Контакти"],
     "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
   }

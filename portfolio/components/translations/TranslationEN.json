@@ -1,6 +1,7 @@
 {
     "header":{
         "languages": ["EN", "UA", "DK"],
+        "lang_link": ["/en", "/ua", "/dk"],
         "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
         "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
     }

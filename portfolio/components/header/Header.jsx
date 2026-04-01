@@ -20,20 +20,23 @@ export default function Header({ translation }) {
     <header className={styles.header}>
       {/*language container*/}
       <div className={`${styles.language} introBig`}>
-        <a href="/en" className={`${styles.link} ${styles.hover_underline}`}>
+        <a
+          href={`${translation.header.lang_link[0]}`}
+          className={`${styles.link} ${styles.hover_underline}`}
+        >
           {translation.header.languages[0]}
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
           <div className={`${styles.hiddenLang} ${styles.fadeIn}`}>
             <a
-              href="/ua"
+              href={`${translation.header.lang_link[1]}`}
               className={`${styles.link} ${styles.hover_underline}`}
             >
               {translation.header.languages[1]}
             </a>
             <a
-              href="/dk"
+              href={`${translation.header.lang_link[2]}`}
               className={`${styles.link} ${styles.hover_underline}`}
             >
               {translation.header.languages[2]}

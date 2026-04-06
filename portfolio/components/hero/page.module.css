@@ -47,27 +47,33 @@
 
 .about_div{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
+    grid-template-columns: 45% 45%;
+    gap: 50px;
     margin-top: 30px;
     min-width: 100%;
 }
 
 .icon{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+
+    /*visuals*/
+    border: 2.5px solid rgb(254, 180, 151);
+    border-radius: 25%;
 }
 
 .icons{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-left: 20px;
 }
 
 .flex_column_div{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 15px;
 }
 
 .btn{
@@ -82,4 +88,26 @@
     align-items: center;
 
     /*visuals*/
+    background-color: rgb(2, 3, 30);
+    padding-left: 7vw;
+}
+
+
+.h2{
+    color: rgb(254, 180, 151);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.p{
+    color: rgb(244, 193, 210);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.h3{
+    color: rgb(244, 193, 210);
+    font-size: 22px;
+    font-weight: 800;
 }

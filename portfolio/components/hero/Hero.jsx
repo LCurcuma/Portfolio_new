@@ -6,13 +6,7 @@ export default function Hero({ translation }) {
     <>
       {/*Hero section*/}
       <section className={styles.hero_section}>
-        <Image
-          width={200}
-          height={200}
-          src="/images/nadiia.jpg"
-          alt=""
-          className={styles.hero_image}
-        />
+        <img src="/images/nadiia.png" alt="" className={styles.hero_image}/>
         <h1 className={`${styles.h1} introBig`}>
           {translation.hero.h1_1}
           <br />

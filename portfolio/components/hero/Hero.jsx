@@ -9,6 +9,11 @@ export default function Hero({ translation }) {
     <>
       {/*Hero section*/}
       <section className={styles.hero_section}>
+        <div className={styles.fireflies}>
+          {Array.from({ length: 18 }).map((_, i) => (
+            <span key={i} className={styles.firefly} />
+          ))}
+        </div>
         <img
           src="/images/nadiia.png"
           alt={`${translation.hero_image_alt}`}

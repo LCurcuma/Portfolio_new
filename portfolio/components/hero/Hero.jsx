@@ -1,7 +1,10 @@
+"use client";
 import styles from "./page.module.css";
-import Image from "next/image";
+import { useState } from "react";
 
 export default function Hero({ translation }) {
+  const [clickedMore, setClickedMore] = useState(false);
+
   return (
     <>
       {/*Hero section*/}
@@ -50,22 +53,30 @@ export default function Hero({ translation }) {
               <h3 className={`${styles.h3} introBig`}>Design and multimedia</h3>
               {/*Icons*/}
               <div className={styles.icons}>
-                <img
-                  src="/images/design_icons/clip_studio_paint_icon.png"
-                  alt="Clip Studio Paint icon"
-                  className={styles.icon}
-                />
-                <img
-                  src="/images/design_icons/adobe_photoshop_icon.png"
-                  alt=""
-                  className={styles.icon}
-                />
-                <img
-                  src="/images/design_icons/adobe_illustrator_icon.png"
-                  alt=""
-                  className={styles.icon}
-                />
-                <img src="" alt="" className={styles.icon} />
+                <div className={styles.icon_div}>
+                  <img
+                    src="/images/design_icons/clip_studio_paint_icon.png"
+                    alt=""
+                    className={styles.icon}
+                  />
+                  <p className={`${styles.p_icon} introMain`}>80%</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img
+                    src="/images/design_icons/adobe_photoshop_icon.png"
+                    alt=""
+                    className={styles.icon}
+                  />
+                  <p className={`${styles.p_icon} introMain`}>75%</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img
+                    src="/images/design_icons/adobe_illustrator_icon.png"
+                    alt=""
+                    className={styles.icon}
+                  />
+                  <p className={`${styles.p_icon} introMain`}>60%</p>
+                </div>
               </div>
             </div>
 
@@ -75,18 +86,56 @@ export default function Hero({ translation }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                <img src="" alt="" className={styles.icon} />
-                <img src="" alt="" className={styles.icon} />
-                <img src="" alt="" className={styles.icon} />
-                <img src="" alt="" className={styles.icon} />
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                </div>
+              </div>
+            </div>
+
+            {/*Languages*/}
+            <div className={styles.flex_column_div}>
+              <h3 className={`${styles.h3} introBig`}>Languages</h3>
+
+              {/*Icons*/}
+              <div className={styles.icons}>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                </div>
+                <div className={styles.icon_div}>
+                  <img src="" alt="" className={styles.icon} />
+                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <button className={`${styles.btn} introMain`}>More</button>
+      </section>
 
-        {/*Hidden container with info about education or experience*/}
-        <div className="hidden">
+      {/*Hidden container with info about education or experience*/}
+      {clickedMore && (
+        <section className={styles.hiddenSection}>
           {/*Experience*/}
           <div className={styles.flex_column_div}>
             <h2 className="introBig">Experience</h2>
@@ -104,8 +153,25 @@ export default function Hero({ translation }) {
               <dd></dd>
             </dl>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+      <div className={styles.btn_div}>
+        {!clickedMore ? (
+          <button
+            className={`${styles.btn} introBig`}
+            onClick={() => setClickedMore(true)}
+          >
+            More
+          </button>
+        ) : (
+          <button
+            className={`${styles.btn} introBig`}
+            onClick={() => setClickedMore(false)}
+          >
+            Less
+          </button>
+        )}
+      </div>
     </>
   );
 }

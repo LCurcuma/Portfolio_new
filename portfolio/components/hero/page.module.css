@@ -1,113 +1,172 @@
 /*hero*/
 
-.hero_section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin-top: -100px;
-    margin-left: -25px;
+.hero_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -100px;
+  margin-left: -25px;
 
-    /*visuals*/
-    background-color: rgb(2, 3, 30);
+  /*visuals*/
+  background-color: rgb(2, 3, 30);
 }
 
-.hero_image{
-    /*visuals*/
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid rgb(254, 180, 151);
-    height: 200px;
+.hero_image {
+  /*visuals*/
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(254, 180, 151);
+  height: 200px;
+  margin-bottom: 15px;
 
+  /*animation*/
+  box-shadow: 0 0 15px rgba(254, 180, 151, 0.318);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  animation: glowPulse 10s infinite ease-in-out;
 }
 
-.h1{
-    text-align: center;
-    margin-top: 10px;
-
-    /*visuals*/
-    color: rgb(254, 180, 151);
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 44px;
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 15px rgba(254, 180, 151, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 20px rgba(254, 180, 151, 0.299),
+      0 0 30px rgba(254, 180, 151, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(254, 180, 151, 0.3);
+  }
 }
 
-.hero_p{
-    text-align: center;
-    margin-top: 10px;
+.h1 {
+  text-align: center;
+  margin-top: 10px;
 
-    /*visuals*/
-    color: rgb(244, 193, 210);
-    font-size: 21px;
-    line-height: 26px;
+  /*visuals*/
+  color: rgb(254, 180, 151);
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.hero_p {
+  text-align: center;
+
+  /*visuals*/
+  color: rgb(244, 193, 210);
+  font-size: 18px;
+  line-height: 26px;
 }
 
 /*about me section*/
 
-.about_div{
-    display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 50px;
-    margin-top: 30px;
-    min-width: 100%;
+.about_div {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 50px;
+  padding-top: 30px;
+  min-width: 100%;
 }
 
-.icon{
-    height: 40px;
-    width: 40px;
+.icon {
+  height: 40px;
+  width: 40px;
 
-    /*visuals*/
-    border: 2.5px solid rgb(254, 180, 151);
-    border-radius: 25%;
+  /*visuals*/
+  border: 2.5px solid rgb(254, 180, 151);
+  border-radius: 25%;
 }
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-left: 20px;
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
-.flex_column_div{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 15px;
+.flex_column_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 15px;
 }
 
-.btn{
-    margin-top: 25px;
-    margin-left: -25px;
+.btn {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*visuals*/
+  width: 100px;
+  height: 50px;
+  background-color: rgb(2, 3, 30);
+  color: rgb(254, 180, 151);
+  border: 3px solid rgb(254, 180, 151);
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-.about_sec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about_sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    /*visuals*/
-    background-color: rgb(2, 3, 30);
-    padding-left: 7vw;
+  /*visuals*/
+  background-color: rgb(2, 3, 30);
+  padding-left: 7vw;
+  padding-bottom: 50px;
 }
 
-
-.h2{
-    color: rgb(254, 180, 151);
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 10px;
+.h2 {
+  color: rgb(254, 180, 151);
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 
-.p{
-    color: rgb(244, 193, 210);
-    font-size: 18px;
-    line-height: 24px;
+.p {
+  color: rgb(244, 193, 210);
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.h3{
-    color: rgb(244, 193, 210);
-    font-size: 22px;
-    font-weight: 800;
+.h3 {
+  color: rgb(244, 193, 210);
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: -3px;
+}
+
+.btn_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(2, 3, 30);
+  padding-bottom: 25px;
+}
+
+.hiddenSection {
+  background-color: rgb(2, 3, 30);
+}
+
+.p_icon {
+  color: rgb(254, 180, 151);
+  font-size: 18px;
+}
+
+.icon_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }

@@ -62,11 +62,7 @@ export default function Hero({ translation }) {
           {translation.hero.h1_2}
         </h1>
         <p className={`${styles.hero_p} introBig`}>
-          {translation.hero.p1}
-          <br />
-          {translation.hero.p2}
-          <br />
-          {translation.hero.p3}
+          {translation.hero.p1}<br/>{translation.hero.p2}
         </p>
       </section>
 

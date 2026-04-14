@@ -8,9 +8,8 @@
   "hero":{
     "h1_1": "Hej!",
     "h1_2": "Jeg er Nadiia",
-    "p1": "Multimediedesigner,",
-    "p2": "frontend-udvikler og",
-    "p3": "digital kunstner",
+    "p1": "Multimediedesigner, frontend-udvikler og",
+    "p2": "digital kunstner",
     "hero_image_alt": "Nadiia foran tabletten"
   }
 }

@@ -46,14 +46,14 @@ export default function Header({ translation }) {
         {/*This should have animation of rotation*/}
         {isClickedLang ? (
           <span
-            className={`${styles.symbol} introBig ${styles.fadeInRide}`}
+            className={`${styles.symbol} ${styles.fadeInRide}`}
             onClick={() => checkClicked()}
           >
             {"<"}
           </span>
         ) : (
           <span
-            className={`${styles.symbol} introBig ${styles.fadeInRideRight}`}
+            className={`${styles.symbol} ${styles.fadeInRideRight}`}
             onClick={() => checkClicked()}
           >
             {">"}

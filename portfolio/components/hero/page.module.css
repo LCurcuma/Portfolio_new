@@ -246,7 +246,7 @@
   border-radius: 50%;
   border: 3px solid rgb(254, 180, 151);
   height: 200px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
   /*glow animation*/
   box-shadow: 0 0 15px rgba(254, 180, 151, 0.318);
@@ -293,6 +293,7 @@
   color: rgb(244, 193, 210);
   font-size: 18px;
   line-height: 26px;
+  margin-top: 5px;
 }
 
 /*about me section*/

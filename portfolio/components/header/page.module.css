@@ -1,3 +1,9 @@
+/*fonts*/
+@font-face {
+  font-family: h1Font;
+  src: url("@/font/Intro.otf");
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -45,6 +51,7 @@
   font-size: 40px;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
+  font-family: h1Font;
 }
 
 .symbol:hover {

@@ -52,7 +52,7 @@ export default function Hero({ translation }) {
         </div>
         */}
         <img
-          src="/images/nadiia.png"
+          src={translation.images.hero_image_src}
           alt={`${translation.hero_image_alt}`}
           className={styles.hero_image}
         />
@@ -62,7 +62,9 @@ export default function Hero({ translation }) {
           {translation.hero.h1_2}
         </h1>
         <p className={`${styles.hero_p} introBig`}>
-          {translation.hero.p1}<br/>{translation.hero.p2}
+          {translation.hero.p1}
+          <br />
+          {translation.hero.p2}
         </p>
       </section>
 
@@ -70,14 +72,14 @@ export default function Hero({ translation }) {
       <section className={styles.about_sec} id="about_me">
         <div className={styles.about_div}>
           <div className={styles.flex_column_div}>
-            <h2 className={`${styles.h2} introBig`}>About me</h2>
+            <h2 className={`${styles.h2} introBig`}>
+              {translation.about_me_section.about_me.h2}
+            </h2>
             <p className={`${styles.p} introMain`}>
-              I'm a person, who enjoys combining art with code to create cute
-              interactive websites. I draw components for websites, stickers,
-              animations and illustrations. <br />
+              {translation.about_me_section.about_me.p1}
               <br />
-              Currently I'm studying at Zealand Academy as multimedia designer
-              and drawing and making websites, when I have free time.
+              <br />
+              {translation.about_me_section.about_me.p2}
             </p>
             <img src="" />
           </div>

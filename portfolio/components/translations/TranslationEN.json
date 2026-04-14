@@ -1,15 +1,25 @@
 {
-    "header":{
-        "languages": ["EN", "UA", "DK"],
-        "lang_link": ["/en", "/ua", "/dk"],
-        "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
-        "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
-    },
-    "hero": {
-        "h1_1": "Hello!",
-        "h1_2": "I'm Nadiia",
-        "p1": "Multimedia designer, frontend-developer and",
-        "p2": "digital artist",
-        "hero_image_alt": "Nadiia in front of tablet"
+  "images": {
+    "hero_image_src": "/images/nadiia.png"
+  },
+  "header": {
+    "languages": ["EN", "UA", "DK"],
+    "lang_link": ["/en", "/ua", "/dk"],
+    "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
+    "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
+  },
+  "hero": {
+    "h1_1": "Hello!",
+    "h1_2": "I'm Nadiia",
+    "p1": "Multimedia designer, frontend-developer and",
+    "p2": "digital artist",
+    "hero_image_alt": "Nadiia in front of tablet"
+  },
+  "about_me_section": {
+    "about_me": {
+      "h2": "About me",
+      "p1": "I'm a person, who enjoys combining art with code to create cute interactive websites. I draw components for websites, stickers, animations and illustrations.",
+      "p2": "Currently I'm studying at Zealand Academy as multimedia designer and drawing and making websites, when I have free time."
     }
+  }
 }

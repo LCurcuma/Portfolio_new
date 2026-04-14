@@ -1,9 +1,40 @@
 "use client";
 import styles from "./page.module.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Hero({ translation }) {
   const [clickedMore, setClickedMore] = useState(false);
+  useEffect(() => {
+    const elements = document.querySelectorAll(
+      `.introBig, .introMain, .${styles.icons}, .${styles.hero_image}`,
+    );
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(styles.show);
+          } else {
+            entry.target.classList.remove(styles.show);
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      },
+    );
+
+    elements.forEach((el) => {
+      observer.observe(el);
+
+      // 👇 FIX: check immediately
+      if (el.getBoundingClientRect().top < window.innerHeight) {
+        el.classList.add("show");
+      }
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <>
@@ -14,6 +45,12 @@ export default function Hero({ translation }) {
             <span key={i} className={styles.firefly} />
           ))}
         </div>
+        {/*
+        <div className={styles.carousel}>
+          <div className={styles.images_carousel_1}></div>
+          <div className={styles.images_carousel_2}></div>
+        </div>
+        */}
         <img
           src="/images/nadiia.png"
           alt={`${translation.hero_image_alt}`}

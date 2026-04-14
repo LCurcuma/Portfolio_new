@@ -8,25 +8,32 @@
   src: url("@/font/IntroHead.otf");
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-body{
+body {
   padding: 0;
   /*background-color: rgb(2, 3, 30);*/
 }
 
-.introBig{
+.introBig {
   font-family: h1Font;
 }
 
-.introMain{
+.introMain {
   font-family: mainFont;
+}
+
+.introBig,
+.introMain {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.5s ease;
 }

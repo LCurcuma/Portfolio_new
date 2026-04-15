@@ -1,4 +1,7 @@
 {
+  "images": {
+    "hero_image_src": "/images/nadiia.png"
+  },
   "header": {
     "languages": ["DK", "EN", "UA"],
     "lang_link": ["/dk", "/en", "/ua"],
@@ -11,5 +14,12 @@
     "p1": "Multimediedesigner, frontend-udvikler og",
     "p2": "digital kunstner",
     "hero_image_alt": "Nadiia foran tabletten"
+  },
+  "about_me_section": {
+    "about_me": {
+      "h2": "Om mig",
+      "p1": "Jeg er en person, som elsker at kombinere kunst med kode, for at lave søde interaktive websider. Jeg tegner komponenter for websider, stickers, animationer og illustrationer.",
+      "p2": "Nu studerer jeg på Sjællands Erhvervsakademi som multimediedesigner, og tegner og laver websider i sin fritid."
+    }
   }
 }

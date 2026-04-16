@@ -36,5 +36,17 @@ body {
 .introMain {
   opacity: 0;
   transform: translateY(10px);
+}
+
+  /*for showing animation*/
+.scroll_show_animate{
+  opacity: 0;
+  transform: translateY(10px);
   transition: all 0.5s ease;
+}
+
+/*show on scroll*/
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }

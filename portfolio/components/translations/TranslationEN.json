@@ -2,6 +2,9 @@
   "images": {
     "hero_image_src": "/images/nadiia.png"
   },
+  "animations": {
+    "about_anim": "/animations/nadiia_work.gif"
+  },
   "header": {
     "languages": ["EN", "UA", "DK"],
     "lang_link": ["/en", "/ua", "/dk"],

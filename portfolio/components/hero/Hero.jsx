@@ -5,17 +5,15 @@ import { useState, useEffect } from "react";
 export default function Hero({ translation }) {
   const [clickedMore, setClickedMore] = useState(false);
   useEffect(() => {
-    const elements = document.querySelectorAll(
-      `.introBig, .introMain, .${styles.icons}, .${styles.hero_image}`,
-    );
+    const elements = document.querySelectorAll(`.scroll_show_animate`);
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add(styles.show);
+            entry.target.classList.add("show");
           } else {
-            entry.target.classList.remove(styles.show);
+            entry.target.classList.remove("show");
           }
         });
       },
@@ -27,7 +25,6 @@ export default function Hero({ translation }) {
     elements.forEach((el) => {
       observer.observe(el);
 
-      // 👇 FIX: check immediately
       if (el.getBoundingClientRect().top < window.innerHeight) {
         el.classList.add("show");
       }
@@ -54,14 +51,14 @@ export default function Hero({ translation }) {
         <img
           src={translation.images.hero_image_src}
           alt={`${translation.hero_image_alt}`}
-          className={styles.hero_image}
+          className={`${styles.hero_image} scroll_show_animate`}
         />
-        <h1 className={`${styles.h1} introBig`}>
+        <h1 className={`${styles.h1} introBig scroll_show_animate`}>
           {translation.hero.h1_1}
           <br />
           {translation.hero.h1_2}
         </h1>
-        <p className={`${styles.hero_p} introBig`}>
+        <p className={`${styles.hero_p} introBig scroll_show_animate`}>
           {translation.hero.p1}
           <br />
           {translation.hero.p2}
@@ -72,100 +69,187 @@ export default function Hero({ translation }) {
       <section className={styles.about_sec} id="about_me">
         <div className={styles.about_div}>
           <div className={styles.flex_column_div}>
-            <h2 className={`${styles.h2} introBig`}>
+            <h2 className={`${styles.h2} introBig scroll_show_animate`}>
               {translation.about_me_section.about_me.h2}
             </h2>
-            <p className={`${styles.p} introMain`}>
+            <p className={`${styles.p} introMain scroll_show_animate`}>
               {translation.about_me_section.about_me.p1}
               <br />
               <br />
               {translation.about_me_section.about_me.p2}
             </p>
-            <img src="" />
+            <img
+              src={translation.animations.about_anim}
+              className={`${styles.about_me_anim} scroll_show_animate`}
+            />
           </div>
 
           {/*Skills*/}
           <div className={styles.flex_column_div}>
-            <h2 className={`${styles.h2} introBig`}>Skills</h2>
+            <h2 className={`${styles.h2} introBig scroll_show_animate`}>
+              Skills
+            </h2>
 
             {/*Design and multimedia*/}
             <div className={styles.flex_column_div}>
-              <h3 className={`${styles.h3} introBig`}>Design and multimedia</h3>
+              <h3 className={`${styles.h3} introBig scroll_show_animate`}>
+                Design and multimedia
+              </h3>
               {/*Icons*/}
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
                   <img
                     src="/images/design_icons/clip_studio_paint_icon.png"
                     alt=""
-                    className={styles.icon}
+                    className={`${styles.icon} scroll_show_animate`}
                   />
-                  <p className={`${styles.p_icon} introMain`}>80%</p>
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    80%
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
                   <img
                     src="/images/design_icons/adobe_photoshop_icon.png"
                     alt=""
-                    className={styles.icon}
+                    className={`${styles.icon} scroll_show_animate`}
                   />
-                  <p className={`${styles.p_icon} introMain`}>75%</p>
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    75%
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
                   <img
                     src="/images/design_icons/adobe_illustrator_icon.png"
                     alt=""
-                    className={styles.icon}
+                    className={`${styles.icon} scroll_show_animate`}
                   />
-                  <p className={`${styles.p_icon} introMain`}>60%</p>
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    60%
+                  </p>
                 </div>
               </div>
             </div>
 
             {/*Programming*/}
             <div className={styles.flex_column_div}>
-              <h3 className={`${styles.h3} introBig`}>Frontend-development</h3>
+              <h3 className={`${styles.h3} introBig scroll_show_animate`}>
+                Frontend-development
+              </h3>
 
               {/*Icons*/}
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    100%
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    100%
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    100%
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>100%</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    100%
+                  </p>
                 </div>
               </div>
             </div>
 
             {/*Languages*/}
             <div className={styles.flex_column_div}>
-              <h3 className={`${styles.h3} introBig`}>Languages</h3>
+              <h3 className={`${styles.h3} introBig scroll_show_animate`}>
+                Languages
+              </h3>
 
               {/*Icons*/}
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    C1
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    C1
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    C1
+                  </p>
                 </div>
                 <div className={styles.icon_div}>
-                  <img src="" alt="" className={styles.icon} />
-                  <p className={`${styles.p_icon} introMain`}>C1</p>
+                  <img
+                    src=""
+                    alt=""
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    C1
+                  </p>
                 </div>
               </div>
             </div>

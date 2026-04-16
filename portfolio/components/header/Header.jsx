@@ -19,16 +19,18 @@ export default function Header({ translation }) {
   return (
     <header className={styles.header}>
       {/*language container*/}
-      <div className={`${styles.language} introBig`}>
+      <div className={`${styles.language} introBig scroll_show_animate`}>
         <a
           href={`${translation.header.lang_link[0]}`}
-          className={`${styles.link} ${styles.hover_underline}`}
+          className={`${styles.link} ${styles.hover_underline} scroll_show_animate`}
         >
           {translation.header.languages[0]}
         </a>
         {/*hidden languages*/}
         {isClickedLang && (
-          <div className={`${styles.hiddenLang} ${styles.fadeIn}`}>
+          <div
+            className={`${styles.hiddenLang} ${styles.fadeIn}`}
+          >
             <a
               href={`${translation.header.lang_link[1]}`}
               className={`${styles.link} ${styles.hover_underline}`}
@@ -61,12 +63,12 @@ export default function Header({ translation }) {
         )}
       </div>
 
-      <nav className={`${styles.navigation} introBig`}>
+      <nav className={`${styles.navigation} introBig scroll_show_animate`}>
         {translation.header.hooks.map((hook, index) => (
           <a
             key={index}
             href={hook}
-            className={`${styles.link} ${styles.hover_underline_nav}`}
+            className={`${styles.link} ${styles.hover_underline_nav} scroll_show_animate`}
           >
             {translation.header.navigation[index]}
           </a>

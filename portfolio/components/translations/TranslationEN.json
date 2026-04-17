@@ -28,6 +28,18 @@
       "h2": "About me",
       "p1": "I'm a person, who enjoys combining art with code to create cute interactive websites. I draw components for websites, stickers, animations and illustrations.",
       "p2": "Currently I'm studying at Zealand Academy as multimedia designer and drawing and making websites, when I have free time."
+    },
+    "skills": {
+      "h2": "Skills",
+      "h3_1": "Design and multimedia",
+      "h3_2": "Frontend-development",
+      "h3_3": "Languages",
+      "img_alt_1": "Clip Studio Paint Logo",
+      "img_alt_2": "Adobe Photoshop Logo",
+      "img_alt_3": "Adobe Illustrator Logo",
+      "p_1": "85%",
+      "p_2": "80%",
+      "p_3": "70%"
     }
   }
 }

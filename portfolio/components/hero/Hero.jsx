@@ -87,50 +87,50 @@ export default function Hero({ translation }) {
           {/*Skills*/}
           <div className={styles.flex_column_div}>
             <h2 className={`${styles.h2} introBig scroll_show_animate`}>
-              Skills
+              {translation.about_me_section.skills.h2}
             </h2>
 
             {/*Design and multimedia*/}
             <div className={styles.flex_column_div}>
               <h3 className={`${styles.h3} introBig scroll_show_animate`}>
-                Design and multimedia
+                {translation.about_me_section.skills.h3_1}
               </h3>
               {/*Icons*/}
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
                   <img
                     src={translation.images.icons.clip_studio_paint}
-                    alt=""
+                    alt={translation.about_me_section.skills.img_alt_1}
                     className={`${styles.icon} scroll_show_animate`}
                   />
                   <p
                     className={`${styles.p_icon} introMain scroll_show_animate`}
                   >
-                    80%
+                    {translation.about_me_section.skills.p_1}
                   </p>
                 </div>
                 <div className={styles.icon_div}>
                   <img
                     src={translation.images.icons.adobe_photoshop}
-                    alt=""
+                    alt={translation.about_me_section.skills.img_alt_2}
                     className={`${styles.icon} scroll_show_animate`}
                   />
                   <p
                     className={`${styles.p_icon} introMain scroll_show_animate`}
                   >
-                    75%
+                    {translation.about_me_section.skills.p_2}
                   </p>
                 </div>
                 <div className={styles.icon_div}>
                   <img
                     src={translation.images.icons.adobe_illustrator}
-                    alt=""
+                    alt={translation.about_me_section.skills.img_alt_3}
                     className={`${styles.icon} scroll_show_animate`}
                   />
                   <p
                     className={`${styles.p_icon} introMain scroll_show_animate`}
                   >
-                    60%
+                    {translation.about_me_section.skills.p_3}
                   </p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function Hero({ translation }) {
             {/*Programming*/}
             <div className={styles.flex_column_div}>
               <h3 className={`${styles.h3} introBig scroll_show_animate`}>
-                Frontend-development
+                {translation.about_me_section.skills.h3_2}
               </h3>
 
               {/*Icons*/}
@@ -198,7 +198,7 @@ export default function Hero({ translation }) {
             {/*Languages*/}
             <div className={styles.flex_column_div}>
               <h3 className={`${styles.h3} introBig scroll_show_animate`}>
-                Languages
+                {translation.about_me_section.skills.h3_3}
               </h3>
 
               {/*Icons*/}
@@ -282,14 +282,14 @@ export default function Hero({ translation }) {
       <div className={styles.btn_div}>
         {!clickedMore ? (
           <button
-            className={`${styles.btn} introBig`}
+            className={`${styles.btn} introBig scroll_show_animate`}
             onClick={() => setClickedMore(true)}
           >
             More
           </button>
         ) : (
           <button
-            className={`${styles.btn} introBig`}
+            className={`${styles.btn} introBig scroll_show_animate`}
             onClick={() => setClickedMore(false)}
           >
             Less

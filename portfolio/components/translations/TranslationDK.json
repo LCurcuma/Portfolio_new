@@ -25,6 +25,18 @@
       "h2": "Om mig",
       "p1": "Jeg er en person, som elsker at kombinere kunst med kode, for at lave søde interaktive websider. Jeg tegner komponenter for websider, stickers, animationer og illustrationer.",
       "p2": "Nu studerer jeg på Sjællands Erhvervsakademi som multimediedesigner, og tegner og laver websider i sin fritid."
+    },
+    "skills": {
+      "h2": "Færdigheder",
+      "h3_1": "Design og multimedia",
+      "h3_2": "Frontend-udvikling",
+      "h3_3": "Sprog",
+      "img_alt_1": "Clip Studio Paint Logo",
+      "img_alt_2": "Adobe Photoshop Logo",
+      "img_alt_3": "Adobe Illustrator Logo",
+      "p_1": "85%",
+      "p_2": "80%",
+      "p_3": "70%"
     }
   }
 }

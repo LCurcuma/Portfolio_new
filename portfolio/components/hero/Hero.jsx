@@ -259,7 +259,7 @@ export default function Hero({ translation }) {
 
       {/*Hidden container with info about education or experience*/}
       {clickedMore && (
-        <section className={styles.hiddenSection}>
+        <section className={`${styles.hiddenSection} scroll_show_animate`}>
           {/*Experience*/}
           <div className={styles.flex_column_div}>
             <h2 className="introBig">Experience</h2>

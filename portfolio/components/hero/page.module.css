@@ -335,7 +335,7 @@
 }
 
 .btn {
-  margin-top: -30px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
 
@@ -359,7 +359,6 @@
   /*visuals*/
   background-color: rgb(2, 3, 30);
   padding-left: 7vw;
-  padding-bottom: 50px;
 }
 
 .h2 {

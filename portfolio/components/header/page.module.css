@@ -18,6 +18,7 @@
   font-size: 24px;
   background-color: rgb(2, 3, 30);
   font-weight: 800;
+  z-index: 3;
 }
 
 .language {

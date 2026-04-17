@@ -99,7 +99,7 @@ export default function Hero({ translation }) {
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
                   <img
-                    src="/images/design_icons/clip_studio_paint_icon.png"
+                    src={translation.images.icons.clip_studio_paint}
                     alt=""
                     className={`${styles.icon} scroll_show_animate`}
                   />
@@ -111,7 +111,7 @@ export default function Hero({ translation }) {
                 </div>
                 <div className={styles.icon_div}>
                   <img
-                    src="/images/design_icons/adobe_photoshop_icon.png"
+                    src={translation.images.icons.adobe_photoshop}
                     alt=""
                     className={`${styles.icon} scroll_show_animate`}
                   />
@@ -123,7 +123,7 @@ export default function Hero({ translation }) {
                 </div>
                 <div className={styles.icon_div}>
                   <img
-                    src="/images/design_icons/adobe_illustrator_icon.png"
+                    src={translation.images.icons.adobe_illustrator}
                     alt=""
                     className={`${styles.icon} scroll_show_animate`}
                   />

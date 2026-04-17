@@ -133,6 +133,7 @@ export default function Hero({ translation }) {
                     {translation.about_me_section.skills.p_3}
                   </p>
                 </div>
+                {/*+ Adobe Premiere Pro, + Canva, + Corel Draw, + Adobe InDesign, + Paint lol*/}
               </div>
             </div>
 
@@ -144,6 +145,7 @@ export default function Hero({ translation }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
+                {/*HTML, CSS, JS, SCSS, Bootstrap, React, NextJS, Git, PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
                 <div className={styles.icon_div}>
                   <img
                     src=""
@@ -203,6 +205,7 @@ export default function Hero({ translation }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
+                {/*Ukrainian, Russian (maybe delete this?), English, Danish*/}
                 <div className={styles.icon_div}>
                   <img
                     src=""

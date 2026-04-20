@@ -406,3 +406,7 @@
   align-items: center;
   gap: 5px;
 }
+
+.expH2 {
+  color: rgb(254, 180, 151);
+}

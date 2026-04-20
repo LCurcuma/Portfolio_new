@@ -32,12 +32,6 @@ body {
   font-family: mainFont;
 }
 
-.introBig,
-.introMain {
-  opacity: 0;
-  transform: translateY(10px);
-}
-
   /*for showing animation*/
 .scroll_show_animate{
   opacity: 0;

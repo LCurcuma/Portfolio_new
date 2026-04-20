@@ -31,7 +31,7 @@ export default function Hero({ translation }) {
     });
 
     return () => observer.disconnect();
-  }, []);
+  }, [clickedMore]);
 
   return (
     <>
@@ -262,10 +262,12 @@ export default function Hero({ translation }) {
 
       {/*Hidden container with info about education or experience*/}
       {clickedMore && (
-        <section className={`${styles.hiddenSection} scroll_show_animate`}>
+        <section className={`${styles.hiddenSection}`}>
           {/*Experience*/}
-          <div className={styles.flex_column_div}>
-            <h2 className="introBig">Experience</h2>
+          <div className={`${styles.flex_column_div} scroll_show_animate`}>
+            <h2 className={`introBig scroll_show_animate ${styles.expH2}`}>
+              Experience
+            </h2>
             <dl>
               <dt></dt>
               <dd></dd>
@@ -274,7 +276,7 @@ export default function Hero({ translation }) {
 
           {/*Education*/}
           <div className={styles.flex_column_div}>
-            <h2 className="introBig">Education</h2>
+            <h2 className="introBig show">Education</h2>
             <dl>
               <dt></dt>
               <dd></dd>

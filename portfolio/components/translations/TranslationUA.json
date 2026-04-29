@@ -7,6 +7,9 @@
       "adobe_illustrator": "/images/design_icons/adobe_illustrator_icon.png"
     }
   },
+  "animations": {
+    "about_anim": "/animations/nadiia_work.gif"
+  },
   "header": {
     "languages": ["UA", "EN", "DK"],
     "lang_link": ["/ua", "/en", "/dk"],

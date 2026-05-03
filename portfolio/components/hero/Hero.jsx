@@ -133,7 +133,19 @@ export default function Hero({ translation, links }) {
                     {translation.about_me_section.skills.p_3}
                   </p>
                 </div>
-                {/*+ Adobe Premiere Pro, + Canva, + Corel Draw, + Adobe InDesign, + Paint lol*/}
+                <div className={styles.icon_div}>
+                  <img
+                    src={links.images.icons.adobe_premiere_pro}
+                    alt={translation.about_me_section.skills.img_alt_4}
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    {translation.about_me_section.skills.p_4}
+                  </p>
+                </div>
+                {/*+ Canva, + Corel Draw, + Adobe InDesign, + Paint lol*/}
               </div>
             </div>
 

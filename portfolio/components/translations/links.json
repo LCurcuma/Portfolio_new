@@ -4,7 +4,8 @@
     "icons": {
       "clip_studio_paint": "/images/design_icons/clip_studio_paint_icon.png",
       "adobe_photoshop": "/images/design_icons/adobe_photoshop_icon.png",
-      "adobe_illustrator": "/images/design_icons/adobe_illustrator_icon.png"
+      "adobe_illustrator": "/images/design_icons/adobe_illustrator_icon.png",
+      "adobe_premiere_pro": "/images/design_icons/adobe_premiere_pro_icon.png"
     }
   },
   "animations": {

@@ -1,15 +1,4 @@
 {
-  "images": {
-    "hero_image_src": "/images/nadiia.png",
-    "icons": {
-      "clip_studio_paint": "/images/design_icons/clip_studio_paint_icon.png",
-      "adobe_photoshop": "/images/design_icons/adobe_photoshop_icon.png",
-      "adobe_illustrator": "/images/design_icons/adobe_illustrator_icon.png"
-    }
-  },
-  "animations": {
-    "about_anim": "/animations/nadiia_work.gif"
-  },
   "header": {
     "languages": ["DK", "EN", "UA"],
     "lang_link": ["/dk", "/en", "/ua"],

@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
-export default function Hero({ translation }) {
+export default function Hero({ translation, links }) {
   const [clickedMore, setClickedMore] = useState(false);
   useEffect(() => {
     const elements = document.querySelectorAll(`.scroll_show_animate`);
@@ -49,7 +49,7 @@ export default function Hero({ translation }) {
         </div>
         */}
         <img
-          src={translation.images.hero_image_src}
+          src={links.images.hero_image_src}
           alt={`${translation.hero_image_alt}`}
           className={`${styles.hero_image} scroll_show_animate`}
         />
@@ -79,7 +79,7 @@ export default function Hero({ translation }) {
               {translation.about_me_section.about_me.p2}
             </p>
             <img
-              src={translation.animations.about_anim}
+              src={links.animations.about_anim}
               className={`${styles.about_me_anim} scroll_show_animate`}
             />
           </div>
@@ -99,7 +99,7 @@ export default function Hero({ translation }) {
               <div className={styles.icons}>
                 <div className={styles.icon_div}>
                   <img
-                    src={translation.images.icons.clip_studio_paint}
+                    src={links.images.icons.clip_studio_paint}
                     alt={translation.about_me_section.skills.img_alt_1}
                     className={`${styles.icon} scroll_show_animate`}
                   />
@@ -111,7 +111,7 @@ export default function Hero({ translation }) {
                 </div>
                 <div className={styles.icon_div}>
                   <img
-                    src={translation.images.icons.adobe_photoshop}
+                    src={links.images.icons.adobe_photoshop}
                     alt={translation.about_me_section.skills.img_alt_2}
                     className={`${styles.icon} scroll_show_animate`}
                   />
@@ -123,7 +123,7 @@ export default function Hero({ translation }) {
                 </div>
                 <div className={styles.icon_div}>
                   <img
-                    src={translation.images.icons.adobe_illustrator}
+                    src={links.images.icons.adobe_illustrator}
                     alt={translation.about_me_section.skills.img_alt_3}
                     className={`${styles.icon} scroll_show_animate`}
                   />

@@ -6,7 +6,10 @@
       "adobe_photoshop": "/images/design_icons/adobe_photoshop_icon.png",
       "adobe_illustrator": "/images/design_icons/adobe_illustrator_icon.png",
       "adobe_premiere_pro": "/images/design_icons/adobe_premiere_pro_icon.png",
-      "canva": "/images/design_icons/canva_icon.png"
+      "canva": "/images/design_icons/canva_icon.png",
+      "corel_draw": "/images/design_icons/corel_draw_icon.png",
+      "adobe_indesign": "/images/design_icons/adobe_indesign_icon.png",
+      "mc_paint": "/images/design_icons/mc_paint_icon.png"
     }
   },
   "animations": {

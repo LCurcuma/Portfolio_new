@@ -32,8 +32,8 @@ body {
   font-family: mainFont;
 }
 
-  /*for showing animation*/
-.scroll_show_animate{
+/*for showing animation*/
+.scroll_show_animate {
   opacity: 0;
   transform: translateY(10px);
   transition: all 0.5s ease;

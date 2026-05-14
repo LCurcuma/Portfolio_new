@@ -12,7 +12,7 @@ export default function MainPage({ params }) {
   const [lang, setLang] = useState("");
   const l = useParams();
 
-  useState(() => {
+  useEffect(() => {
     setLang(l.lang);
   }, [l]);
 

@@ -192,7 +192,7 @@ export default function Hero({ translation, links }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                {/*CSS, JS, SCSS, Bootstrap, React, NextJS, Git, PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
+                {/*SCSS, Bootstrap, React, NextJS, Git, PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
                 <div className={styles.icon_div}>
                   <img
                     src={links.images.icons.html}
@@ -219,14 +219,14 @@ export default function Hero({ translation, links }) {
                 </div>
                 <div className={styles.icon_div}>
                   <img
-                    src=""
-                    alt=""
+                    src={links.images.icons.js}
+                    alt={translation.about_me_section.skills.img_alt_11}
                     className={`${styles.icon} scroll_show_animate`}
                   />
                   <p
                     className={`${styles.p_icon} introMain scroll_show_animate`}
                   >
-                    100%
+                    {translation.about_me_section.skills.p_11}
                   </p>
                 </div>
                 <div className={styles.icon_div}>

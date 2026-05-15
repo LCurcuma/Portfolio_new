@@ -9,7 +9,8 @@
       "canva": "/images/design_icons/canva_icon.png",
       "corel_draw": "/images/design_icons/corel_draw_icon.png",
       "adobe_indesign": "/images/design_icons/adobe_indesign_icon.png",
-      "mc_paint": "/images/design_icons/mc_paint_icon.png"
+      "mc_paint": "/images/design_icons/mc_paint_icon.png",
+      "html": "/images/design_icons/html_icon.png"
     }
   },
   "animations": {

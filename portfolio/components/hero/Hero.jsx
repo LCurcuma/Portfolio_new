@@ -192,17 +192,17 @@ export default function Hero({ translation, links }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                {/*HTML, CSS, JS, SCSS, Bootstrap, React, NextJS, Git, PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
+                {/*CSS, JS, SCSS, Bootstrap, React, NextJS, Git, PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
                 <div className={styles.icon_div}>
                   <img
-                    src=""
-                    alt=""
+                    src={links.images.icons.html}
+                    alt={translation.about_me_section.skills.img_alt_9}
                     className={`${styles.icon} scroll_show_animate`}
                   />
                   <p
                     className={`${styles.p_icon} introMain scroll_show_animate`}
                   >
-                    100%
+                    {translation.about_me_section.skills.p_9}
                   </p>
                 </div>
                 <div className={styles.icon_div}>

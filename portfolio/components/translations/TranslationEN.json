@@ -32,6 +32,7 @@
       "img_alt_7": "Adobe InDesign Logo",
       "img_alt_8": "Microsoft Paint Logo",
       "img_alt_9": "HTML logo",
+      "img_alt_10": "CSS logo",
       "p_1": "85%",
       "p_2": "80%",
       "p_3": "70%",
@@ -40,7 +41,8 @@
       "p_6": "60%",
       "p_7": "40%",
       "p_8": "85%",
-      "p_9": "95%"
+      "p_9": "95%",
+      "p_10": "95%"
     }
   }
 }

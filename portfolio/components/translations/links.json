@@ -12,7 +12,8 @@
       "mc_paint": "/images/design_icons/mc_paint_icon.png",
       "html": "/images/design_icons/html_icon.png",
       "css": "/images/design_icons/css_icon.png",
-      "js": "/images/design_icons/js_icon.png"
+      "js": "/images/design_icons/js_icon.png",
+      "scss": "/images/design_icons/scss_icon.png"
     }
   },
   "animations": {

@@ -317,6 +317,7 @@
   /*visuals*/
   border: 2.5px solid rgb(254, 180, 151);
   border-radius: 25%;
+  object-fit: contain;
 }
 
 .icons {

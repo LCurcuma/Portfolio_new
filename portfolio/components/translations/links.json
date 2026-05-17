@@ -13,7 +13,8 @@
       "html": "/images/design_icons/html_icon.png",
       "css": "/images/design_icons/css_icon.png",
       "js": "/images/design_icons/js_icon.png",
-      "scss": "/images/design_icons/scss_icon.png"
+      "scss": "/images/design_icons/scss_icon.png",
+      "bootstrap": "/images/design_icons/bootstrap_icon.png"
     }
   },
   "animations": {

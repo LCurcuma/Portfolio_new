@@ -265,6 +265,18 @@ export default function Hero({ translation, links }) {
                     {translation.about_me_section.skills.p_14}
                   </p>
                 </div>
+                <div className={styles.icon_div}>
+                  <img
+                    src={links.images.icons.nextjs}
+                    alt={translation.about_me_section.skills.img_alt_15}
+                    className={`${styles.icon} scroll_show_animate`}
+                  />
+                  <p
+                    className={`${styles.p_icon} introMain scroll_show_animate`}
+                  >
+                    {translation.about_me_section.skills.p_15}
+                  </p>
+                </div>
               </div>
             </div>
 

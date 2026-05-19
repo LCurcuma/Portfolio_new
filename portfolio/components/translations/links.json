@@ -16,7 +16,8 @@
       "scss": "/images/design_icons/scss_icon.png",
       "bootstrap": "/images/design_icons/bootstrap_icon.png",
       "react": "/images/design_icons/react_icon.png",
-      "nextjs": "/images/design_icons/nextjs_icon.png"
+      "nextjs": "/images/design_icons/nextjs_icon.png",
+      "git": "/images/design_icons/git_icon.png"
     }
   },
   "animations": {

@@ -97,90 +97,26 @@ export default function Hero({ translation, links }) {
               </h3>
               {/*Icons*/}
               <div className={styles.icons}>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.clip_studio_paint}
-                    alt={translation.about_me_section.skills.img_alt_1}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_1}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.adobe_photoshop}
-                    alt={translation.about_me_section.skills.img_alt_2}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_2}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.adobe_illustrator}
-                    alt={translation.about_me_section.skills.img_alt_3}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_3}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.adobe_premiere_pro}
-                    alt={translation.about_me_section.skills.img_alt_4}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_4}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.canva}
-                    alt={translation.about_me_section.skills.img_alt_5}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_5}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.corel_draw}
-                    alt={translation.about_me_section.skills.img_alt_6}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_6}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.adobe_indesign}
-                    alt={translation.about_me_section.skills.img_alt_7}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_7}
-                  </p>
-                </div>
+                {links.images.icons.design_multimedia.map((link, index) => (
+                  <div className={styles.icon_div} key={index}>
+                    <img
+                      src={link}
+                      alt={
+                        translation.about_me_section.skills.icons_alt
+                          .design_multimedia[index]
+                      }
+                      className={`${styles.icon} scroll_show_animate`}
+                    />
+                    <p
+                      className={`${styles.p_icon} introMain scroll_show_animate`}
+                    >
+                      {
+                        translation.about_me_section.skills.percents
+                          .design_multimedia[index]
+                      }
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -192,103 +128,27 @@ export default function Hero({ translation, links }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                {/*PHP, JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.html}
-                    alt={translation.about_me_section.skills.img_alt_9}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_9}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.css}
-                    alt={translation.about_me_section.skills.img_alt_10}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_10}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.js}
-                    alt={translation.about_me_section.skills.img_alt_11}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_11}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.scss}
-                    alt={translation.about_me_section.skills.img_alt_12}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_12}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.bootstrap}
-                    alt={translation.about_me_section.skills.img_alt_13}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_13}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.react}
-                    alt={translation.about_me_section.skills.img_alt_14}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_14}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.nextjs}
-                    alt={translation.about_me_section.skills.img_alt_15}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_15}
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src={links.images.icons.git}
-                    alt={translation.about_me_section.skills.img_alt_16}
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    {translation.about_me_section.skills.p_16}
-                  </p>
-                </div>
+                {/*JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
+                {links.images.icons.programming.map((link, index) => (
+                  <div className={styles.icon_div} key={index}>
+                    <img
+                      src={link}
+                      alt={
+                        translation.about_me_section.skills.icons_alt
+                          .programming[index]
+                      }
+                      className={`${styles.icon} scroll_show_animate`}
+                    />
+                    <p
+                      className={`${styles.p_icon} introMain scroll_show_animate`}
+                    >
+                      {
+                        translation.about_me_section.skills.percents
+                          .programming[index]
+                      }
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 

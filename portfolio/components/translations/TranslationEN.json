@@ -23,38 +23,42 @@
       "h3_1": "Design and multimedia",
       "h3_2": "Frontend-development",
       "h3_3": "Languages",
-      "img_alt_1": "Clip Studio Paint Logo",
-      "img_alt_2": "Adobe Photoshop Logo",
-      "img_alt_3": "Adobe Illustrator Logo",
-      "img_alt_4": "Adobe Premiere Pro Logo",
-      "img_alt_5": "Canva Logo",
-      "img_alt_6": "Corel Draw Logo",
-      "img_alt_7": "Adobe InDesign Logo",
-      "img_alt_8": "Microsoft Paint Logo",
-      "img_alt_9": "HTML logo",
-      "img_alt_10": "CSS logo",
-      "img_alt_11": "JS logo",
-      "img_alt_12": "SCSS logo",
-      "img_alt_13": "Bootstrap logo",
-      "img_alt_14": "React logo",
-      "img_alt_15": "NextJS logo",
-      "img_alt_16": "Git logo",
-      "p_1": "85%",
-      "p_2": "80%",
-      "p_3": "70%",
-      "p_4": "50%",
-      "p_5": "75%",
-      "p_6": "60%",
-      "p_7": "40%",
-      "p_8": "85%",
-      "p_9": "95%",
-      "p_10": "95%",
-      "p_11": "85%",
-      "p_12": "75%",
-      "p_13": "75%",
-      "p_14": "45%",
-      "p_15": "85%",
-      "p_16": "70%"
+      "icons_alt": {
+        "design_multimedia": [
+          "Clip Studio Paint Logo",
+          "Adobe Photoshop Logo",
+          "Adobe Illustrator Logo",
+          "Adobe Premiere Pro Logo",
+          "Canva Logo",
+          "Corel Draw Logo",
+          "Adobe InDesign Logo",
+          "Microsoft Paint Logo"
+        ],
+        "programming": [
+          "HTML logo",
+          "CSS logo",
+          "JS logo",
+          "SCSS logo",
+          "Bootstrap logo",
+          "React logo",
+          "NextJS logo",
+          "Git logo",
+          "PHP logo"
+        ]
+      },
+      "percents": {
+        "design_multimedia": [
+          "85%",
+          "80%",
+          "70%",
+          "50%",
+          "75%",
+          "60%",
+          "40%",
+          "85%"
+        ],
+        "programming": ["95%", "95%", "85%", "75%", "75%", "45%", "85%", "70%", "65%"]
+      }
     }
   }
 }

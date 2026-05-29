@@ -43,7 +43,8 @@
           "JSON logo",
           "SQL logo",
           "VSCode logo",
-          "GitHub logo"
+          "GitHub logo",
+          "PHPStorm logo"
         ]
       },
       "percents": {
@@ -61,7 +62,8 @@
           "95%",
           "65%",
           "90%",
-          "80%"
+          "80%",
+          "75%"
         ]
       }
     }

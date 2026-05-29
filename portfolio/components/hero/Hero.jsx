@@ -129,7 +129,6 @@ export default function Hero({ translation, links }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                {/*PHPStorm*/}
                 {links.images.icons.programming.map((link, index) => (
                   <div className={styles.icon_div} key={index}>
                     <img

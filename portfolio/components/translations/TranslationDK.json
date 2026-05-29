@@ -28,11 +28,7 @@
           "Clip Studio Paint Logo",
           "Adobe Photoshop Logo",
           "Adobe Illustrator Logo",
-          "Adobe Premiere Pro Logo",
-          "Canva Logo",
-          "Corel Draw Logo",
-          "Adobe InDesign Logo",
-          "Microsoft Paint Logo"
+          "Adobe Premiere Pro Logo"
         ],
         "programming": [
           "HTML logo",
@@ -51,11 +47,7 @@
           "85%",
           "80%",
           "70%",
-          "50%",
-          "75%",
-          "60%",
-          "40%",
-          "85%"
+          "50%"
         ],
         "programming": ["95%", "95%", "85%", "75%", "75%", "45%", "85%", "70%", "65%"]
       }

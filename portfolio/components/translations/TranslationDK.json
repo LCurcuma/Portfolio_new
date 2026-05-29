@@ -5,7 +5,7 @@
     "navigation": ["Om mig", "Hjemmesider", "Art", "Animationer", "Kontakter"],
     "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
   },
-  "hero":{
+  "hero": {
     "h1_1": "Hej!",
     "h1_2": "Jeg er Nadiia",
     "p1": "Multimediedesigner, frontend-udvikler og",
@@ -39,17 +39,24 @@
           "React logo",
           "NextJS logo",
           "Git logo",
-          "PHP logo"
+          "PHP logo",
+          "JSON logo"
         ]
       },
       "percents": {
-        "design_multimedia": [
+        "design_multimedia": ["85%", "80%", "70%", "50%"],
+        "programming": [
+          "95%",
+          "95%",
           "85%",
-          "80%",
+          "75%",
+          "75%",
+          "45%",
+          "85%",
           "70%",
-          "50%"
-        ],
-        "programming": ["95%", "95%", "85%", "75%", "75%", "45%", "85%", "70%", "65%"]
+          "65%",
+          "95%"
+        ]
       }
     }
   }

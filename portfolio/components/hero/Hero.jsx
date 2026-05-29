@@ -95,6 +95,7 @@ export default function Hero({ translation, links }) {
               <h3 className={`${styles.h3} introBig scroll_show_animate`}>
                 {translation.about_me_section.skills.h3_1}
               </h3>
+
               {/*Icons*/}
               <div className={styles.icons}>
                 {links.images.icons.design_multimedia.map((link, index) => (
@@ -128,7 +129,7 @@ export default function Hero({ translation, links }) {
 
               {/*Icons*/}
               <div className={styles.icons}>
-                {/*JSON, SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
+                {/*SQL + Programs such as VSCode, GitHub Desktop, PHPStorm*/}
                 {links.images.icons.programming.map((link, index) => (
                   <div className={styles.icon_div} key={index}>
                     <img

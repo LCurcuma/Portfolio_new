@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 
 export default function Hero({ translation, links }) {
   const [clickedMore, setClickedMore] = useState(false);
+  const [clickedIcon, setClickedIcon] = useState({
+    id: null,
+    isClicked: false
+  })
   useEffect(() => {
     const elements = document.querySelectorAll(`.scroll_show_animate`);
 
@@ -99,7 +103,17 @@ export default function Hero({ translation, links }) {
               {/*Icons*/}
               <div className={styles.icons}>
                 {links.images.icons.design_multimedia.map((link, index) => (
-                  <div className={styles.icon_div} key={index}>
+                  <div
+                    className={styles.icon_div}
+                    key={index}
+                    onClick={() => {
+                      if (index === clickedIcon.id) {
+                      setClickedIcon({ id: null, isClicked: false });
+                      } else {
+                        setClickedIcon({ id: index, isClicked: true });
+                    } 
+                    }}
+                  >
                     <img
                       src={link}
                       alt={
@@ -119,6 +133,9 @@ export default function Hero({ translation, links }) {
                   </div>
                 ))}
               </div>
+              {clickedIcon.isClicked && (
+                <p style={{ color: "red" }}>{clickedIcon.id}</p>
+              )}
             </div>
 
             {/*Programming*/}

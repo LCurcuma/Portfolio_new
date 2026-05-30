@@ -151,66 +151,6 @@ export default function Hero({ translation, links }) {
                 ))}
               </div>
             </div>
-
-            {/*Languages*/}
-            <div className={styles.flex_column_div}>
-              <h3 className={`${styles.h3} introBig scroll_show_animate`}>
-                {translation.about_me_section.skills.h3_3}
-              </h3>
-
-              {/*Icons*/}
-              <div className={styles.icons}>
-                {/*Ukrainian, Russian (maybe delete this?), English, Danish*/}
-                <div className={styles.icon_div}>
-                  <img
-                    src=""
-                    alt=""
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    C1
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src=""
-                    alt=""
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    C1
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src=""
-                    alt=""
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    C1
-                  </p>
-                </div>
-                <div className={styles.icon_div}>
-                  <img
-                    src=""
-                    alt=""
-                    className={`${styles.icon} scroll_show_animate`}
-                  />
-                  <p
-                    className={`${styles.p_icon} introMain scroll_show_animate`}
-                  >
-                    C1
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

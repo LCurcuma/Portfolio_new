@@ -14,10 +14,7 @@
         "/images/design_icons/js_icon.png",
         "/images/design_icons/nextjs_icon.png",
         "/images/design_icons/scss_icon.png",
-        "/images/design_icons/bootstrap_icon.png",
-        "/images/design_icons/vscode_icon.png",
-        "/images/design_icons/phpstorm_icon.png",
-        "/images/design_icons/github_icon.png"
+        "/images/design_icons/bootstrap_icon.png"
       ]
     }
   },

@@ -138,7 +138,9 @@ export default function Hero({ translation, links }) {
               </div>
               {/*When you click the icon */}
               {clickedIcon.isClicked === "design_true" && (
-                <div className={styles.added_cont}>
+                <div
+                  className={`${styles.added_cont} ${styles.fadeInRideDown}`}
+                >
                   <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
                   <p className={`${styles.p_added} introMain`}>
                     I'm using this to make:
@@ -196,7 +198,9 @@ export default function Hero({ translation, links }) {
               </div>
               {/*When you click the icon */}
               {clickedIcon.isClicked === "programming_true" && (
-                <div className={styles.added_cont}>
+                <div
+                  className={`${styles.added_cont} ${styles.fadeInRideDown}`}
+                >
                   <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
                   <p className={`${styles.p_added} introMain`}>
                     I'm using this to make:

@@ -107,10 +107,13 @@ export default function Hero({ translation, links }) {
                     className={styles.icon_div}
                     key={index}
                     onClick={() => {
-                      if (index === clickedIcon.id) {
+                      if (index + "_design" === clickedIcon.id) {
                         setClickedIcon({ id: null, isClicked: false });
                       } else {
-                        setClickedIcon({ id: index, isClicked: true });
+                        setClickedIcon({
+                          id: index + "_design",
+                          isClicked: "design_true",
+                        });
                       }
                     }}
                   >
@@ -134,7 +137,7 @@ export default function Hero({ translation, links }) {
                 ))}
               </div>
               {/*When you click the icon */}
-              {clickedIcon.isClicked && (
+              {clickedIcon.isClicked === "design_true" && (
                 <div className={styles.added_cont}>
                   <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
                   <p className={`${styles.p_added} introMain`}>
@@ -158,7 +161,20 @@ export default function Hero({ translation, links }) {
               {/*Icons*/}
               <div className={styles.icons}>
                 {links.images.icons.programming.map((link, index) => (
-                  <div className={styles.icon_div} key={index}>
+                  <div
+                    className={styles.icon_div}
+                    key={index}
+                    onClick={() => {
+                      if (index + "_programming" === clickedIcon.id) {
+                        setClickedIcon({ id: null, isClicked: false });
+                      } else {
+                        setClickedIcon({
+                          id: index + "_programming",
+                          isClicked: "programming_true",
+                        });
+                      }
+                    }}
+                  >
                     <img
                       src={link}
                       alt={
@@ -178,6 +194,20 @@ export default function Hero({ translation, links }) {
                   </div>
                 ))}
               </div>
+              {/*When you click the icon */}
+              {clickedIcon.isClicked === "programming_true" && (
+                <div className={styles.added_cont}>
+                  <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
+                  <p className={`${styles.p_added} introMain`}>
+                    I'm using this to make:
+                  </p>
+                  <ul>
+                    <li className={`${styles.p_added} introMain`}>
+                      fffffffffffffffff
+                    </li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>

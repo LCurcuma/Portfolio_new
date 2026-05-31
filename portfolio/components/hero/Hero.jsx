@@ -133,6 +133,7 @@ export default function Hero({ translation, links }) {
                   </div>
                 ))}
               </div>
+              {/*When you click the icon */}
               {clickedIcon.isClicked && (
                 <p style={{ color: "red" }}>{clickedIcon.id}</p>
               )}

@@ -6,8 +6,8 @@ export default function Hero({ translation, links }) {
   const [clickedMore, setClickedMore] = useState(false);
   const [clickedIcon, setClickedIcon] = useState({
     id: null,
-    isClicked: false
-  })
+    isClicked: false,
+  });
   useEffect(() => {
     const elements = document.querySelectorAll(`.scroll_show_animate`);
 
@@ -108,10 +108,10 @@ export default function Hero({ translation, links }) {
                     key={index}
                     onClick={() => {
                       if (index === clickedIcon.id) {
-                      setClickedIcon({ id: null, isClicked: false });
+                        setClickedIcon({ id: null, isClicked: false });
                       } else {
                         setClickedIcon({ id: index, isClicked: true });
-                    } 
+                      }
                     }}
                   >
                     <img
@@ -135,7 +135,17 @@ export default function Hero({ translation, links }) {
               </div>
               {/*When you click the icon */}
               {clickedIcon.isClicked && (
-                <p style={{ color: "red" }}>{clickedIcon.id}</p>
+                <div className={styles.added_cont}>
+                  <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
+                  <p className={`${styles.p_added} introMain`}>
+                    I'm using this to make:
+                  </p>
+                  <ul>
+                    <li className={`${styles.p_added} introMain`}>
+                      fffffffffffffffff
+                    </li>
+                  </ul>
+                </div>
               )}
             </div>
 

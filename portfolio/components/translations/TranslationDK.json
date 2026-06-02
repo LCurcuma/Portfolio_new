@@ -15,8 +15,8 @@
   "about_me_section": {
     "about_me": {
       "h2": "Om mig",
-      "p1": "Jeg er en person, som elsker at kombinere kunst med kode, for at lave søde interaktive websider. Jeg tegner komponenter for websider, stickers, animationer og illustrationer.",
-      "p2": "Nu studerer jeg på Sjællands Erhvervsakademi som multimediedesigner, og tegner og laver websider i sin fritid."
+      "p1": "Jeg er en multimediedesigner, som elsker at kombinere kunst og programmering for at skabe søde og interaktive hjemmesider. Jeg designer UI-elementer, stickers, animationer og illustrationer.",
+      "p2": "Jeg studerer i øjeblikket Multimediedesign på Zealand Academy. I min fritid tegner jeg og udvikler hjemmesider."
     },
     "skills": {
       "h2": "Færdigheder",
@@ -26,6 +26,7 @@
       "icons_alt": {
         "design_multimedia": [
           "Clip Studio Paint Logo",
+          "Figma Logo",
           "Adobe Photoshop Logo",
           "Adobe Illustrator Logo",
           "Adobe Premiere Pro Logo"
@@ -40,8 +41,42 @@
         ]
       },
       "percents": {
-        "design_multimedia": ["85%", "80%", "70%", "50%"],
+        "design_multimedia": ["85%", "80%", "80%", "70%", "50%"],
         "programming": ["95%", "95%", "85%", "85%", "75%", "75%"]
+      },
+      "hidden_design": {
+        "h2": [
+          "Clip Studio Paint",
+          "Figma",
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Adobe Premiere Pro"
+        ],
+        "p": [
+          "Mit primære værktøj til at skabe visuelt indhold. Bruges til:",
+          "Bruges til billedredigering og skabelse af digital grafik. Bruges til:"
+        ],
+        "ul": [
+          [
+            "illustrationer;",
+            "korte animationer;",
+            "ikoner;",
+            "logoer;",
+            "grafik og UI-elementer til hjemmesider;",
+            "statiske og animerede stickers."
+          ],
+          [
+            "billedredigering;",
+            "plakater;",
+            "korte animationer;",
+            "illustrationer."
+          ]
+        ]
+      },
+      "hidden_programming": {
+        "h2": [],
+        "p": [],
+        "ul": [[]]
       }
     }
   }

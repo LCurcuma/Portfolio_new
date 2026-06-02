@@ -15,8 +15,8 @@
   "about_me_section": {
     "about_me": {
       "h2": "About me",
-      "p1": "I'm a person, who enjoys combining art with code to create cute interactive websites. I draw components for websites, stickers, animations and illustrations.",
-      "p2": "Currently I'm studying at Zealand Academy as multimedia designer and drawing and making websites, when I have free time."
+      "p1": "I'm a multimedia designer, that enjoys combining art and programming to create cute, playful and interactive websites. I design UI elements, stickers, animations, and illustrations.",
+      "p2": "I am currently studying Multimedia Design at Zealand Academy. In my free time, I enjoy drawing and building websites."
     },
     "skills": {
       "h2": "Skills",
@@ -26,6 +26,7 @@
       "icons_alt": {
         "design_multimedia": [
           "Clip Studio Paint Logo",
+          "Figma Logo",
           "Adobe Photoshop Logo",
           "Adobe Illustrator Logo",
           "Adobe Premiere Pro Logo"
@@ -40,8 +41,42 @@
         ]
       },
       "percents": {
-        "design_multimedia": ["85%", "80%", "70%", "50%"],
+        "design_multimedia": ["85%", "80%", "80%", "70%", "50%"],
         "programming": ["95%", "95%", "85%", "85%", "75%", "75%"]
+      },
+      "hidden_design": {
+        "h2": [
+          "Clip Studio Paint",
+          "Figma",
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Adobe Premiere Pro"
+        ],
+        "p": [
+          "My primary tool for creating visual content. Used for:",
+          "Used for photo editing and creating digital graphics. Used for:"
+        ],
+        "ul": [
+          [
+            "illustrations;",
+            "short animations;",
+            "icons;",
+            "logos;",
+            "website graphics and UI elements;",
+            "static and animated stickers."
+          ],
+          [
+            "photo editing;",
+            "posters;",
+            "short animations;",
+            "illustrations."
+          ]
+        ]
+      },
+      "hidden_programming": {
+        "h2": [],
+        "p": [],
+        "ul": [[]]
       }
     }
   }

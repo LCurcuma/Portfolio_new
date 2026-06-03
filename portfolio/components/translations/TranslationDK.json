@@ -68,30 +68,29 @@
             "grafik og UI-elementer til hjemmesider;",
             "statiske og animerede stickers."
           ],
-          [
-            "website layouts;",
-            "layouts til webapplikationer."
-          ],
+          ["website layouts;", "layouts til webapplikationer."],
           [
             "billedredigering;",
             "plakater;",
             "korte animationer;",
             "illustrationer."
           ],
-          [
-            "logoer;",
-            "ikoner."
-          ],
-          [
-            "animationer;",
-            "videoer."
-          ]
+          ["logoer;", "ikoner."],
+          ["animationer;", "videoer."]
         ]
       },
       "hidden_programming": {
-        "h2": [],
-        "p": [],
-        "ul": [[]]
+        "h2": ["HTML"],
+        "p": [
+          "Основа структури вебсайтів. Використовую для створення семантичної та доступної розмітки сторінок. Приклади робіт на основі HTML:"
+        ],
+        "ul": [
+          {
+            "a": "Старе портфоліо",
+            "href": "https://dreamy-biscuit-55c4d3.netlify.app",
+            "": ""
+          }
+        ]
       }
     }
   }

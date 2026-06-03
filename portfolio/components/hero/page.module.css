@@ -454,3 +454,8 @@
     margin-top: 0;
   }
 }
+
+.link{
+  color:rgb(244, 193, 210);
+  text-decoration: none;
+}

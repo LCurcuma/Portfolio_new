@@ -159,7 +159,10 @@ export default function Hero({ translation, links }) {
                     {translation.about_me_section.skills.hidden_design.ul[
                       clickedIcon.id.split("_")[0]
                     ].map((li, index) => (
-                      <li key={index} className={`${styles.p_added} introMain`}>{li}</li>
+                      <li
+                        key={index}
+                        className={`${styles.p_added} introMain`}
+                      ></li>
                     ))}
                   </ul>
                 </div>
@@ -213,14 +216,31 @@ export default function Hero({ translation, links }) {
                 <div
                   className={`${styles.added_cont} ${styles.fadeInRideDown}`}
                 >
-                  <h2 className={`${styles.h2_added} introBig`}>HTML</h2>
+                  <h2 className={`${styles.h2_added} introBig`}>
+                    {
+                      translation.about_me_section.skills.hidden_programming.h2[
+                        clickedIcon.id.split("_")[0]
+                      ]
+                    }
+                  </h2>
                   <p className={`${styles.p_added} introMain`}>
-                    I'm using this to make:
+                    {
+                      translation.about_me_section.skills.hidden_programming.p[
+                        clickedIcon.id.split("_")[0]
+                      ]
+                    }
                   </p>
                   <ul>
-                    <li className={`${styles.p_added} introMain`}>
-                      fffffffffffffffff
-                    </li>
+                    {translation.about_me_section.skills.hidden_programming.ul[
+                      clickedIcon.id.split("_")[0]
+                    ].map((li, index) => (
+                      <li
+                        key={index}
+                        className={`${styles.p_added} introMain`}
+                      >
+                        <a href={li.href} class={styles.link}>{li.a}</a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               )}

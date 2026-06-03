@@ -56,7 +56,8 @@
           "Mit primære værktøj til at skabe visuelt indhold. Jeg bruger det til:",
           "Bruges til design af hjemmesider og webapplikationer. Jeg bruger det til:",
           "Bruges til billedredigering og skabelse af digital grafik. Jeg bruger det til:",
-          "Bruges til at skabe logoer og ikoner, da det er et praktisk værktøj til vektorgrafik. Jeg bruger det til:"
+          "Bruges til at skabe logoer og ikoner, da det er et praktisk værktøj til vektorgrafik. Jeg bruger det til:",
+          "Bruges til videoredigering og oprettelse af animationer. Jeg bruger det til:"
         ],
         "ul": [
           [
@@ -80,6 +81,10 @@
           [
             "logoer;",
             "ikoner."
+          ],
+          [
+            "animationer;",
+            "videoer."
           ]
         ]
       },

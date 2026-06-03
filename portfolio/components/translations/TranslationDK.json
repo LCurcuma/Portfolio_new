@@ -54,7 +54,8 @@
         ],
         "p": [
           "Mit primære værktøj til at skabe visuelt indhold. Jeg bruger det til:",
-          "Bruges til design af hjemmesider og webapplikationer. Jeg bruger det til:"
+          "Bruges til design af hjemmesider og webapplikationer. Jeg bruger det til:",
+          "Bruges til billedredigering og skabelse af digital grafik. Jeg bruger det til:"
         ],
         "ul": [
           [
@@ -68,6 +69,12 @@
           [
             "website layouts;",
             "layouts til webapplikationer."
+          ],
+          [
+            "billedredigering;",
+            "plakater;",
+            "korte animationer;",
+            "illustrationer."
           ]
         ]
       },

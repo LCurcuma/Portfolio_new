@@ -56,7 +56,8 @@
           "My primary tool for creating visual content. I use it for:",
           "Used for designing websites and web applications. I use it for:",
           "Used for photo editing and creating digital graphics. I use it for:",
-          "Used for creating logos and icons, as it is a convenient tool for vector graphics. I use it for:"
+          "Used for creating logos and icons, as it is a convenient tool for vector graphics. I use it for:",
+          "Used for video editing and creating animations. I use it for:"
         ],
         "ul": [
           [
@@ -80,6 +81,10 @@
           [
             "logos;",
             "icons."
+          ],
+          [
+            "animations;",
+            "videos."
           ]
         ]
       },

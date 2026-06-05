@@ -80,16 +80,76 @@
         ]
       },
       "hidden_programming": {
-        "h2": ["HTML"],
+        "h2": ["HTML", "CSS", "JavaScript", "NextJS", "Sass", "Bootstrap"],
         "p": [
-          "Основа структури вебсайтів. Використовую для створення семантичної та доступної розмітки сторінок. Приклади робіт на основі HTML:"
-        ],
+          "Grundlaget for hjemmesiders struktur. Jeg bruger det til at skabe semantisk og tilgængelig markup. Anvendt i projekter:",
+          "Bruges til styling af brugerflader, responsivt design samt visuelle effekter og animationer. Anvendt i projekter:",
+          "Bruges til at tilføje interaktivitet og dynamisk funktionalitet til hjemmesider. Anvendt i projekter:",
+          "Bruges til at udvikle moderne webapplikationer med React, herunder routing, optimering og server-side rendering. Anvendt i projekter:",
+          "Bruges til at strukturere og skalere CSS ved hjælp af variabler, mixins og genanvendelige styles. Anvendt i projekter:",
+          "Bruges til hurtigt at udvikle responsive brugerflader og prototyper. Anvendt i projekter:"
+          ],
         "ul": [
-          {
-            "a": "Старе портфоліо",
-            "href": "https://dreamy-biscuit-55c4d3.netlify.app",
-            "": ""
-          }
+          [
+            {
+              "a": "Gammelt portfolio",
+              "href": "https://dreamy-biscuit-55c4d3.netlify.app"
+            },
+            {
+              "a": "Vokenlivet (kun mobil version)",
+              "href": "https://curcumalumilidmn.dk/voksenlivet/"
+            }
+          ],
+          [
+            {
+              "a": "Gammelt portfolio",
+              "href": "https://dreamy-biscuit-55c4d3.netlify.app"
+            },
+            {
+              "a": "Event i Nykøbing Falster",
+              "href": "https://curcumalumilidmn.dk/Event_I_Nyk_F/om_jimilian.html"
+            }
+          ],
+          [
+            {
+              "a": "Korthukommelsesspil med mine illustrationer af figurer",
+              "href": "https://memory-game-with-lr-characters.netlify.app"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ],
+          [
+            {
+              "a": "ManyaSit",
+              "href": "https://manya-sit.vercel.app/main"
+            },
+            {
+              "a": "Det portfolio",
+              "href": "https://curcumaportfolio.netlify.app/en"
+            }
+          ],
+          [
+            {
+              "a": "Førstehjælpseksperten",
+              "href": "https://curcumalumilidmn.dk/first_help_experts/"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ],
+          [
+            {
+              "a": "Førstehjælpseksperten",
+              "href": "https://curcumalumilidmn.dk/first_help_experts/"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ]
         ]
       }
     }

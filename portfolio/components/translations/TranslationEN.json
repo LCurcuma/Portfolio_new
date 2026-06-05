@@ -89,9 +89,77 @@
         ]
       },
       "hidden_programming": {
-        "h2": [],
-        "p": [],
-        "ul": [[]]
+        "h2": ["HTML", "CSS", "JavaScript", "NextJS", "Sass", "Bootstrap"],
+        "p": [
+          "The foundation of website structure. I use it to create semantic and accessible page layouts. Used in projects:",
+          "Used for styling interfaces, creating responsive layouts, and adding visual effects and animations. Used in projects:",
+          "Used to add interactivity and dynamic functionality to websites. Used in projects:",
+          "Used for building modern web applications with React, including routing, optimization, and server-side rendering. Used in projects:",
+          "Used to organize and scale CSS through variables, mixins, and reusable styles. Used in projects:",
+          "Used for rapidly building responsive interfaces and prototypes. Used in projects:"
+        ],
+        "ul": [
+          [
+            {
+              "a": "Old portfolio",
+              "href": "https://dreamy-biscuit-55c4d3.netlify.app"
+            },
+            {
+              "a": "Vokenlivet (тільки мобльна версія)",
+              "href": "https://curcumalumilidmn.dk/voksenlivet/"
+            }
+          ],
+          [
+            {
+              "a": "Old portfolio",
+              "href": "https://dreamy-biscuit-55c4d3.netlify.app"
+            },
+            {
+              "a": "Event i Nykøbing Falster",
+              "href": "https://curcumalumilidmn.dk/Event_I_Nyk_F/om_jimilian.html"
+            }
+          ],
+          [
+            {
+              "a": "Card memory game with my illustrations of characters",
+              "href": "https://memory-game-with-lr-characters.netlify.app"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ],
+          [
+            {
+              "a": "ManyaSit",
+              "href": "https://manya-sit.vercel.app/main"
+            },
+            {
+              "a": "This portfolio",
+              "href": "https://curcumaportfolio.netlify.app/en"
+            }
+          ],
+          [
+            {
+              "a": "Førstehjælpseksperten",
+              "href": "https://curcumalumilidmn.dk/first_help_experts/"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ],
+          [
+            {
+              "a": "Førstehjælpseksperten",
+              "href": "https://curcumalumilidmn.dk/first_help_experts/"
+            },
+            {
+              "a": "Waybly",
+              "href": "https://curcumalumilidmn.dk/waybly/"
+            }
+          ]
+        ]
       }
     }
   }

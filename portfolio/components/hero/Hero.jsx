@@ -238,7 +238,7 @@ export default function Hero({ translation, links }) {
                         key={index}
                         className={`${styles.p_added} introMain`}
                       >
-                        <a href={li.href} class={styles.link}>{li.a}</a>
+                        <a href={li.href} className={styles.link}>{li.a}</a>
                       </li>
                     ))}
                   </ul>

@@ -162,7 +162,7 @@ export default function Hero({ translation, links }) {
                       <li
                         key={index}
                         className={`${styles.p_added} introMain`}
-                      ></li>
+                      >{li}</li>
                     ))}
                   </ul>
                 </div>

@@ -37,7 +37,7 @@ export default function Header({ translation }) {
                 } else {
                   setClickedBurger(true);
                 }
-              }}
+               }}
             >
               {translation.header.navigation[index]}
             </a>

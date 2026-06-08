@@ -6,11 +6,17 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin-top: -100px;
-  margin-left: -25px;
+  margin-top: -85px;
+  margin-left: 25px;
+  margin-right: 25px;
 
   /*visuals*/
   background-color: rgb(2, 3, 30);
+
+  @media (min-width: 768px) {
+  margin-top: -100px;
+  margin-left: -25px;
+  }
 }
 
 /*fireflies animation*/
@@ -295,11 +301,17 @@
 /*about me section*/
 
 .about_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+
+  @media (min-width: 768px){
   display: grid;
   grid-template-columns: 45% 45%;
   gap: 50px;
   padding-top: 30px;
   min-width: 100%;
+  }
 }
 
 .about_me_anim{
@@ -307,7 +319,11 @@
   margin-left: auto;
   margin-top: auto;
   margin-bottom: 100px;
+  margin-right: 0;
+
+  @media (min-width: 768px) {
   margin-right: 20px;
+  }
 }
 
 .icon {
@@ -398,7 +414,11 @@
   padding: 10px 30px;
   box-shadow: 0px 15px 15px 0px rgba(254,180,151,0.30);
   border-radius: 25px;
+  width: 90%;
+
+  @media (min-width: 768px) {
   width: 70%;
+  }
 }
 
 .h3 {
@@ -406,6 +426,7 @@
   font-size: 22px;
   font-weight: 800;
   margin-top: -3px;
+  margin-bottom: 10px;
 }
 
 .btn_div {

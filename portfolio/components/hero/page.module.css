@@ -382,6 +382,7 @@
   /*visuals*/
   background-color: rgb(2, 3, 30);
   padding-left: 7vw;
+  padding-right: 6vw;
 }
 
 .h2 {
@@ -414,10 +415,10 @@
   padding: 10px 30px;
   box-shadow: 0px 15px 15px 0px rgba(254,180,151,0.30);
   border-radius: 25px;
-  width: 90%;
+  width: 100%;
 
   @media (min-width: 768px) {
-  width: 70%;
+  width: 90%;
   }
 }
 

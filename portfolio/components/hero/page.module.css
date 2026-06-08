@@ -357,6 +357,22 @@
   padding-bottom: 15px;
 }
 
+.flex_row_div{
+  display: flex;
+  flex-direction: column;
+  
+  padding-left: 0;
+  padding-right: 0;
+
+  @media (min-width: 768px){
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 50px;
+  padding-top: 30px;
+  min-width: 100%;
+}
+}
+
 .btn {
   margin-top: 25px;
   margin-left: auto;
@@ -441,6 +457,12 @@
 
 .hiddenSection {
   background-color: rgb(2, 3, 30);
+  padding: 20px 35px;
+
+  @media (min-width: 768px) {
+  padding-left: 7vw;
+  padding-right: 6vw;
+  }
 }
 
 .p_icon {
@@ -458,6 +480,7 @@
 
 .expH2 {
   color: rgb(254, 180, 151);
+  margin-bottom: 15px;
 }
 
 .fadeInRideDown {
@@ -481,4 +504,23 @@
 .link{
   color:rgb(244, 193, 210);
   text-decoration: none;
+}
+
+.marginP{
+  margin-bottom: 10px;
+}
+
+.pink{
+  color: rgb(244, 193, 210);
+}
+
+.orange{
+  color: rgb(254, 180, 151);
+}
+
+.dt{
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
 }

@@ -68,24 +68,10 @@
             "website graphics and UI elements;",
             "static and animated stickers."
           ],
-          [
-            "website layouts;",
-            "web application layouts."
-          ],
-          [
-            "photo editing;",
-            "posters;",
-            "short animations;",
-            "illustrations."
-          ],
-          [
-            "logos;",
-            "icons."
-          ],
-          [
-            "animations;",
-            "videos."
-          ]
+          ["website layouts;", "web application layouts."],
+          ["photo editing;", "posters;", "short animations;", "illustrations."],
+          ["logos;", "icons."],
+          ["animations;", "videos."]
         ]
       },
       "hidden_programming": {
@@ -159,6 +145,36 @@
               "href": "https://curcumalumilidmn.dk/waybly/"
             }
           ]
+        ]
+      }
+    },
+    "hidden_skills": {
+      "experience": {
+        "h2": "Experience",
+        "p": "A",
+        "dl": [
+          {
+            "dt": "",
+            "dd": ""
+          },
+          {
+            "dt": "",
+            "dd": ""
+          }
+        ]
+      },
+      "education": {
+        "h2": "",
+        "p": "",
+        "dl": [
+          {
+            "dt": "",
+            "dd": ""
+          },
+          {
+            "dt": "",
+            "dd": ""
+          }
         ]
       }
     }

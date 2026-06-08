@@ -88,7 +88,7 @@
           "Bruges til at udvikle moderne webapplikationer med React, herunder routing, optimering og server-side rendering. Anvendt i projekter:",
           "Bruges til at strukturere og skalere CSS ved hjælp af variabler, mixins og genanvendelige styles. Anvendt i projekter:",
           "Bruges til hurtigt at udvikle responsive brugerflader og prototyper. Anvendt i projekter:"
-          ],
+        ],
         "ul": [
           [
             {
@@ -150,6 +150,36 @@
               "href": "https://curcumalumilidmn.dk/waybly/"
             }
           ]
+        ]
+      }
+    },
+    "hidden_skills": {
+      "experience": {
+        "h2": "Erfaring",
+        "p": "A",
+        "dl": [
+          {
+            "dt": "",
+            "dd": ""
+          },
+          {
+            "dt": "",
+            "dd": ""
+          }
+        ]
+      },
+      "education": {
+        "h2": "",
+        "p": "",
+        "dl": [
+          {
+            "dt": "",
+            "dd": ""
+          },
+          {
+            "dt": "",
+            "dd": ""
+          }
         ]
       }
     }

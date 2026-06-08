@@ -159,10 +159,9 @@ export default function Hero({ translation, links }) {
                     {translation.about_me_section.skills.hidden_design.ul[
                       clickedIcon.id.split("_")[0]
                     ].map((li, index) => (
-                      <li
-                        key={index}
-                        className={`${styles.p_added} introMain`}
-                      >{li}</li>
+                      <li key={index} className={`${styles.p_added} introMain`}>
+                        {li}
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -234,11 +233,10 @@ export default function Hero({ translation, links }) {
                     {translation.about_me_section.skills.hidden_programming.ul[
                       clickedIcon.id.split("_")[0]
                     ].map((li, index) => (
-                      <li
-                        key={index}
-                        className={`${styles.p_added} introMain`}
-                      >
-                        <a href={li.href} className={styles.link}>{li.a}</a>
+                      <li key={index} className={`${styles.p_added} introMain`}>
+                        <a href={li.href} className={styles.link}>
+                          {li.a}
+                        </a>
                       </li>
                     ))}
                   </ul>
@@ -253,19 +251,37 @@ export default function Hero({ translation, links }) {
       {clickedMore && (
         <section className={`${styles.hiddenSection}`}>
           {/*Experience*/}
-          <div className={`${styles.flex_column_div} scroll_show_animate`}>
-            <h2 className={`introBig scroll_show_animate ${styles.expH2}`}>
-              Experience
-            </h2>
-            <dl>
-              <dt></dt>
-              <dd></dd>
-            </dl>
+          <div className={`${styles.flex_row_div}`}>
+            <div>
+              <h2 className={`introBig ${styles.expH2}`}>
+                {translation.about_me_section.hidden_skills.experience.h2}
+              </h2>
+              <p className={`introMain ${styles.p} ${styles.marginP}`}>
+                {translation.about_me_section.hidden_skills.experience.p1}
+              </p>
+              <p className={`introMain ${styles.p}`}>
+                {translation.about_me_section.hidden_skills.experience.p2}
+              </p>
+            </div>
+            <div>
+              {translation.about_me_section.hidden_skills.experience.dl.map(
+                (dl, index) => (
+                  <dl key={index}>
+                    <dt className={`${styles.orange} introBig ${styles.dt}`}>
+                      {dl.dt}
+                    </dt>
+                    <dd className={`${styles.pink} introMain ${styles.p}`}>
+                      {dl.dd}
+                    </dd>
+                  </dl>
+                ),
+              )}
+            </div>
           </div>
 
           {/*Education*/}
           <div className={styles.flex_column_div}>
-            <h2 className="introBig show">Education</h2>
+            <h2 className="introBig show"></h2>
             <dl>
               <dt></dt>
               <dd></dd>

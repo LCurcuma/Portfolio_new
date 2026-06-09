@@ -354,7 +354,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-bottom: 15px;
 }
 
 .flex_row_div{
@@ -452,7 +451,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(2, 3, 30);
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .hiddenSection {

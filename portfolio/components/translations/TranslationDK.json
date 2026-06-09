@@ -156,15 +156,16 @@
     "hidden_skills": {
       "experience": {
         "h2": "Erfaring",
-        "p": "A",
+        "p1": "Jeg har arbejdet som freelance designer og illustrator i mere end 5 år. I denne periode har jeg arbejdet med logoer, illustrationer, korte animationer, grafik til hjemmesider samt mindre webprojekter, som blev tilpasset kundernes behov og ønsker.",
+        "p2": "Ud over kreative projekter har jeg erfaring fra andre brancher, hvilket har styrket mine evner inden for ansvar, struktur og samarbejde.",
         "dl": [
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Designpraktikant • PVM Reklame • Marts 2025 - August 2025",
+            "dd": "Udviklede tryksager som plakater, visitkort og andet grafisk materiale, klargjorde filer til tryk og samarbejdede med teamet omkring produktion og arbejdsprocesser."
           },
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Salgsassistent (praktik) • Normal A/S • Oktober 2023 - Marts 2024",
+            "dd": "Hjalp med vareopfyldning og organisering af butikken, sørgede for præsentable varehylder, samarbejdede med kolleger og ydede kundeservice efter behov."
           }
         ]
       },

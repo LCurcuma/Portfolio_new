@@ -151,15 +151,16 @@
     "hidden_skills": {
       "experience": {
         "h2": "Experience",
-        "p": "A",
+        "p1": "For over 5 years, I have been creating illustrations, designs, and web projects as a freelancer. During this time, I have worked on logos, illustrations, short animations, website graphics, and small web projects, adapting each project to the client's needs and goals.",
+        "p2": "In addition to creative projects, I have experience working in other fields, which has helped me develop responsibility, organizational skills, and the ability to work effectively in a team.",
         "dl": [
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Design Intern • PVM Reklame • March 2025 - August 2025",
+            "dd": "Designed print materials such as posters, business cards, and other promotional products, prepared print-ready files, and collaborated with team members throughout the production process."
           },
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Sales Assistant Intern • Normal A/S • October 2023 - March 2024",
+            "dd": "Assisted with product restocking and store organization, maintained an appealing shopping environment, worked closely with colleagues, and provided customer service when needed."
           }
         ]
       },

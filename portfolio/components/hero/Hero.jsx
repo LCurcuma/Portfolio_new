@@ -295,14 +295,14 @@ export default function Hero({ translation, links }) {
             className={`${styles.btn} introBig scroll_show_animate`}
             onClick={() => setClickedMore(true)}
           >
-            More
+            {translation.about_me_section.btn.more}
           </button>
         ) : (
           <button
             className={`${styles.btn} introBig scroll_show_animate`}
             onClick={() => setClickedMore(false)}
           >
-            Less
+            {translation.about_me_section.btn.less}
           </button>
         )}
       </div>

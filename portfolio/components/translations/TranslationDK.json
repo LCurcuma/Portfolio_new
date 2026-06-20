@@ -170,16 +170,22 @@
         ]
       },
       "education": {
-        "h2": "",
-        "p": "",
+        "h2": "Uddannelse",
+        "p1": "Jeg begyndte min rejse med uddannelsen Design og Grafisk Produktion, hvor jeg opbyggede viden og færdigheder inden for grafisk design, tryksager og visuel kommunikation.",
+        "p2": "Efter jeg flyttede til Danmark, valgte jeg at fordybe mig i webudvikling og gennemførte derfor et kursus i udvikling af hjemmesider. Det gav mig mulighed for at udvide mine kompetencer inden for front-end udvikling og digitale produkter.",
+        "p3": "Jeg studerer i øjeblikket Multimediedesign, hvor jeg kombinerer min viden om design og webudvikling for at skabe moderne digitale løsninger.",
         "dl": [
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Bachelor i Multimediedesign • Zealand - Sjællands Erhvervsakademi • September 2025 - Nu",
+            "dd": "Udvikler kompetencer inden for multimediedesign, UI/UX, webdesign og digital kommunikation. Arbejder med HTML, CSS, JavaScript og Bootstrap for at skabe interaktivt indhold og brugervenlige digitale løsninger."
           },
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Webudvikler • HackYourFuture Denmark • Januar 2025 - September 2025",
+            "dd": "Gennemførte et praksisorienteret kursus i webudvikling med fokus på udvikling af webapplikationer i Next.js. Lærte at anvende Git og GitHub til versionsstyring og samarbejde, arbejdede på virkelige projekter og styrkede mine analytiske evner og problemløsning."
+          },
+          {
+            "dt": "Bachelor i Design og Grafisk Produktion • Kharkiv National University of Radio Electronics • September 2019 - August 2023",
+            "dd": "Opnåede viden inden for grafisk design, trykproduktion og visuel kommunikation. Arbejdede med Adobe Photoshop og Adobe Illustrator, udviklede layouts og klargjorde filer til professionel trykproduktion."
           }
         ]
       }

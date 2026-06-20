@@ -280,12 +280,35 @@ export default function Hero({ translation, links }) {
           </div>
 
           {/*Education*/}
-          <div className={styles.flex_column_div}>
-            <h2 className="introBig show"></h2>
-            <dl>
-              <dt></dt>
-              <dd></dd>
-            </dl>
+          <div className={`${styles.flex_row_div}`}>
+            <div>
+              <h2 className={`introBig ${styles.expH2}`}>
+                {translation.about_me_section.hidden_skills.education.h2}
+              </h2>
+              <p className={`introMain ${styles.p} ${styles.marginP}`}>
+                {translation.about_me_section.hidden_skills.education.p1}
+              </p>
+              <p className={`introMain ${styles.p}`}>
+                {translation.about_me_section.hidden_skills.education.p2}
+              </p>
+              <p className={`introMain ${styles.p}`}>
+                {translation.about_me_section.hidden_skills.education.p3}
+              </p>
+            </div>
+            <div>
+              {translation.about_me_section.hidden_skills.education.dl.map(
+                (dl, index) => (
+                  <dl key={index}>
+                    <dt className={`${styles.orange} introBig ${styles.dt}`}>
+                      {dl.dt}
+                    </dt>
+                    <dd className={`${styles.pink} introMain ${styles.p}`}>
+                      {dl.dd}
+                    </dd>
+                  </dl>
+                ),
+              )}
+            </div>
           </div>
         </section>
       )}

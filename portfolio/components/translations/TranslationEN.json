@@ -165,16 +165,22 @@
         ]
       },
       "education": {
-        "h2": "",
-        "p": "",
+        "h2": "Education",
+        "p1": "I began my journey with a degree in Design and Printing, where I developed skills in graphic design, print production, and visual communication.",
+        "p2": "After moving to Denmark, I decided to deepen my knowledge of web development and completed a website development course. This allowed me to expand my skills in front-end development and digital product creation.",
+        "p3": "I am currently studying Multimedia Design, where I combine my knowledge of design and web development to create modern digital solutions.",
         "dl": [
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Bachelor's Degree in Multimedia Design • Zealand - Sjællands Erhvervsakademi • September 2025 - Present",
+            "dd": "Developing skills in multimedia design, UI/UX, web design, and digital communication. Working with HTML, CSS, JavaScript, and Bootstrap to create interactive content and user-centered digital solutions."
           },
           {
-            "dt": "",
-            "dd": ""
+            "dt": "Web Developer • HackYourFuture Denmark • January 2025 - September 2025",
+            "dd": "Completed a hands-on web development program focused on building web applications with Next.js. Learned to use Git and GitHub for version control and collaboration, worked on real-world projects, and strengthened problem-solving and analytical thinking skills."
+          },
+          {
+            "dt": "Bachelor's Degree in Design and Printing • Kharkiv National University of Radio Electronics • September 2019 - August 2023",
+            "dd": "Gained knowledge of graphic design, print production, and visual communication. Worked with Adobe Photoshop and Adobe Illustrator, created layouts, and prepared files for professional printing."
           }
         ]
       }

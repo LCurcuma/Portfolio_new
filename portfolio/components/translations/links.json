@@ -17,6 +17,28 @@
         "/images/design_icons/scss_icon.png",
         "/images/design_icons/bootstrap_icon.png"
       ]
+    },
+    "projects": {
+      "websites": [
+        "/images/projects/websites/first_help_experts_screenshot.png",
+        "/images/projects/websites/waybly_screenshot.png",
+        "/images/projects/websites/manya_sit_screenshot.png"
+      ],
+      "logos": [
+        "/images/projects/logos/spotless_logo.png",
+        "/images/projects/logos/first_help_experts_full_logo.png",
+        "/images/projects/logos/how_to_voksenlivet_logo.png"
+      ],
+      "artworks": [
+        "/images/projects/illustrations/fmb.png",
+        "/images/projects/illustrations/mhndfornyunderthechristmastree.png",
+        "/images/projects/illustrations/ynyn.png"
+      ],
+      "animations": [
+        "/images/projects/animations/manya_fail_f.gif",
+        "/images/projects/animations/manya_stand_а.gif",
+        "/images/projects/animations/manya_sit_f.gif"
+      ]
     }
   },
   "animations": {

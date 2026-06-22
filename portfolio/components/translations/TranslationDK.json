@@ -194,5 +194,48 @@
       "more": "Mere",
       "less": "Færre"
     }
+  },
+  "projects_section": {
+    "h2": "Top-3",
+    "websites": {
+      "h3": "Websider",
+      "ps": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
+      "alts": [
+        "Førstehjælpsekspertens webside",
+        "Wayblys webside",
+        "ManyaSits webside"
+      ]
+    },
+    "logos": {
+      "h3": "Logoer",
+      "ps": [
+        "Spotless logo",
+        "Førstehjælpsekspertens logo",
+        "How To Voksenlivets logo"
+      ],
+      "alts": [
+        "Spotless logo",
+        "Førstehjælpsekspertens logo",
+        "How To Voksenlivets logo"
+      ]
+    },
+    "artworks": {
+      "h3": "Illustrationer",
+      "ps": [
+        "Felix Argyle",
+        "Nytårsbillede - samarbejde med en anden kunstner",
+        "Yun Yun i hendes øjne"
+      ],
+      "alts": [
+        "Felix Argyle",
+        "Nytårsbillede - samarbejde med en anden kunstner. Nadiia og Maha ser tv under juletræet nytårsaften.",
+        "Q-tie kigger på Yun Yun"
+      ]
+    },
+    "animations": {
+      "h3": "Анімацій",
+      "ps": ["Manya falder", "Manya venter", "Manya sætter sig på hug"],
+      "alts": ["Manya falder", "Manya venter", "Manya sætter sig på hug"]
+    }
   }
 }

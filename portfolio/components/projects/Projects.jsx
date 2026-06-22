@@ -21,7 +21,7 @@ export default function Project({ translation, links }) {
                 </p>
                 <img
                   src={link}
-                  className={`${styles.projectImage} ${styles.withBR}`}
+                  className={`${styles.projectImage} ${styles.withBR} ${styles.zoom}`}
                   alt={translation.projects_section.websites.alts[index]}
                 />
               </a>
@@ -40,7 +40,7 @@ export default function Project({ translation, links }) {
                 </p>
                 <img
                   src={link}
-                  className={styles.projectImage}
+                  className={`${styles.projectImage} ${styles.zoom}`}
                   alt={translation.projects_section.logos.alts[index]}
                 />
               </a>
@@ -59,7 +59,7 @@ export default function Project({ translation, links }) {
                 </p>
                 <img
                   src={link}
-                  className={`${styles.projectImage} ${styles.withBR}`}
+                  className={`${styles.projectImage} ${styles.withBR} ${styles.zoom}`}
                   alt={translation.projects_section.artworks.alts[index]}
                 />
               </a>
@@ -78,7 +78,7 @@ export default function Project({ translation, links }) {
                 </p>
                 <img
                   src={link}
-                  className={`${styles.projectImage} ${styles.withBR}`}
+                  className={`${styles.projectImage} ${styles.withBR} ${styles.zoom}`}
                   alt={translation.projects_section.animations.alts[index]}
                 />
               </a>

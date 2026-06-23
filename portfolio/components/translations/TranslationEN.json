@@ -3,7 +3,13 @@
     "languages": ["EN", "UA", "DK"],
     "lang_link": ["/en", "/ua", "/dk"],
     "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
-    "hooks": ["#about_me", "#websites", "#art", "#animations", "#contact"]
+    "hooks": [
+      "/en",
+      "/projects/websites/en",
+      "/projects/art/en",
+      "/projects/animations/en",
+      "/projects/contact/en"
+    ]
   },
   "hero": {
     "h1_1": "Hello!",

@@ -17,10 +17,6 @@ export default function Header({ translation }) {
     }
   }
 
-  useEffect(() => {
-    console.log("Burger:", isClickedBurger);
-  }, [isClickedBurger]);
-
   return (
     <>
       {/*Burger menu*/}

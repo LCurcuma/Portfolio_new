@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Header from "@/components/header/Header";
 import translationWebsitesEN from "@/components/translations/TranslationWebsitesEN.json";
 import translationArtEN from "@/components/translations/TranslationArtEN.json";
+import translationAnimationsEN from "@/components/translations/TranslationAnimationsEN.json";
 import translationDK from "@/components/translations/TranslationDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
 import links from "@/components/translations/links.json";
@@ -35,7 +36,7 @@ export default function Projects() {
     } else if (projects === "animations") {
       return (
         <>
-          <Header translation={translationEN} />
+          <Header translation={translationAnimationsEN} />
         </>
       );
     }

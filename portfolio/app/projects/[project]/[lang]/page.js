@@ -5,7 +5,7 @@ import Header from "@/components/header/Header";
 import translationWebsitesEN from "@/components/translations/TranslationWebsitesEN.json";
 import translationArtEN from "@/components/translations/TranslationArtEN.json";
 import translationAnimationsEN from "@/components/translations/TranslationAnimationsEN.json";
-import translationDK from "@/components/translations/TranslationDK.json";
+import translationWebsitesDK from "@/components/translations/TranslationWebsitesDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
 import links from "@/components/translations/links.json";
 import Hero from "@/components/hero/Hero";
@@ -44,7 +44,7 @@ export default function Projects() {
     if (projects === "websites") {
       return (
         <>
-          <Header translation={translationDK} />
+          <Header translation={translationWebsitesDK} />
         </>
       );
     } else if (projects === "art") {

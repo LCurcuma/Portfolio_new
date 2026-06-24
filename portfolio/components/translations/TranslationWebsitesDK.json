@@ -1,0 +1,18 @@
+{
+  "header": {
+    "languages": ["DK", "EN", "UA"],
+    "lang_link": [
+      "/projects/websites/dk",
+      "/projects/websites/en",
+      "/projects/websites/ua"
+    ],
+    "navigation": ["Om mig", "Hjemmesider", "Art", "Animationer", "Kontakter"],
+    "hooks": [
+      "/dk",
+      "/projects/websites/dk",
+      "/projects/art/dk",
+      "/projects/animations/dk",
+      "/projects/contact/dk"
+    ]
+  }
+}

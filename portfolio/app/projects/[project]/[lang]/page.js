@@ -1,14 +1,15 @@
 "use client";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import Header from "@/components/header/Header";
 import translationWebsitesEN from "@/components/translations/TranslationWebsitesEN.json";
 import translationArtEN from "@/components/translations/TranslationArtEN.json";
 import translationAnimationsEN from "@/components/translations/TranslationAnimationsEN.json";
 import translationWebsitesDK from "@/components/translations/TranslationWebsitesDK.json";
 import translationArtDK from "@/components/translations/TranslationArtDK.json";
+import translationAnimationsDK from "@/components/translations/TranslationAnimationsDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
 import links from "@/components/translations/links.json";
+import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 
 export default function Projects() {
@@ -57,7 +58,7 @@ export default function Projects() {
     } else if (projects === "animations") {
       return (
         <>
-          <Header translation={translationDK} />
+          <Header translation={translationAnimationsDK} />
         </>
       );
     }

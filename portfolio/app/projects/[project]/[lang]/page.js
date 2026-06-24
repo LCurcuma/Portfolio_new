@@ -2,7 +2,7 @@
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Header from "@/components/header/Header";
-import translationEN from "@/components/translations/TranslationEN.json";
+import translationWebsitesEN from "@/components/translations/TranslationWebsitesEN.json";
 import translationDK from "@/components/translations/TranslationDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
 import links from "@/components/translations/links.json";
@@ -22,7 +22,7 @@ export default function Projects() {
     if (projects === "websites") {
       return (
         <>
-          <Header translation={translationEN} />
+          <Header translation={translationWebsitesEN} />
         </>
       );
     } else if (projects === "art") {

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "languages": ["UA", "EN", "DK"],
+    "lang_link": [
+      "/projects/animations/ua",
+      "/projects/animations/en",
+      "/projects/animations/dk"
+    ],
+    "navigation": ["Хто я?", "Вебсайти", "Арти", "Анімації", "Контакти"],
+    "hooks": [
+      "/ua",
+      "/projects/websites/ua",
+      "/projects/art/ua",
+      "/projects/animations/ua",
+      "/projects/contact/ua"
+    ]
+  }
+}

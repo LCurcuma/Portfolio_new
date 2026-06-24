@@ -9,9 +9,9 @@ import translationArtDK from "@/components/translations/TranslationArtDK.json";
 import translationAnimationsDK from "@/components/translations/TranslationAnimationsDK.json";
 import translationWebsitesUA from "@/components/translations/TranslationWebsitesUA.json";
 import translationArtUA from "@/components/translations/TranslationArtUA.json";
+import translationAnimationsUA from "@/components/translations/TranslationAnimationsUA.json";
 import links from "@/components/translations/links.json";
 import Header from "@/components/header/Header";
-import Hero from "@/components/hero/Hero";
 
 export default function Projects() {
   const [lang, setLang] = useState("");
@@ -79,7 +79,7 @@ export default function Projects() {
     } else if (projects === "animations") {
       return (
         <>
-          <Header translation={translationUA} />
+          <Header translation={translationAnimationsUA} />
         </>
       );
     }

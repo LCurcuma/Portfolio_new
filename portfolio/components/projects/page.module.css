@@ -99,3 +99,9 @@
 .zoom:hover{
     transform: scale(1.2);
 }
+
+.projectsCarousel{
+  height: 60vh;
+  margin: 0 7vw;
+  background-color: aliceblue;
+}

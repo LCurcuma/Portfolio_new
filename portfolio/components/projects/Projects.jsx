@@ -86,7 +86,9 @@ export default function Project({ translation, links }) {
           </div>
         </div>
       </section>
-      <div class={`${styles.projectsCarousel}`}></div>
+      <div class={`${styles.projectsCarousel}`}>
+        <div class={`${styles.image}`}></div>
+      </div>
     </>
   );
 }

@@ -1,9 +1,8 @@
 "use client";
 
 import styles from "./page.module.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "animate.css";
-//import translation from "@/components/translations/TranslationEN.json";
 
 export default function Header({ translation }) {
   const [isClickedLang, setClicked] = useState(false);

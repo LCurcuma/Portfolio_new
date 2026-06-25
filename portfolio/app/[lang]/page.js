@@ -9,7 +9,7 @@ import links from "@/components/translations/links.json";
 import Hero from "@/components/hero/Hero";
 import Project from "@/components/projects/Projects";
 
-export default function MainPage({ params }) {
+export default function MainPage() {
   const [lang, setLang] = useState("");
   const l = useParams();
 

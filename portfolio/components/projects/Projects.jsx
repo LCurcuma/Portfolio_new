@@ -1,6 +1,11 @@
 import styles from "./page.module.css";
+import { useState } from "react";
 
 export default function Project({ translation, links }) {
+  const [projectURL, setProjectURL] = useState(
+    "/images/projects/websites/first_help_experts_screenshot.png",
+  );
+
   return (
     <>
       <h2
@@ -87,7 +92,46 @@ export default function Project({ translation, links }) {
         </div>
       </section>
       <div className={`${styles.projectsCarousel}`}>
-        <div className={`${styles.image}`}></div>
+        <div className={`${styles.image}`}>
+            <img
+            src={projectURL}
+              className={`${styles.projectBigImg}`}
+            />
+        </div>
+        <div className={`${styles.buttons}`}>
+          <div
+            className={`${styles.button}`}
+            onClick={() => {
+              setProjectURL(
+                "/images/projects/websites/first_help_experts_screenshot.png",
+              );
+            }}
+          >
+            <img
+              src="/images/projects/websites/first_help_experts_screenshot.png"
+              className={styles.projectImg}
+            />
+            <p
+              className={`${styles.button_text}`}
+              styles={{ display: "none" }}
+            ></p>
+          </div>
+          <div
+            className={`${styles.button}`}
+            onClick={() => {
+              setProjectURL("/images/projects/websites/waybly_screenshot.png");
+            }}
+          >
+            <img
+              src="/images/projects/websites/waybly_screenshot.png"
+              className={styles.projectImg}
+            />
+            <p
+              className={`${styles.button_text}`}
+              styles={{ display: "none" }}
+            ></p>
+          </div>
+        </div>
       </div>
     </>
   );

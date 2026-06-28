@@ -93,44 +93,41 @@ export default function Project({ translation, links }) {
       </section>
       <div className={`${styles.projectsCarousel}`}>
         <div className={`${styles.image}`}>
-            <img
-            src={projectURL}
-              className={`${styles.projectBigImg}`}
-            />
+          <img src={projectURL} className={`${styles.projectBigImg}`} />
         </div>
-        <div className={`${styles.buttons}`}>
-          <div
-            className={`${styles.button}`}
-            onClick={() => {
-              setProjectURL(
-                "/images/projects/websites/first_help_experts_screenshot.png",
-              );
-            }}
-          >
-            <img
-              src="/images/projects/websites/first_help_experts_screenshot.png"
-              className={styles.projectImg}
-            />
-            <p
-              className={`${styles.button_text}`}
-              styles={{ display: "none" }}
-            ></p>
-          </div>
-          <div
-            className={`${styles.button}`}
-            onClick={() => {
-              setProjectURL("/images/projects/websites/waybly_screenshot.png");
-            }}
-          >
-            <img
-              src="/images/projects/websites/waybly_screenshot.png"
-              className={styles.projectImg}
-            />
-            <p
-              className={`${styles.button_text}`}
-              styles={{ display: "none" }}
-            ></p>
-          </div>
+      </div>
+      <div className={`${styles.buttons}`}>
+        <div
+          className={`${styles.button} ${projectURL !== "/images/projects/websites/first_help_experts_screenshot.png" && styles.unchecked}`}
+          onClick={() => {
+            setProjectURL(
+              "/images/projects/websites/first_help_experts_screenshot.png",
+            );
+          }}
+        >
+          <img
+            src="/images/projects/websites/first_help_experts_screenshot.png"
+            className={styles.projectImg}
+          />
+          <p
+            className={`${styles.button_text}`}
+            styles={{ display: "none" }}
+          ></p>
+        </div>
+        <div
+          className={`${styles.button} ${projectURL !== "/images/projects/websites/waybly_screenshot.png" && styles.unchecked}`}
+          onClick={() => {
+            setProjectURL("/images/projects/websites/waybly_screenshot.png");
+          }}
+        >
+          <img
+            src="/images/projects/websites/waybly_screenshot.png"
+            className={styles.projectImg}
+          />
+          <p
+            className={`${styles.button_text}`}
+            styles={{ display: "none" }}
+          ></p>
         </div>
       </div>
     </>

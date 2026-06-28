@@ -1,39 +1,17 @@
 /*websites section*/
 .projects {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0 7vw;
-
-  @media (min-width: 768px) {
-    grid-template-columns: auto auto;
-  }
-
-  @media (min-width: 1024px) {
-    grid-template-columns: auto auto auto auto;
-  }
-}
-
-.websites {
-  width: 100%;
-}
-
-.logos {
-  width: 100%;
-}
-
-.artworks {
-  width: 100%;
-}
-
-.animations {
-  width: 100%;
+  background-color: rgb(2, 3, 30);
 }
 
 .h2 {
   font-size: 34px;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .h3 {
@@ -77,33 +55,10 @@
   font-weight: bold;
 }
 
-.imgCont {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  border-radius: 25px;
-  padding: 10px 15px;
-  transition: all 0.5s ease-in-out;
-  background-color: transparent;
-}
-
-.imgCont:hover{
-    background-color: rgb(18, 5, 44);
-}
-
-.zoom{
-    transition: all 0.5s ease-in-out;
-    transform: scale(1);
-}
-
-.zoom:hover{
-    transform: scale(1.2);
-}
-
 .projectsCarousel{
-  height: 60vh;
+  height: 100%;
   margin: 0 7vw;
-  background-color: aliceblue;
+  background-color: rgb(2, 3, 30);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +66,7 @@
 }
 
 .image{
-  height: 55vh;
+  height: 100%;
   width: 90%;
   background-color:black;
 }
@@ -133,7 +88,8 @@
 .projectBigImg{
   width: 100%;
   height: 100%;
-  object-fit: contain;  
+  object-fit: contain; 
+  background-color: rgb(2, 3, 30); 
 }
 
 .buttons{

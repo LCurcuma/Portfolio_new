@@ -3,7 +3,13 @@
     "languages": ["UA", "EN", "DK"],
     "lang_link": ["/ua", "/en", "/dk"],
     "navigation": ["Хто я?", "Вебсайти", "Арти", "Анімації", "Контакти"],
-    "hooks": ["/ua", "/projects/websites/ua", "/projects/art/ua", "/projects/animations/ua", "/projects/contact/ua"]
+    "hooks": [
+      "/ua",
+      "/projects/websites/ua",
+      "/projects/art/ua",
+      "/projects/animations/ua",
+      "/projects/contact/ua"
+    ]
   },
   "hero": {
     "h1_1": "Привіт!",
@@ -196,46 +202,20 @@
     }
   },
   "projects_section": {
-    "h2": "Топ-3",
-    "websites": {
-      "h3": "Вебсайтів",
-      "ps": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
-      "alts": [
-        "Вебсайт Førstehjælpseksperten",
-        "Вебсайт Waybly",
-        "Вебсайт ManyaSit"
-      ]
-    },
-    "logos": {
-      "h3": "Логотипів",
-      "ps": [
-        "Логотип Spotless",
-        "Логотип Førstehjælpseksperten",
-        "Логотип How To Voksenlivet"
-      ],
-      "alts": [
-        "Логотип Spotless",
-        "Логотип Førstehjælpseksperten",
-        "Логотип How To Voksenlivet"
-      ]
-    },
-    "artworks": {
-      "h3": "Ілюстрацій",
-      "ps": [
-        "Фелікс Аргайл",
-        "Новорічна картинка-колаборація з іншим художником",
-        "Юн Юн в її очах"
-      ],
-      "alts": [
-        "Фелікс Аргайл",
-        "Новорічна картинка-колаборація з іншим художником. Надія та Маха під ялинкою дивляться телевізор в новорічну ніч",
-        "К'юті дивиться на Юн Юн"
-      ]
-    },
-    "animations": {
-      "h3": "Анімацій",
-      "ps": ["Маня падає", "Маня стоїть в очікуванні", "Маня присідає"],
-      "alts": ["Маня падає", "Маня стоїть в очікуванні", "Маня присідає"]
-    }
+    "h2": "Обрані проекти",
+    "alts": [
+      "Вебсайт Førstehjælpseksperten",
+      "Вебсайт Waybly",
+      "Вебсайт ManyaSit",
+      "Логотип Spotless",
+      "Логотип Førstehjælpseksperten",
+      "Логотип How To Voksenlivet",
+      "Фелікс Аргайл",
+      "Новорічна картинка-колаборація з іншим художником. Надія та Маха під ялинкою дивляться телевізор в новорічну ніч",
+      "К'юті дивиться на Юн Юн",
+      "Маня падає",
+      "Маня стоїть в очікуванні",
+      "Маня присідає"
+    ]
   }
 }

@@ -6,6 +6,8 @@ export default function Project({ translation, links }) {
     "/images/projects/websites/first_help_experts_screenshot.png",
   );
 
+  const [projectAlt, setProjectAlt] = useState(translation.projects_section.alts[0])
+
   return (
     <>
       <h2
@@ -14,37 +16,25 @@ export default function Project({ translation, links }) {
         {translation.projects_section.h2}
       </h2>
       <section className={`${styles.projects} scroll_show_animate`}>
-      <div className={`${styles.projectsCarousel}`}>
-        <div className={`${styles.image}`}>
-          <img src={projectURL} className={`${styles.projectBigImg}`} />
+        <div className={`${styles.projectsCarousel}`}>
+          <div className={`${styles.image}`}>
+            <img src={projectURL} className={`${styles.projectBigImg}`} alt={projectAlt} />
+          </div>
         </div>
-      </div>
-      <div className={`${styles.buttons}`}>
-        <div
-          className={`${styles.button} ${projectURL !== "/images/projects/websites/first_help_experts_screenshot.png" && styles.unchecked}`}
-          onClick={() => {
-            setProjectURL(
-              "/images/projects/websites/first_help_experts_screenshot.png",
-            );
-          }}
-        >
-          <img
-            src="/images/projects/websites/first_help_experts_screenshot.png"
-            className={styles.projectImg}
-          />
+        <div className={`${styles.buttons}`}>
+          {links.images.projects.map((item, id) => (
+            <div
+              key={id}
+              className={`${styles.button} ${projectURL !== item && styles.unchecked}`}
+              onClick={() => {
+                setProjectURL(item);
+                setProjectAlt(translation.projects_section.alts[id]);
+              }}
+            >
+              <img src={links.images.project_button[id]} className={styles.projectImg} alt={translation.projects_section.alts[id]} />
+            </div>
+          ))}
         </div>
-        <div
-          className={`${styles.button} ${projectURL !== "/images/projects/websites/waybly_screenshot.png" && styles.unchecked}`}
-          onClick={() => {
-            setProjectURL("/images/projects/websites/waybly_screenshot.png");
-          }}
-        >
-          <img
-            src="/images/projects/websites/waybly_screenshot.png"
-            className={styles.projectImg}
-          />
-        </div>
-      </div>
       </section>
     </>
   );

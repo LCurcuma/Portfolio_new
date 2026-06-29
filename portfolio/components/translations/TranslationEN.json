@@ -197,46 +197,20 @@
     }
   },
   "projects_section": {
-    "h2": "Top-3",
-    "websites": {
-      "h3": "Websites",
-      "ps": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
-      "alts": [
-        "Førstehjælpseksperten website",
-        "Waybly website",
-        "ManyaSit website"
-      ]
-    },
-    "logos": {
-      "h3": "Logos",
-      "ps": [
-        "Spotless logo",
-        "Førstehjælpsekspertens logo",
-        "How To Voksenlivets logo"
-      ],
-      "alts": [
-        "Spotless logo",
-        "Førstehjælpsekspertens logo",
-        "How To Voksenlivets logo"
-      ]
-    },
-    "artworks": {
-      "h3": "Artworks",
-      "ps": [
-        "Felix Argyle",
-        "New Years art-collaboration with another artist",
-        "Yun Yun in her eyes"
-      ],
-      "alts": [
-        "Felix Argyle",
-        "New Years art-collaboration with another artist. Nadiia and Maha are watching the TV under the christmas tree in New Years night.",
-        "Q-tie looks at Yun Yun"
-      ]
-    },
-    "animations": {
-      "h3": "Animations",
-      "ps": ["Manya falls", "Manya stays and waits", "Manya sits"],
-      "alts": ["Manya falls", "Manya stays and waits", "Manya sits"]
-    }
+    "h2": "Featured work",
+    "alts": [
+      "Førstehjælpseksperten website",
+      "Waybly website",
+      "ManyaSit website",
+      "Spotless logo",
+      "Førstehjælpsekspertens logo",
+      "How To Voksenlivets logo",
+      "Felix Argyle",
+      "New Years art-collaboration with another artist. Nadiia and Maha are watching the TV under the christmas tree in New Years night.",
+      "Q-tie looks at Yun Yun",
+      "Manya falls",
+      "Manya stays and waits",
+      "Manya sits"
+    ]
   }
 }

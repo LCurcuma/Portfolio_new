@@ -24,7 +24,7 @@ export default function MainPage() {
         <Header translation={translationEN} />
         <Hero translation={translationEN} links={links} />
         <Project translation={translationEN} links={links} />
-        <Footer translation={translationEN}/>
+        <Footer translation={translationEN} links={links} />
       </>
     );
   } else if (lang === "dk") {
@@ -33,7 +33,7 @@ export default function MainPage() {
         <Header translation={translationDK} />
         <Hero translation={translationDK} links={links} />
         <Project translation={translationDK} links={links} />
-        <Footer translation={translationDK} />
+        <Footer translation={translationDK} links={links} />
       </>
     );
   } else {
@@ -42,7 +42,7 @@ export default function MainPage() {
         <Header translation={translationUA} />
         <Hero translation={translationUA} links={links} />
         <Project translation={translationUA} links={links} />
-        <Footer translation={translationUA} />
+        <Footer translation={translationUA} links={links} />
       </>
     );
   }

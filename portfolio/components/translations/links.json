@@ -18,7 +18,9 @@
         "/images/design_icons/bootstrap_icon.png"
       ],
       "footer": [
-        "/images/contact_icons/email.png"
+        "/images/contact_icons/email.png",
+        "/images/contact_icons/telegram.png",
+        "/images/contact_icons/instagram.png"
       ]
     },
     "projects": [

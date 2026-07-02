@@ -20,6 +20,7 @@ export default function Project({ translation, links }) {
           <div className={`${styles.image}`}>
             <img src={projectURL} className={`${styles.projectBigImg}`} alt={projectAlt} />
           </div>
+          <img src="/images/Nddd_staying.png" className={styles.projectNddd} />
         </div>
         <div className={`${styles.buttons}`}>
           {links.images.projects.map((item, id) => (

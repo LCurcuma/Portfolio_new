@@ -105,3 +105,10 @@
 .unchecked{
   opacity: 75%;
 }
+
+.projectNddd{
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  height: 30vh;
+}

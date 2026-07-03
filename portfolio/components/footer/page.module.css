@@ -2,10 +2,14 @@
 
 .h2_footer {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 50px;
   color: rgb(254, 180, 151);
   font-size: 34px;
+
+  @media (min-width: 768px) {
+  margin-top: 150px;
+  }
 }
 
 .icon {

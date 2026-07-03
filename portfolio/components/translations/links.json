@@ -54,5 +54,17 @@
   },
   "animations": {
     "about_anim": "/animations/nadiia_work.gif"
+  },
+  "links": {
+    "contact": [
+      "https://mail.google.com/mail/u/0/?fs=1&to=lumilicurcuma@gmail.com&tf=cm",
+      "https://t.me/alya_curcuma",
+      "https://www.instagram.com/lumili_yayyy/?hl=en"
+    ],
+    "contact_text": [
+      "lumilicurcuma@gmail.com",
+      "@alya_curcuma",
+      "@lumili_yayyy"
+    ]
   }
 }

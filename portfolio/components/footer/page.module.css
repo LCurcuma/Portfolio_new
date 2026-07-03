@@ -26,8 +26,8 @@
 .Nddd_hi{
   width: 15vw;
   position: absolute;
-  bottom: 0;
-  right: 150px;
+  bottom: -100px;
+  right: 115px;
 }
 
 .rel{
@@ -36,9 +36,30 @@
 
 .links{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   margin: 0 20vw;
   justify-content: center;
   align-items: center;
+  gap: 50px;
+}
+
+.contact_link{
+  display: flex;
+  flex-direction: row;
   gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact_img{
+  height: 50px;
+}
+
+.link_text{
+  font-size: 28px;
+  color: rgb(244, 193, 210);
+}
+
+.footer{
+  padding-bottom: 100px;
 }

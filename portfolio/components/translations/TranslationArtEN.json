@@ -6,12 +6,11 @@
       "/projects/art/ua",
       "/projects/art/dk"
     ],
-    "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
+    "navigation": ["About me", "Websites", "Art", "Contact"],
     "hooks": [
       "/en",
       "/projects/websites/en",
       "/projects/art/en",
-      "/projects/animations/en",
       "/projects/contact/en"
     ]
   }

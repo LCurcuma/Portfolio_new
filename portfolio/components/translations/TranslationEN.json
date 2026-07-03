@@ -2,12 +2,11 @@
   "header": {
     "languages": ["EN", "UA", "DK"],
     "lang_link": ["/en", "/ua", "/dk"],
-    "navigation": ["About me", "Websites", "Art", "Animations", "Contact"],
+    "navigation": ["About me", "Websites", "Art", "Contact"],
     "hooks": [
       "/en",
       "/projects/websites/en",
       "/projects/art/en",
-      "/projects/animations/en",
       "/projects/contact/en"
     ]
   },

@@ -6,12 +6,11 @@
       "/projects/websites/en",
       "/projects/websites/ua"
     ],
-    "navigation": ["Om mig", "Hjemmesider", "Art", "Animationer", "Kontakter"],
+    "navigation": ["Om mig", "Hjemmesider", "Art", "Kontakter"],
     "hooks": [
       "/dk",
       "/projects/websites/dk",
       "/projects/art/dk",
-      "/projects/animations/dk",
       "/projects/contact/dk"
     ]
   }

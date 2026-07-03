@@ -6,12 +6,11 @@
       "/projects/websites/en",
       "/projects/websites/dk"
     ],
-    "navigation": ["Хто я?", "Вебсайти", "Арти", "Анімації", "Контакти"],
+    "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
     "hooks": [
       "/ua",
       "/projects/websites/ua",
       "/projects/art/ua",
-      "/projects/animations/ua",
       "/projects/contact/ua"
     ]
   }

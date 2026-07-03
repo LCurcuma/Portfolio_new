@@ -12,7 +12,7 @@ import translationArtUA from "@/components/translations/TranslationArtUA.json";
 import translationAnimationsUA from "@/components/translations/TranslationAnimationsUA.json";
 import links from "@/components/translations/links.json";
 import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import ProjectSection from "@/components/projectsSection/ProjectSection";
 
 export default function Projects() {
   const [lang, setLang] = useState("");

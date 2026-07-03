@@ -1,0 +1,48 @@
+.h1 {
+  color: rgb(254, 180, 151);
+  margin-bottom: 50px;
+}
+
+.projects_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0 3vw;
+}
+
+.project_image {
+  width: 45%;
+  border-radius: 25px;
+}
+
+.projects_section {
+  padding: 0 7vw;
+}
+
+.more {
+  padding: 15px 25px;
+  color: rgb(254, 180, 151);
+  border: 3px solid rgb(254, 180, 151);
+  border-radius: 25px;
+}
+
+.text{
+    color: rgb(254, 180, 151);
+    margin-bottom: 50px;
+    font-size: 16px;
+    padding-right: 75px;
+}
+
+.h2{
+    color: rgb(244, 193, 210);
+    margin-bottom: 15px;
+}

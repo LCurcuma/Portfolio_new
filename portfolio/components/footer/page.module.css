@@ -28,10 +28,15 @@
 }
 
 .Nddd_hi{
-  width: 15vw;
+  width: 30vw;
   position: absolute;
   bottom: -100px;
+  right: 50px;
+
+  @media (min-width: 1024px) {
+  width: 15vw;
   right: 115px;
+  }
 }
 
 .rel{
@@ -46,7 +51,7 @@
   align-items: center;
   gap: 50px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
   grid-template-columns: auto auto auto;
   }
 }

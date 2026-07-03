@@ -122,9 +122,14 @@
 
 .projectNddd {
   position: absolute;
-  bottom: 50px;
-  right: 100px;
-  height: 30vh;
+  bottom: 150px;
+  right: 0px;
+  height: 15vh;
+
+  @media (min-width: 375px) {
+  bottom: 100px;
+  height: 20vh;
+  }
 
   @media (min-width: 768px) {
     bottom: 125px;

@@ -36,11 +36,15 @@
 
 .links{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   margin: 0 20vw;
   justify-content: center;
   align-items: center;
   gap: 50px;
+
+  @media (min-width: 768px) {
+  grid-template-columns: auto auto auto;
+  }
 }
 
 .contact_link{

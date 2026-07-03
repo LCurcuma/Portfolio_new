@@ -13,10 +13,17 @@
 
 .project_tile {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   gap: 50px;
   padding: 0 3vw;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.row_reverse{
+  flex-direction: row-reverse;
 }
 
 .project_image {
@@ -33,6 +40,12 @@
   color: rgb(254, 180, 151);
   border: 3px solid rgb(254, 180, 151);
   border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.more:hover{
+    background-color: rgba(254, 180, 151, 0.116);
 }
 
 .text{

@@ -5,7 +5,8 @@ export default function ProjectSection() {
     <section className={styles.projects_section}>
       <h1 className={`${styles.h1} introBig`}>Websites</h1>
       <div className={styles.projects_container}>
-        <div className={styles.project_tile}>
+        {}
+        <div className={`${styles.project_tile} ${styles.row}`}>
           <img
             src="/images/projects/websites/first_help_experts_screenshot.png"
             className={styles.project_image}

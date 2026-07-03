@@ -28,10 +28,15 @@
 }
 
 .Nddd_hi{
-  width: 30vw;
+  width: 50vw;
   position: absolute;
   bottom: -100px;
+  right: -50px;
+
+  @media (min-width: 768px) {
+  width: 30vw;
   right: 50px;
+  }
 
   @media (min-width: 1024px) {
   width: 15vw;

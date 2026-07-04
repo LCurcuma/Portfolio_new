@@ -25,10 +25,10 @@ export default function ProjectSection({ translation, links }) {
               <p className={`${styles.text} introMain`}>
                 {translation.projects.p[id]}
               </p>
-              <p className={`${styles.text} introMain`}>
+              <p className={`${styles.text} ${styles.last_text} introMain`}>
                 {translation.projects.p2[id]}
               </p>
-              <a href={translation.projects.href[id]} className={styles.more}>
+              <a href={translation.projects.href[id]} className={`${styles.more} introMain`}>
                 More about project
               </a>
             </div>

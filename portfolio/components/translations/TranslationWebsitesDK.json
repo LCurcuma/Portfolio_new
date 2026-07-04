@@ -15,11 +15,11 @@
     ]
   },
   "projects": {
-    "h2": [],
-    "dato": ["Травень 2026 - Червень 2026"],
-    "p": [],
-    "p2": [""],
-    "alt": [],
-    "href": []
+    "h2": ["Førstehjælpseksperten"],
+    "dato": ["Maj 2026 - Juni 2026"],
+    "p": ["Et læringsprojekt udviklet til personer, der ønsker at lære eller genopfriske deres viden om førstehjælp og livreddende førstehjælp, især i forbindelse med forberedelse til kørekort."],
+    "p2": ["Projektet kombinerer korte undervisningsmaterialer med interaktive quizzer, som gør det nemt at tilegne sig ny viden. Et pointsystem motiverer brugerne til at vende tilbage og fortsætte deres læring på en engagerende måde."],
+    "alt": ["Førstehjælpseksperten Webside"],
+    "href": ["/project/dk/1"]
   }
 }

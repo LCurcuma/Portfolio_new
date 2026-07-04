@@ -1,7 +1,11 @@
 {
   "header": {
     "languages": ["EN", "UA", "DK"],
-    "lang_link": ["/projects/websites/en", "/projects/websites/ua", "/projects/websites/dk"],
+    "lang_link": [
+      "/projects/websites/en",
+      "/projects/websites/ua",
+      "/projects/websites/dk"
+    ],
     "navigation": ["About me", "Websites", "Art", "Contact"],
     "hooks": [
       "/en",
@@ -11,11 +15,17 @@
     ]
   },
   "projects": {
-    "h2": ["Førstehjælpseksperten"],
-    "dato": ["May 2026 - June 2026"],
-    "p": ["An educational web project designed for people who want to learn or refresh their knowledge of first aid and emergency care, particularly when preparing for a driver's license."],
-    "p2": ["The project combines short learning materials with interactive quizzes to make information easy to understand and remember. A points system encourages users to return regularly, making the learning experience more engaging and motivating."],
-    "alt": ["Førstehjælpseksperten Website"],
-    "href": ["/project/en/1"]
+    "h2": ["Førstehjælpseksperten", "ManyaSit"],
+    "dato": ["May 2026 - June 2026", "December 2025 - April 2026"],
+    "p": [
+      "An educational web project designed for people who want to learn or refresh their knowledge of first aid and emergency care, particularly when preparing for a driver's license.",
+      "An interactive web project created as a personalized gift in the form of a clicker game."
+    ],
+    "p2": [
+      "The project combines short learning materials with interactive quizzes to make information easy to understand and remember. A points system encourages users to return regularly, making the learning experience more engaging and motivating.",
+      "The project combines game mechanics with web development, allowing users to compete for the highest score on a leaderboard. It showcases my ability to create interactive web applications that use gamification to engage users."
+    ],
+    "alt": ["Førstehjælpseksperten Website", "ManyaSit Website"],
+    "href": ["/project/en/1", "/project/en/2"]
   }
 }

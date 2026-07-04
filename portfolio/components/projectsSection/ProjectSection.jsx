@@ -11,7 +11,7 @@ export default function ProjectSection({ translation, links }) {
             className={`${styles.project_tile} ${id % 2 === 0 ? styles.row_reverse : styles.row}`}
           >
             <img
-              src="/images/projects/websites/first_help_experts_screenshot.png"
+              src={links.projects[id]}
               className={styles.project_image}
               alt={translation.projects.alt[id]}
             />

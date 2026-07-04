@@ -1,6 +1,7 @@
 .h1 {
   color: rgb(254, 180, 151);
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .projects_container {
@@ -16,6 +17,7 @@
   justify-content: space-between;
   gap: 50px;
   padding: 0 3vw;
+  margin-bottom: 50px;
 }
 
 .row {

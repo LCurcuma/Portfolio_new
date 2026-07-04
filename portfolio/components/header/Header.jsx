@@ -42,10 +42,10 @@ export default function Header({ translation }) {
 
       <header className={styles.header}>
         {/*language container*/}
-        <div className={`${styles.language} introBig scroll_show_animate`}>
+        <div className={`${styles.language} introBig`}>
           <a
             href={`${translation.header.lang_link[0]}`}
-            className={`${styles.link} ${styles.hover_underline} scroll_show_animate`}
+            className={`${styles.link} ${styles.hover_underline}`}
           >
             {translation.header.languages[0]}
           </a>
@@ -86,7 +86,7 @@ export default function Header({ translation }) {
 
         {/*Mobile version of navigation*/}
         <nav
-          className={`${styles.navigation_mobile} introBig scroll_show_animate`}
+          className={`${styles.navigation_mobile} introBig`}
         >
           <div
             onClick={() => {
@@ -115,13 +115,13 @@ export default function Header({ translation }) {
 
         {/*Desktop version of navigation*/}
         <nav
-          className={`${styles.navigation_desktop} introBig scroll_show_animate`}
+          className={`${styles.navigation_desktop} introBig`}
         >
           {translation.header.hooks.map((hook, index) => (
             <a
               key={index}
               href={hook}
-              className={`${styles.link} ${styles.hover_underline_nav} scroll_show_animate`}
+              className={`${styles.link} ${styles.hover_underline_nav}`}
             >
               {translation.header.navigation[index]}
             </a>

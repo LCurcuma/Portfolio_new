@@ -12,7 +12,9 @@ export default function ProjectSection({translation, links}) {
             className={styles.project_image}
           />
           <div>
-            <h2 className={`${styles.h2} introBig`}>First Help Experts</h2>
+            <h2 className={`${styles.h2} introBig`}>
+              First Help Experts <span className={styles.date}>May 2026 - June 2026</span>
+            </h2>
             <p className={`${styles.text} introMain`}>
               Do you want to learn how to do first help engaging and playful
               way? The app "Førstehjælpseksperten" is made for those, who need

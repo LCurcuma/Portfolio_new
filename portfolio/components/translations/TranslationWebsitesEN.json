@@ -15,8 +15,8 @@
     ]
   },
   "projects": {
-    "h2": ["Førstehjælpseksperten", "ManyaSit"],
-    "dato": ["May 2026 - June 2026", "December 2025 - January 2026"],
+    "h2": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
+    "dato": ["May 2026 - June 2026", "", "December 2025 - January 2026"],
     "p": [
       "An educational web project designed for people who want to learn or refresh their knowledge of first aid and emergency care, particularly when preparing for a driver's license.",
       "An interactive web project created as a personalized gift in the form of a clicker game."

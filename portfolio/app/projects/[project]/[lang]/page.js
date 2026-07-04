@@ -41,6 +41,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationWebsitesDK} />
+          <ProjectSection translation={translationWebsitesDK} links={links} />
         </>
       );
     } else if (projects === "art") {
@@ -55,6 +56,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationWebsitesUA} />
+          <ProjectSection translation={translationWebsitesUA} links={links} />
         </>
       );
     } else if (projects === "art") {

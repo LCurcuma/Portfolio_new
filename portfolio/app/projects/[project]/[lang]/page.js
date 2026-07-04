@@ -26,7 +26,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationWebsitesEN} />
-          <ProjectSection />
+          <ProjectSection translation={translationWebsitesEN} links={links}/>
         </>
       );
     } else if (projects === "art") {

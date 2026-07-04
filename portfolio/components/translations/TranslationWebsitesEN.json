@@ -9,5 +9,12 @@
       "/projects/art/en",
       "/projects/contact/en"
     ]
+  },
+  "projects": {
+    "h2": [],
+    "p": [],
+    "p2": [""],
+    "alt": [],
+    "href": []
   }
 }

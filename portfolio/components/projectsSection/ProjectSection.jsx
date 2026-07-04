@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-export default function ProjectSection() {
+export default function ProjectSection({translation, links}) {
   return (
     <section className={styles.projects_section}>
       <h1 className={`${styles.h1} introBig`}>Websites</h1>

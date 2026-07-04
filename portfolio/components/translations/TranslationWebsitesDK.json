@@ -13,5 +13,12 @@
       "/projects/art/dk",
       "/projects/contact/dk"
     ]
+  },
+  "projects": {
+    "h2": [],
+    "p": [],
+    "p2": [""],
+    "alt": [],
+    "href": []
   }
 }

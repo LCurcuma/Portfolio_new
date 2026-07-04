@@ -22,10 +22,12 @@
 
 .row {
   flex-direction: row;
+  padding-right: 75px;
 }
 
 .row_reverse {
   flex-direction: row-reverse;
+  padding-left: 75px;
 }
 
 .project_image {
@@ -39,22 +41,21 @@
 
 .more {
   padding: 15px 25px;
-  color: rgb(254, 180, 151);
-  border: 3px solid rgb(254, 180, 151);
+  color: rgb(244, 193, 210);
+  border: 3px solid rgb(244, 193, 210);
   border-radius: 25px;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
 .more:hover {
-  background-color: rgba(254, 180, 151, 0.116);
+  background-color: rgba(244, 193, 210, 0.166);
 }
 
 .text {
   color: rgb(254, 180, 151);
   margin-bottom: 10px;
   font-size: 16px;
-  padding-right: 75px;
 }
 
 .h2 {

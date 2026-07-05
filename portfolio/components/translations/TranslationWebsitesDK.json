@@ -15,23 +15,26 @@
     ]
   },
   "projects": {
-    "h2": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
+    "h2": ["Førstehjælpseksperten", "Waybly", "Spotless", "ManyaSit"],
     "dato": [
       "Maj 2026 - Juni 2026",
       "Marts 2026 - April 2026",
+      "Februar 2026 - Marts 2026",
       "December 2025 - Januar 2026"
     ],
     "p": [
       "Et læringsprojekt udviklet til personer, der ønsker at lære eller genopfriske deres viden om førstehjælp og livreddende førstehjælp, især i forbindelse med forberedelse til kørekort.",
       "Et webprojekt, der hjælper mennesker med handicap med at finde tilgængelige steder og planlægge deres ture med større tryghed.",
+      "En mobile-first webapplikation udviklet til rengøringspersonale og rengøringsfirmaer, der gør det nemt at registrere rengøring af toiletter.",
       "Et interaktivt webprojekt, udviklet som en personlig gave i form af et klikspil."
     ],
     "p2": [
       "Projektet kombinerer korte undervisningsmaterialer med interaktive quizzer, som gør det nemt at tilegne sig ny viden. Et pointsystem motiverer brugerne til at vende tilbage og fortsætte deres læring på en engagerende måde.",
       "Projektet er baseret på et interaktivt kort, som viser detaljer om tilgængeligheden på forskellige steder, herunder ramper, trapper, parkering, niveaufri adgang og andre relevante oplysninger. Fokus er på tilgængelighed, inkluderende design og en bedre brugeroplevelse.",
+      "Brugerne kan hurtigt registrere tidspunktet for den seneste rengøring og se de tre foregående registreringer, så rengøringshistorikken er let at følge. Projektet blev udviklet som en studieopgave med fokus på at løse en almindelig hverdagsudfordring gennem en brugervenlig løsning til mobile enheder.",
       "Projektet kombinerer spilelementer med webudvikling og giver brugerne mulighed for at konkurrere om den højeste score på en rangliste. Det viser mine kompetencer inden for udvikling af interaktive webapplikationer med fokus på gamification og brugerengagement."
     ],
-    "alt": ["Førstehjælpseksperten Webside", "Waybly webside", "ManyaSit Website"],
-    "href": ["/project/dk/1", "/project/dk/2", "/project/dk/3"]
+    "alt": ["Førstehjælpseksperten Webside", "Waybly Webside", "Spotless Webside", "ManyaSit Webside"],
+    "href": ["/project/dk/1", "/project/dk/2", "/project/dk/3", "/project/dk/4"]
   }
 }

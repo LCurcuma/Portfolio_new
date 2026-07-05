@@ -15,17 +15,23 @@
     ]
   },
   "projects": {
-    "h2": ["Førstehjælpseksperten", "ManyaSit"],
-    "dato": ["Maj 2026 - Juni 2026", "December 2025 - Januar 2026"],
+    "h2": ["Førstehjælpseksperten", "Waybly", "ManyaSit"],
+    "dato": [
+      "Maj 2026 - Juni 2026",
+      "Marts 2026 - April 2026",
+      "December 2025 - Januar 2026"
+    ],
     "p": [
       "Et læringsprojekt udviklet til personer, der ønsker at lære eller genopfriske deres viden om førstehjælp og livreddende førstehjælp, især i forbindelse med forberedelse til kørekort.",
+      "Et webprojekt, der hjælper mennesker med handicap med at finde tilgængelige steder og planlægge deres ture med større tryghed.",
       "Et interaktivt webprojekt, udviklet som en personlig gave i form af et klikspil."
     ],
     "p2": [
       "Projektet kombinerer korte undervisningsmaterialer med interaktive quizzer, som gør det nemt at tilegne sig ny viden. Et pointsystem motiverer brugerne til at vende tilbage og fortsætte deres læring på en engagerende måde.",
+      "Projektet er baseret på et interaktivt kort, som viser detaljer om tilgængeligheden på forskellige steder, herunder ramper, trapper, parkering, niveaufri adgang og andre relevante oplysninger. Fokus er på tilgængelighed, inkluderende design og en bedre brugeroplevelse.",
       "Projektet kombinerer spilelementer med webudvikling og giver brugerne mulighed for at konkurrere om den højeste score på en rangliste. Det viser mine kompetencer inden for udvikling af interaktive webapplikationer med fokus på gamification og brugerengagement."
     ],
-    "alt": ["Førstehjælpseksperten Webside", "ManyaSit Website"],
-    "href": ["/project/dk/1", "/project/dk/2"]
+    "alt": ["Førstehjælpseksperten Webside", "Waybly webside", "ManyaSit Website"],
+    "href": ["/project/dk/1", "/project/dk/2", "/project/dk/3"]
   }
 }

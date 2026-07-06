@@ -16,18 +16,15 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  padding: 0 3vw;
   margin-bottom: 50px;
 }
 
 .row {
   flex-direction: row;
-  padding-right: 75px;
 }
 
 .row_reverse {
   flex-direction: row-reverse;
-  padding-left: 75px;
 }
 
 .project_image {

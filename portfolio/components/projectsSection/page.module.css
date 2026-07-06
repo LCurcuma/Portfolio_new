@@ -36,9 +36,13 @@
 }
 
 .project_image {
-  width: 45%;
+  width: 100%;
   border-radius: 25px;
   object-fit: cover;
+
+  @media (min-width: 426px) {
+  width: 45%;
+  }
 }
 
 .projects_section {

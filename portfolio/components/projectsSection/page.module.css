@@ -30,6 +30,7 @@
 .project_image {
   width: 45%;
   border-radius: 25px;
+  object-fit: cover;
 }
 
 .projects_section {

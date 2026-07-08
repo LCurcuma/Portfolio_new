@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function ImagesSection({ translation, links }) {
   return (
-    <section>
+    <section className={styles.image_section}>
       <h2>Illustrations</h2>
       <div>
         <img src="/images/projects/illustrations/fmb.png" />

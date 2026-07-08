@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export default function ImagesSection({ translation, links }) {
   return (
     <section className={styles.image_section}>
-      <h2>Illustrations</h2>
+      <h2 className={`${styles.h2} introBig`}>Illustrations</h2>
       <div>
         <img src="/images/projects/illustrations/fmb.png" />
         <img src="/images/projects/illustrations/ynyn.png" />

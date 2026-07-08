@@ -10,6 +10,7 @@ import translationArtUA from "@/components/translations/TranslationArtUA.json";
 import links from "@/components/translations/links.json";
 import Header from "@/components/header/Header";
 import ProjectSection from "@/components/projectsSection/ProjectSection";
+import ImagesSection from "@/components/imagesSection/ImagesSection";
 
 export default function Projects() {
   const [lang, setLang] = useState("");
@@ -33,6 +34,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationArtEN} />
+          <ImagesSection translation={translationArtEN} links={links}/>
         </>
       );
     }
@@ -48,6 +50,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationArtDK} />
+          <ImagesSection translation={translationArtDK} links={links} />
         </>
       );
     } 
@@ -63,6 +66,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationArtUA} />
+          <ImagesSection translation={translationArtEN} links={links} />
         </>
       );
     } 

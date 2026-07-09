@@ -16,10 +16,16 @@
   },
   "section":[
     {
-      "h2": "Illustrations"
+      "h2": "Illustrations",
+      "alt": []
     },
     {
-      "h2": "Animations"
+      "h2": "Animations",
+      "alt": []
+    },
+    {
+      "h2": "Logos",
+      "alt": []
     }
   ]
 }

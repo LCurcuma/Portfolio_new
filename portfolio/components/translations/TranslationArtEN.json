@@ -13,5 +13,13 @@
       "/projects/art/en",
       "/projects/contact/en"
     ]
-  }
+  },
+  "section":[
+    {
+      "h2": "Illustrations"
+    },
+    {
+      "h2": "Animations"
+    }
+  ]
 }

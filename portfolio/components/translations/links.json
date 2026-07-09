@@ -72,5 +72,19 @@
     "/images/projects/websites/waybly_screenshot.png",
     "/images/projects/websites/spotless_screenshot.png",
     "/images/projects/websites/manya_sit_screenshot.png"
+  ],
+  "images_section": [
+    {
+      "images":[
+        "/images/projects/illustrations/fmb.png",
+        "/images/projects/illustrations/ynyn.png"
+      ]
+    },
+    {
+      "images": [
+        "/images/projects/illustrations/ynyn.png",
+        "/images/projects/illustrations/mhndfornyunderthechristmastree.png"
+      ]
+    }
   ]
 }

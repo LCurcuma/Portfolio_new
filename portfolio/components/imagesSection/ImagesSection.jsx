@@ -5,9 +5,18 @@ export default function ImagesSection({ translation, links }) {
     <section className={styles.image_section}>
       <h2 className={`${styles.h2} introBig`}>Illustrations</h2>
       <div className={styles.images_container}>
-        <img src="/images/projects/illustrations/fmb.png" className={styles.image} />
-        <img src="/images/projects/illustrations/ynyn.png" />
-        <img src="/images/projects/illustrations/mhndfornyunderthechristmastree.png" />
+        <img
+          src="/images/projects/illustrations/fmb.png"
+          className={styles.image}
+        />
+        <img
+          src="/images/projects/illustrations/ynyn.png"
+          className={styles.image}
+        />
+        <img
+          src="/images/projects/illustrations/mhndfornyunderthechristmastree.png"
+          className={styles.image}
+        />
       </div>
       <h2>Animations</h2>
       <div>

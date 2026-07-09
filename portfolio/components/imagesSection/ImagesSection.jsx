@@ -18,7 +18,7 @@ export default function ImagesSection({ translation, links }) {
       <h2>Logos</h2>
       <div>
         <img src="/images/projects/logos/first_help_experts_full_logo.png" />
-        <img src="/images/projects/logos/no_limitation_logo.png" />
+        <img src="/images/projects/logos/no_limitation_logo_redesign.png" />
         <img src="/images/projects/logos/waybly_logo.png" />
       </div>
     </section>

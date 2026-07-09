@@ -1,11 +1,7 @@
 {
   "header": {
     "languages": ["UA", "EN", "DK"],
-    "lang_link": [
-      "/projects/art/ua",
-      "/projects/art/en",
-      "/projects/art/dk"
-    ],
+    "lang_link": ["/projects/art/ua", "/projects/art/en", "/projects/art/dk"],
     "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
     "hooks": [
       "/ua",
@@ -13,5 +9,19 @@
       "/projects/art/ua",
       "/projects/contact/ua"
     ]
-  }
+  },
+  "section": [
+    {
+      "h2": "Illustrations",
+      "alt": []
+    },
+    {
+      "h2": "Animations",
+      "alt": []
+    },
+    {
+      "h2": "Logos",
+      "alt": []
+    }
+  ]
 }

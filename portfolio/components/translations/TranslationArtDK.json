@@ -1,11 +1,7 @@
 {
   "header": {
     "languages": ["DK", "EN", "UA"],
-    "lang_link": [
-      "/projects/art/dk",
-      "/projects/art/en",
-      "/projects/art/ua"
-    ],
+    "lang_link": ["/projects/art/dk", "/projects/art/en", "/projects/art/ua"],
     "navigation": ["Om mig", "Hjemmesider", "Art", "Kontakter"],
     "hooks": [
       "/dk",
@@ -13,5 +9,19 @@
       "/projects/art/dk",
       "/projects/contact/dk"
     ]
-  }
+  },
+  "section": [
+    {
+      "h2": "Illustrations",
+      "alt": []
+    },
+    {
+      "h2": "Animations",
+      "alt": []
+    },
+    {
+      "h2": "Logos",
+      "alt": []
+    }
+  ]
 }

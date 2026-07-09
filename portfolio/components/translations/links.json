@@ -76,14 +76,16 @@
   "images_section": [
     {
       "images":[
+        "/images/projects/illustrations/mll.png",
         "/images/projects/illustrations/fmb.png",
-        "/images/projects/illustrations/ynyn.png"
+        "/images/projects/illustrations/ynyn.png",
+        "/images/projects/illustrations/study.png",
+        "/images/projects/illustrations/mhndfornyunderthechristmastree.png"
       ]
     },
     {
       "images": [
-        "/images/projects/illustrations/ynyn.png",
-        "/images/projects/illustrations/mhndfornyunderthechristmastree.png"
+        
       ]
     },
     {

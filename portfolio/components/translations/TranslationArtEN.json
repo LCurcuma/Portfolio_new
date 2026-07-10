@@ -1,11 +1,7 @@
 {
   "header": {
     "languages": ["EN", "UA", "DK"],
-    "lang_link": [
-      "/projects/art/en",
-      "/projects/art/ua",
-      "/projects/art/dk"
-    ],
+    "lang_link": ["/projects/art/en", "/projects/art/ua", "/projects/art/dk"],
     "navigation": ["About me", "Websites", "Art", "Contact"],
     "hooks": [
       "/en",
@@ -14,7 +10,7 @@
       "/projects/contact/en"
     ]
   },
-  "section":[
+  "section": [
     {
       "h2": "Illustrations",
       "alt": [
@@ -44,8 +40,7 @@
         "/project/en/10",
         "/project/en/11",
         "/project/en/12",
-        "/project/en/13",
-        "/project/en/14"
+        "/project/en/13"
       ]
     },
     {
@@ -55,6 +50,12 @@
         "No Limitation logo redesign",
         "Waybly logo",
         "Spotless logo"
+      ],
+      "links": [
+        "/project/en/14",
+        "/project/en/15",
+        "/project/en/16",
+        "/project/en/17"
       ]
     }
   ]

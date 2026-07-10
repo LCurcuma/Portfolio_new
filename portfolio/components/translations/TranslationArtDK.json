@@ -25,15 +25,7 @@
         "/project/dk/6",
         "/project/dk/7",
         "/project/dk/8",
-        "/project/dk/9",
-        "/project/dk/10",
-        "/project/dk/11",
-        "/project/dk/12",
-        "/project/dk/13",
-        "/project/dk/14",
-        "/project/dk/15",
-        "/project/dk/16",
-        "/project/dk/17"
+        "/project/dk/9"
       ]
     },
     {
@@ -43,6 +35,13 @@
         "Manya mislykkes",
         "Manya sidder",
         "Manya står"
+      ],
+      "links": [
+        "/project/dk/10",
+        "/project/dk/11",
+        "/project/dk/12",
+        "/project/dk/13",
+        "/project/dk/14"
       ]
     },
     {
@@ -52,7 +51,8 @@
         "Redesign af No Limitation logo",
         "Waybly logo",
         "Spotless logo"
-      ]
+      ],
+      "links": ["/project/dk/15", "/project/dk/16", "/project/dk/17"]
     }
   ]
 }

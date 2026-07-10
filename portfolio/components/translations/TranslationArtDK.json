@@ -40,8 +40,7 @@
         "/project/dk/10",
         "/project/dk/11",
         "/project/dk/12",
-        "/project/dk/13",
-        "/project/dk/14"
+        "/project/dk/13"
       ]
     },
     {
@@ -52,7 +51,12 @@
         "Waybly logo",
         "Spotless logo"
       ],
-      "links": ["/project/dk/15", "/project/dk/16", "/project/dk/17"]
+      "links": [
+        "/project/dk/14",
+        "/project/dk/15",
+        "/project/dk/16",
+        "/project/dk/17"
+      ]
     }
   ]
 }

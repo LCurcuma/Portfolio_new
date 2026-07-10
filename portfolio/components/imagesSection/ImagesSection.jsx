@@ -12,6 +12,7 @@ export default function ImagesSection({ translation, links }) {
                 key={imgId}
                 src={src}
                 className={styles.image}
+                alt={section.alt[imgId]}
               />
             ))}
           </div>

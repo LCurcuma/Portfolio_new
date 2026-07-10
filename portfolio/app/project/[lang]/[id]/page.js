@@ -12,5 +12,11 @@ export default function projectPage() {
     setProjectId(params.id);
   }, []);
 
-  return <></>;
+  if (lang === "en") {
+    return <></>;
+  } else if (lang === "dk") {
+    return <></>;
+  } else {
+    return <></>;
+  }
 }

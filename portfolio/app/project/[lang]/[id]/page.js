@@ -18,10 +18,22 @@ export default function projectPage() {
   }, []);
 
   if (lang === "en") {
-    return <></>;
+    return (
+      <>
+        <Header translation={translationProjectEN.headers[projectId - 1]} />
+      </>
+    );
   } else if (lang === "dk") {
-    return <></>;
+    return (
+      <>
+        <Header translation={translationProjectDK.headers[projectId - 1]} />
+      </>
+    );
   } else {
-    return <></>;
+    return (
+      <>
+        <Header translation={translationProjectUA.headers[projectId - 1]} />
+      </>
+    );
   }
 }

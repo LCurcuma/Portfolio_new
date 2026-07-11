@@ -1,0 +1,225 @@
+{
+  "headers": [
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/1", "/project/en/1", "/project/dk/1"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/2", "/project/en/2", "/project/dk/2"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/3", "/project/en/3", "/project/dk/3"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/4", "/project/en/4", "/project/dk/4"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/5", "/project/en/5", "/project/dk/5"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/6", "/project/en/6", "/project/dk/6"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/7", "/project/en/7", "/project/dk/7"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/8", "/project/en/8", "/project/dk/8"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/9", "/project/en/9", "/project/dk/9"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/10", "/project/en/10", "/project/dk/10"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/11", "/project/en/11", "/project/dk/11"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/12", "/project/en/12", "/project/dk/12"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/13", "/project/en/13", "/project/dk/13"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/14", "/project/en/14", "/project/dk/14"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/15", "/project/en/15", "/project/dk/15"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/16", "/project/en/16", "/project/dk/16"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/17", "/project/en/17", "/project/dk/17"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/projects/contact/ua"
+        ]
+      }
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 "use client";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import Header from "@/components/header/Header";
+import ProjectSection from "@/components/projectSection/ProjectSection";
 
 export default function projectPage() {
   const [projectId, setProjectId] = useState();

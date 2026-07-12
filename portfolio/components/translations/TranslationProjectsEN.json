@@ -221,5 +221,33 @@
         ]
       }
     }
+  ],
+  "sections": [
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "image": "",
+          "text": {
+            "h": "",
+            "p": []
+          },
+          "alt": ""
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "",
+              "p": []
+            },
+            {
+              "h": "",
+              "p": []
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

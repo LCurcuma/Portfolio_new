@@ -25,11 +25,14 @@ export default function ProjectSection({ translation, links, id }) {
           className={styles.image}
         />
       </div>
-      <div>
-        <img src="/images/projects/animations/manya_fail_f.gif" />
-        <div>
-          <h2>Process section</h2>
-          <p>
+      <div className={`${styles.section}`}>
+        <img
+          src="/images/projects/animations/manya_fail_f.gif"
+          className={styles.image}
+        />
+        <div className={styles.text}>
+          <h2 className={`${styles.h1} introBig`}>Process section</h2>
+          <p className={`${styles.p} introMain`}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit laudantium libero perferendis accusamus facilis ab id,
             odio inventore animi esse. Corrupti eaque quasi veritatis recusandae
@@ -37,19 +40,19 @@ export default function ProjectSection({ translation, links, id }) {
           </p>
         </div>
       </div>
-      <div>
-        <div>
-          <h2>Process section</h2>
-          <p>
+      <div className={`${styles.section}`}>
+        <div className={styles.text}>
+          <h2 className={`${styles.h1} introBig`}>Process section</h2>
+          <p className={`${styles.p} introMain`}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Necessitatibus iure quisquam porro ducimus perferendis nemo, autem
             eos inventore dolore fugit esse ratione iusto. Tenetur autem quam
             soluta iusto temporibus error.
           </p>
         </div>
-        <div>
-          <h2>Process section</h2>
-          <p>
+        <div className={styles.text}>
+          <h2 className={`${styles.h1} introBig`}>Process section</h2>
+          <p className={`${styles.p} introMain`}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A vero
             ducimus, tempora magnam blanditiis iusto pariatur porro, incidunt
             libero non ullam asperiores aliquam velit modi culpa ipsum eveniet

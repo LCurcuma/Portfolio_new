@@ -14,7 +14,7 @@ export default function ProjectSection({ translation, links, id }) {
             repellat eos! Tempore, iste modi!
           </p>
         </div>
-        <img src="/images/projects/animations/manya_fail_f.gif" />
+        <img src="/images/projects/animations/manya_fail_f.gif" className={styles.image} />
       </div>
       <div>
         <img src="/images/projects/animations/manya_fail_f.gif" />

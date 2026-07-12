@@ -6,7 +6,7 @@ export default function ProjectSection({ translation, links, id }) {
     <section>
       <div>
         <div>
-          <h1>Name of project</h1>
+          <h1 className={`${styles.h1} introBig`}>Name of project</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
             molestias ipsam accusantium doloremque, ipsum odit aliquid tempora

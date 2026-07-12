@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function ProjectSection({ translation, links, id }) {
   return (
     <section className={styles.project_section}>
-      <div>
+      <div className={`${styles.section}`}>
         <div>
           <h1 className={`${styles.h1} introBig`}>Name of project</h1>
           <p>

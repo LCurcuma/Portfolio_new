@@ -227,23 +227,32 @@
       "sections_project": [
         {
           "type": "image_text",
-          "image": "",
+          "image": "/images/projects/animations/manya_fail_f.gif",
           "text": {
-            "h": "",
-            "p": []
+            "h": "Project Name",
+            "p": [
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+            ]
           },
-          "alt": ""
+          "alt": "Image"
         },
         {
           "type": "text",
           "text": [
             {
-              "h": "",
-              "p": []
+              "h": "Process section",
+              "p": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              ]
             },
             {
-              "h": "",
-              "p": []
+              "h": "Process section",
+              "p": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              ]
             }
           ]
         }

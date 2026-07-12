@@ -5,7 +5,7 @@ export default function ProjectSection({ translation, links, id }) {
   return (
     <section className={styles.project_section}>
       <div className={`${styles.section}`}>
-        <div>
+        <div className={styles.text}>
           <h1 className={`${styles.h1} introBig`}>Name of project</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,

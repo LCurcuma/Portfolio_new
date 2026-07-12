@@ -1,3 +1,12 @@
 .h1{
     color: rgb(254, 180, 151);
 }
+
+.project_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 7vw;
+}

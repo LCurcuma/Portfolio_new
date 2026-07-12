@@ -7,14 +7,23 @@ export default function ProjectSection({ translation, links, id }) {
       <div className={`${styles.section}`}>
         <div className={styles.text}>
           <h1 className={`${styles.h1} introBig`}>Name of project</h1>
-          <p>
+          <p className={`${styles.p} introMain`}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
+            molestias ipsam accusantium doloremque, ipsum odit aliquid tempora
+            voluptas soluta officia pariatur dignissimos totam consequatur omnis
+            repellat eos! Tempore, iste modi!
+          </p>
+          <p className={`${styles.p} introMain`}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
             molestias ipsam accusantium doloremque, ipsum odit aliquid tempora
             voluptas soluta officia pariatur dignissimos totam consequatur omnis
             repellat eos! Tempore, iste modi!
           </p>
         </div>
-        <img src="/images/projects/animations/manya_fail_f.gif" className={styles.image} />
+        <img
+          src="/images/projects/animations/manya_fail_f.gif"
+          className={styles.image}
+        />
       </div>
       <div>
         <img src="/images/projects/animations/manya_fail_f.gif" />

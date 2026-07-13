@@ -5,11 +5,23 @@ export default function ProjectSection({ translation, links, id }) {
   return (
     <section className={styles.project_section}>
       {translation.sections_project.map((section, sectionId) => {
-        if (section.type === "image_text" && sectionId % 2 === 0 && sectionId !== 0)
+        if (
+          section.type === "image_text" &&
+          sectionId % 2 === 0 &&
+          sectionId !== 0
+        )
           return (
             <div key={sectionId} className={`${styles.section}`}>
               <div className={styles.text}>
-                <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                {section.href ? (
+                  <a href={section.href} className={styles.link} target="_blank">
+                    <h2 className={`${styles.h1} introBig`}>
+                      {section.text.h}
+                    </h2>
+                  </a>
+                ) : (
+                  <h2 className={`${styles.h1} introBig`}>{section.text.h}</h2>
+                )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
                     {text}
@@ -32,7 +44,15 @@ export default function ProjectSection({ translation, links, id }) {
           return (
             <div key={sectionId} className={`${styles.section}`}>
               <div className={styles.text}>
-                <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                {section.href ? (
+                  <a href={section.href} className={styles.link} target="_blank">
+                    <h1 className={`${styles.h1} introBig`}>
+                      {section.text.h}
+                    </h1>
+                  </a>
+                ) : (
+                  <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
                     {text}
@@ -65,7 +85,19 @@ export default function ProjectSection({ translation, links, id }) {
                 ))}
               </div>
               <div className={styles.text}>
-                <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                {section.href ? (
+                  <a
+                    href={section.href}
+                    className={styles.link}
+                    target="_blank"
+                  >
+                    <h2 className={`${styles.h1} introBig`}>
+                      {section.text.h}
+                    </h2>
+                  </a>
+                ) : (
+                  <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
                     {text}

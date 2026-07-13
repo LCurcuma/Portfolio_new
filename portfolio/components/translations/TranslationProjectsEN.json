@@ -235,7 +235,10 @@
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
             ]
           },
-          "alts": ["Image", "Image"]
+          "alts": ["Image", "Image"],
+          "icons": [],
+          "href": "https://curcumalumilidmn.dk/first_help_experts/",
+          "hrefs": []
         },
         {
           "type": "text",

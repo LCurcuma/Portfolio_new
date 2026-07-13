@@ -5,7 +5,7 @@ export default function ProjectSection({ translation, links, id }) {
   return (
     <section className={styles.project_section}>
       {translation.sections_project.map((section, sectionId) => {
-        if (section.type === "image_text" && sectionId % 2 === 0)
+        if (section.type === "image_text" && sectionId % 2 === 0 && sectionId !== 0)
           return (
             <div key={sectionId} className={`${styles.section}`}>
               <div className={styles.text}>
@@ -16,21 +16,54 @@ export default function ProjectSection({ translation, links, id }) {
                   </p>
                 ))}
               </div>
-              <img
-                src={section.image}
-                className={styles.image}
-                alt={section.alt}
-              />
+              <div className={styles.image_container}>
+                {section.images.map((image, imageId) => (
+                  <img
+                    key={imageId}
+                    src={image}
+                    className={styles.image}
+                    alt={section.alts[imageId]}
+                  />
+                ))}
+              </div>
+            </div>
+          );
+        else if (section.type === "image_text" && sectionId === 0)
+          return (
+            <div key={sectionId} className={`${styles.section}`}>
+              <div className={styles.text}>
+                <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                {section.text.p.map((text, textId) => (
+                  <p key={textId} className={`${styles.p} introMain`}>
+                    {text}
+                  </p>
+                ))}
+              </div>
+              <div className={styles.image_container}>
+                {section.images.map((image, imageId) => (
+                  <img
+                    key={imageId}
+                    src={image}
+                    className={styles.image}
+                    alt={section.alts[imageId]}
+                  />
+                ))}
+              </div>
             </div>
           );
         else if (section.type === "image_text" && sectionId % 2 !== 0)
           return (
             <div key={sectionId} className={`${styles.section}`}>
-              <img
-                src={section.image}
-                className={styles.image}
-                alt={section.alt}
-              />
+              <div className={styles.image_container}>
+                {section.images.map((image, imageId) => (
+                  <img
+                    key={imageId}
+                    src={image}
+                    className={styles.image}
+                    alt={section.alts[imageId]}
+                  />
+                ))}
+              </div>
               <div className={styles.text}>
                 <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
                 {section.text.p.map((text, textId) => (

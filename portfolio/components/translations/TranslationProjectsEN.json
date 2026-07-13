@@ -227,7 +227,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "image": "/images/projects/animations/manya_fail_f.gif",
+          "images": ["/images/projects/animations/manya_fail_f.gif", "/images/projects/animations/manya_fail.png"],
           "text": {
             "h": "Project Name",
             "p": [
@@ -235,7 +235,7 @@
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
             ]
           },
-          "alt": "Image"
+          "alts": ["Image", "Image"]
         },
         {
           "type": "text",

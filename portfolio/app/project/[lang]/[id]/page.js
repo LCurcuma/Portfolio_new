@@ -15,19 +15,33 @@ export default function projectPage() {
     return (
       <>
         <Header translation={translationProjectEN.headers[projectId - 1]} />
-        <ProjectSection translation={translationProjectEN.sections[projectId - 1]} links={links} id={projectId}/>
+        <ProjectSection
+          translation={translationProjectEN.sections[projectId - 1]}
+          links={links}
+          id={projectId}
+        />
       </>
     );
   } else if (lang === "dk") {
     return (
       <>
         <Header translation={translationProjectDK.headers[projectId - 1]} />
+        <ProjectSection
+          translation={translationProjectDK.sections[projectId - 1]}
+          links={links}
+          id={projectId}
+        />
       </>
     );
   } else {
     return (
       <>
         <Header translation={translationProjectUA.headers[projectId - 1]} />
+        <ProjectSection
+          translation={translationProjectUA.sections[projectId - 1]}
+          links={links}
+          id={projectId}
+        />
       </>
     );
   }

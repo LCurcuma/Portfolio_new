@@ -221,5 +221,48 @@
         ]
       }
     }
+  ],
+  "sections": [
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/manya_fail_f.gif",
+            "/images/projects/animations/manya_fail.png"
+          ],
+          "text": {
+            "h": "Project Name",
+            "p": [
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+            ]
+          },
+          "alts": ["Image", "Image"],
+          "icons": ["/images/design_icons/github_icon.png"],
+          "href": "https://curcumalumilidmn.dk/first_help_experts/",
+          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"]
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "Process section",
+              "p": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              ]
+            },
+            {
+              "h": "Process section",
+              "p": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

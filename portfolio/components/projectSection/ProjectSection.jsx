@@ -14,11 +14,25 @@ export default function ProjectSection({ translation, links, id }) {
             <div key={sectionId} className={`${styles.section}`}>
               <div className={styles.text}>
                 {section.href ? (
-                  <a href={section.href} className={styles.link} target="_blank">
-                    <h2 className={`${styles.h1} introBig`}>
-                      {section.text.h}
-                    </h2>
-                  </a>
+                  <div className={styles.h}>
+                    <a
+                      href={section.href}
+                      className={styles.link}
+                      target="_blank"
+                    >
+                      <h2 className={`${styles.h1} introBig`}>
+                        {section.text.h}
+                      </h2>
+                    </a>
+                    {section.icons &&
+                      section.icons.map((icon, iconId) => (
+                        <a
+                          key={iconId}
+                          href={section.hrefs[iconId]}
+                          target="_blank"
+                        ><img src={icon} className={styles.icon} /></a>
+                      ))}
+                  </div>
                 ) : (
                   <h2 className={`${styles.h1} introBig`}>{section.text.h}</h2>
                 )}
@@ -45,11 +59,27 @@ export default function ProjectSection({ translation, links, id }) {
             <div key={sectionId} className={`${styles.section}`}>
               <div className={styles.text}>
                 {section.href ? (
-                  <a href={section.href} className={styles.link} target="_blank">
-                    <h1 className={`${styles.h1} introBig`}>
-                      {section.text.h}
-                    </h1>
-                  </a>
+                  <div className={styles.h}>
+                    <a
+                      href={section.href}
+                      className={styles.link}
+                      target="_blank"
+                    >
+                      <h1 className={`${styles.h1} introBig`}>
+                        {section.text.h}
+                      </h1>
+                    </a>
+                    {section.icons &&
+                      section.icons.map((icon, iconId) => (
+                        <a
+                          key={iconId}
+                          href={section.hrefs[iconId]}
+                          target="_blank"
+                        >
+                          <img src={icon} className={styles.icon} />
+                        </a>
+                      ))}
+                  </div>
                 ) : (
                   <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
                 )}
@@ -86,15 +116,27 @@ export default function ProjectSection({ translation, links, id }) {
               </div>
               <div className={styles.text}>
                 {section.href ? (
-                  <a
-                    href={section.href}
-                    className={styles.link}
-                    target="_blank"
-                  >
-                    <h2 className={`${styles.h1} introBig`}>
-                      {section.text.h}
-                    </h2>
-                  </a>
+                  <div className={styles.h}>
+                    <a
+                      href={section.href}
+                      className={styles.link}
+                      target="_blank"
+                    >
+                      <h2 className={`${styles.h1} introBig`}>
+                        {section.text.h}
+                      </h2>
+                    </a>
+                    {section.icons &&
+                      section.icons.map((icon, iconId) => (
+                        <a
+                          key={iconId}
+                          href={section.hrefs[iconId]}
+                          target="_blank"
+                        >
+                          <img src={icon} className={styles.icon} />
+                        </a>
+                      ))}
+                  </div>
                 ) : (
                   <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
                 )}

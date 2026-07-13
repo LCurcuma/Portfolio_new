@@ -236,9 +236,9 @@
             ]
           },
           "alts": ["Image", "Image"],
-          "icons": [],
+          "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/first_help_experts/",
-          "hrefs": []
+          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"]
         },
         {
           "type": "text",

@@ -47,3 +47,14 @@
 .link{
     text-decoration: none;
 }
+
+.icon{
+    height: 24px;
+}
+
+.h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

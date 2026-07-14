@@ -228,20 +228,37 @@
         {
           "type": "image_text",
           "images": [
-            "/images/projects/animations/manya_fail_f.gif",
-            "/images/projects/animations/manya_fail.png"
+            "/images/projects/websites/first_help_experts_screenshot.png"
           ],
           "text": {
-            "h": "Project Name",
+            "h": "Førstehjælpseksperten",
             "p": [
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
             ]
           },
-          "alts": ["Image", "Image"],
+          "alts": ["Вебсайт Førstehjælpseksperten"],
           "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/first_help_experts/",
-          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"]
+          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"],
+          "description": [
+            {
+              "head": "Header",
+              "text": "Text"
+            },
+            {
+              "head": "Header",
+              "text": "Text"
+            },
+            {
+              "head": "Header",
+              "text": "Text"
+            },
+            {
+              "head": "Header",
+              "text": "Text"
+            }
+          ]
         },
         {
           "type": "text",

@@ -83,6 +83,11 @@ export default function ProjectSection({ translation, links, id }) {
                 ) : (
                   <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
                 )}
+                <div className={styles.description}>
+                  {section.description.map((desc, descId) => (
+                    <p key={descId} className={`${styles.desc} introMain`}><i>{desc.head}</i><br />{desc.text}</p>
+                  ))}
+                </div>
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
                     {text}

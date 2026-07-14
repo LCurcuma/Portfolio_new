@@ -243,20 +243,20 @@
           "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"],
           "description": [
             {
-              "head": "Header",
-              "text": "Text"
+              "head": "Роль",
+              "text": "UI/UX-designer • Frontend-developer • SoMe Content Planner"
             },
             {
-              "head": "Header",
-              "text": "Text"
+              "head": "Команда",
+              "text": "4 людини"
             },
             {
-              "head": "Header",
-              "text": "Text"
+              "head": "Технології",
+              "text": "PHP • HTML • SCSS • Bootstrap • JavaScript • SQL • PhpMyAdmin"
             },
             {
-              "head": "Header",
-              "text": "Text"
+              "head": "Тривалість",
+              "text": "6 тижнів"
             }
           ]
         },

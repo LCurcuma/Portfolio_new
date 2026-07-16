@@ -30,7 +30,9 @@ export default function ProjectSection({ translation, links, id }) {
                           key={iconId}
                           href={section.hrefs[iconId]}
                           target="_blank"
-                        ><img src={icon} className={styles.icon} /></a>
+                        >
+                          <img src={icon} className={styles.icon} />
+                        </a>
                       ))}
                   </div>
                 ) : (
@@ -86,9 +88,11 @@ export default function ProjectSection({ translation, links, id }) {
                 <div className={styles.description}>
                   {section.description.map((desc, descId) => (
                     <p key={descId} className={`${styles.desc} introMain`}>
-                      <i>
-                        <b>{desc.head}</b>
-                      </i>
+                      <span style={{ color: "rgb(244, 193, 210)", fontSize: 16, lineHeight: 2 }}>
+                        <i>
+                          <b>{desc.head}</b>
+                        </i>
+                      </span>
                       <br />
                       {desc.text}
                     </p>

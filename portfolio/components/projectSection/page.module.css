@@ -18,10 +18,6 @@
   align-items: center;
   gap: 30px;
   padding: 0 7vw;
-
-  @media (min-width: 1025px) {
-    padding: 50px 7vw;
-  }
 }
 
 .inverted_order {

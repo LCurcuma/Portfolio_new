@@ -344,23 +344,22 @@
           ]
         },
         {
-          "type": "text",
-          "text": [
-            {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
-            },
-            {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
-            }
-          ]
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_prototype.png"
+          ],
+          "text": {
+            "h": "Прототип",
+            "p": [
+              "Дизайн прототипу створювався всією командою. За основу було взято концепцію одного з учасників, після чого ми спільно її вдосконалювали.",
+              "Моїм внеском стали окремі елементи інтерфейсу, зокрема модальне вікно підтвердження покупки, а також доопрацювання окремих екранів.",
+              "Під час розробки ми приділяли особливу увагу гейміфікації та простоті взаємодії, щоб зробити навчання максимально зрозумілим і цікавим."
+            ]
+          },
+          "alts": [
+            "Прототип Førstehjælpseksperten"
+          ],
+          "href": "https://www.figma.com/design/QhEN12e6ydf1ZUEpKQC9y5/2S-Prøve?node-id=61-2&p=f&t=BTltsbbWYePCl8JC-0"
         }
       ]
     }

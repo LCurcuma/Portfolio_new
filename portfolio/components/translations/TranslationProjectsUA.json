@@ -360,6 +360,23 @@
             "Прототип Førstehjælpseksperten"
           ],
           "href": "https://www.figma.com/design/QhEN12e6ydf1ZUEpKQC9y5/2S-Prøve?node-id=61-2&p=f&t=BTltsbbWYePCl8JC-0"
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/first_help_experts_video.png"
+          ],
+          "text": {
+            "h": "Відео",
+            "p": [
+              "Для просування проєкту було створено три короткі відео для соціальних мереж.",
+              "Замість традиційного серйозного підходу ми використали гумор і короткий формат, щоб привернути увагу молодої аудиторії та зробити тему першої допомоги більш доступною."
+            ]
+          },
+          "alts": [
+            "Відео для Førstehjælpseksperten"
+          ],
+          "href": "https://www.youtube.com/playlist?list=PL_Si5jxDV-GFr1-N-8y-QJ1VcZmHi1bBC"
         }
       ]
     }

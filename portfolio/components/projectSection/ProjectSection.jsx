@@ -12,7 +12,7 @@ export default function ProjectSection({ translation, links, id }) {
         )
           return (
             <div key={sectionId} className={`${styles.section}`}>
-              <div className={styles.text}>
+              <div className={`${styles.text} ${styles.inverted_order2}`}>
                 {section.href ? (
                   <div className={styles.h}>
                     <a
@@ -48,12 +48,14 @@ export default function ProjectSection({ translation, links, id }) {
                   </p>
                 ))}
               </div>
-              <div className={styles.image_container}>
+              <div
+                className={`${styles.image_container} ${styles.inverted_order}`}
+              >
                 {section.images.map((image, imageId) => (
                   <img
                     key={imageId}
                     src={image}
-                    className={styles.image}
+                    className={`${styles.image}`}
                     alt={section.alts[imageId]}
                   />
                 ))}
@@ -63,7 +65,7 @@ export default function ProjectSection({ translation, links, id }) {
         else if (section.type === "image_text" && sectionId === 0)
           return (
             <div key={sectionId} className={`${styles.section}`}>
-              <div className={styles.text}>
+              <div className={`${styles.text} ${styles.inverted_order2}`}>
                 {section.href ? (
                   <div className={styles.h}>
                     <a
@@ -118,7 +120,9 @@ export default function ProjectSection({ translation, links, id }) {
                   </p>
                 ))}
               </div>
-              <div className={styles.image_container}>
+              <div
+                className={`${styles.image_container} ${styles.inverted_order}`}
+              >
                 {section.images.map((image, imageId) => (
                   <img
                     key={imageId}

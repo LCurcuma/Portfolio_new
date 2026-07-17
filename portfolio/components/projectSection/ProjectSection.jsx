@@ -17,7 +17,7 @@ export default function ProjectSection({ translation, links, id }) {
                   <div className={styles.h}>
                     <a
                       href={section.href}
-                      className={styles.link}
+                      className={`${styles.link} ${styles.hover_underline}`}
                       target="_blank"
                     >
                       <h2 className={`${styles.h1} introBig`}>
@@ -36,7 +36,11 @@ export default function ProjectSection({ translation, links, id }) {
                       ))}
                   </div>
                 ) : (
-                  <h2 className={`${styles.h1} introBig`}>{section.text.h}</h2>
+                  <h2
+                    className={`${styles.h1} ${styles.h_without_anim} introBig`}
+                  >
+                    {section.text.h}
+                  </h2>
                 )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
@@ -64,7 +68,7 @@ export default function ProjectSection({ translation, links, id }) {
                   <div className={styles.h}>
                     <a
                       href={section.href}
-                      className={styles.link}
+                      className={`${styles.link} ${styles.hover_underline}`}
                       target="_blank"
                     >
                       <h1 className={`${styles.h1} introBig`}>
@@ -83,12 +87,22 @@ export default function ProjectSection({ translation, links, id }) {
                       ))}
                   </div>
                 ) : (
-                  <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                  <h1
+                    className={`${styles.h1} ${styles.h_without_anim} introBig`}
+                  >
+                    {section.text.h}
+                  </h1>
                 )}
                 <div className={styles.description}>
                   {section.description.map((desc, descId) => (
                     <p key={descId} className={`${styles.desc} introMain`}>
-                      <span style={{ color: "rgb(244, 193, 210)", fontSize: 16, lineHeight: 2 }}>
+                      <span
+                        style={{
+                          color: "rgb(244, 193, 210)",
+                          fontSize: 16,
+                          lineHeight: 2,
+                        }}
+                      >
                         <i>
                           <b>{desc.head}</b>
                         </i>
@@ -134,7 +148,7 @@ export default function ProjectSection({ translation, links, id }) {
                   <div className={styles.h}>
                     <a
                       href={section.href}
-                      className={styles.link}
+                      className={`${styles.link} ${styles.hover_underline}`}
                       target="_blank"
                     >
                       <h2 className={`${styles.h1} introBig`}>
@@ -153,7 +167,11 @@ export default function ProjectSection({ translation, links, id }) {
                       ))}
                   </div>
                 ) : (
-                  <h2 className={`${styles.h1} introBig`}>{section.text.h}</h2>
+                  <h2
+                    className={`${styles.h1} ${styles.h_without_anim} introBig`}
+                  >
+                    {section.text.h}
+                  </h2>
                 )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>
@@ -168,7 +186,11 @@ export default function ProjectSection({ translation, links, id }) {
             <div key={sectionId} className={`${styles.section}`}>
               {section.text.map((text, textId) => (
                 <div key={textId} className={styles.text}>
-                  <h2 className={`${styles.h1} introBig`}>{text.h}</h2>
+                  <h2
+                    className={`${styles.h1} ${styles.h_without_anim} introBig`}
+                  >
+                    {text.h}
+                  </h2>
                   {text.p.map((p, pId) => (
                     <p key={pId} className={`${styles.p} introMain`}>
                       {p}

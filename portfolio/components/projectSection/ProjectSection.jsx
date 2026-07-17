@@ -153,7 +153,7 @@ export default function ProjectSection({ translation, links, id }) {
                       ))}
                   </div>
                 ) : (
-                  <h1 className={`${styles.h1} introBig`}>{section.text.h}</h1>
+                  <h2 className={`${styles.h1} introBig`}>{section.text.h}</h2>
                 )}
                 {section.text.p.map((text, textId) => (
                   <p key={textId} className={`${styles.p} introMain`}>

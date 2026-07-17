@@ -278,6 +278,22 @@
           ]
         },
         {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_styleguide.png"
+          ],
+          "text": {
+            "h": "Стайлгайд",
+            "p": [
+              "На основі затвердженого мудборду було створено стайлгайд, який об'єднав ключові елементи візуальної айдентики проєкту: кольорову палітру, типографіку, логотип і правила їх використання."
+            ]
+          },
+          "alts": [
+            "Стайлгайд"
+          ],
+          "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
+        },
+        {
           "type": "text",
           "text": [
             {

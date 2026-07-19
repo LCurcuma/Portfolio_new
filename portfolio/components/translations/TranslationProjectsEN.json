@@ -260,6 +260,22 @@
               "text": "6 weeks"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_moodboard.png"
+          ],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "To establish the project's visual direction, we began by creating a moodboard. Its primary purpose was to communicate a sense of trust, safety, and mutual support.",
+              "Once completed, the moodboard was tested with representatives of the target audience. Participants were asked to describe the emotions and associations it evoked. The most common responses included safety, community, trust, and mutual support, confirming that the chosen visual direction successfully reflected the project's intended values."
+            ]
+          },
+          "alts": [
+            "Moodboard"
+          ]
         }
       ]
     }

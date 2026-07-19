@@ -227,35 +227,37 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": ["/images/projects/animations/manya_fail_f.gif", "/images/projects/animations/manya_fail.png"],
+          "images": [
+            "/images/projects/websites/first_help_experts_screenshot.png"
+          ],
           "text": {
-            "h": "Project Name",
+            "h": "Førstehjælpseksperten",
             "p": [
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              "A team project developed by a group of four people. The project includes a website, a series of social media videos, and a style guide, all created as part of a unified visual and digital solution.",
+              "The project was commissioned by a small private company looking to refresh its brand identity through a new website concept, improved functionality, and a cohesive visual identity.",
+              "The primary target audience is young people aged 17–25 who are preparing for their driving licence or are currently taking the mandatory first aid course."
             ]
           },
-          "alts": ["Image", "Image"],
+          "alts": ["Førstehjælpseksperten website"],
           "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/first_help_experts/",
-          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"]
-        },
-        {
-          "type": "text",
-          "text": [
+          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"],
+          "description": [
             {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
+              "head": "Role",
+              "text": "UI/UX Designer • Front-end Developer • Social Media Content Planner"
             },
             {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
+              "head": "Team",
+              "text": "4 people"
+            },
+            {
+              "head": "Technologies",
+              "text": "PHP • HTML • SCSS • Bootstrap • JavaScript • SQL • phpMyAdmin"
+            },
+            {
+              "head": "Duration",
+              "text": "6 weeks"
             }
           ]
         }

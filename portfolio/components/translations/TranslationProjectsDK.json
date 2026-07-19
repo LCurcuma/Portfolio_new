@@ -319,6 +319,21 @@
           "alts": [
             "Skrifttypen Roboto"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "Logoet kombinerer to enkle symboler — et hjerte og et medicinsk plus. Sammen skaber de associationer til omsorg, tryghed og førstehjælp.",
+              "Til logotypen blev skrifttypen Myriad Pro valgt, da den passer godt sammen med de afrundede former i symbolet og skaber en harmonisk visuel identitet.",
+              "Ordet Eksperten er fremhævet med rød farve for at gøre navnet mere synligt og styrke genkendelsen af brandet."
+            ]
+          },
+          "alts": [
+            "Førstehjælpseksperten logo"
+          ]
         }
       ]
     }

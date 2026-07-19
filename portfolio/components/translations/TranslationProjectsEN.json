@@ -342,6 +342,21 @@
           },
           "alts": ["Førstehjælpseksperten prototype"],
           "href": "https://www.figma.com/design/QhEN12e6ydf1ZUEpKQC9y5/2S-Prøve?node-id=61-2&p=f&t=BTltsbbWYePCl8JC-0"
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/first_help_experts_video.png"
+          ],
+          "text": {
+            "h": "Videos",
+            "p": [
+              "As part of promoting the project, we created three short videos for social media platforms.",
+              "Instead of using a traditional serious approach, we incorporated humor and a short-form format to capture the attention of the younger audience and make the topic of first aid more approachable."
+            ]
+          },
+          "alts": ["Videos for Førstehjælpseksperten"],
+          "href": "https://www.youtube.com/playlist?list=PL_Si5jxDV-GFr1-N-8y-QJ1VcZmHi1bBC"
         }
       ]
     }

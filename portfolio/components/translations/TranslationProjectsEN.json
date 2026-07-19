@@ -273,9 +273,7 @@
               "Once completed, the moodboard was tested with representatives of the target audience. Participants were asked to describe the emotions and associations it evoked. The most common responses included safety, community, trust, and mutual support, confirming that the chosen visual direction successfully reflected the project's intended values."
             ]
           },
-          "alts": [
-            "Moodboard"
-          ]
+          "alts": ["Moodboard"]
         },
         {
           "type": "image_text",
@@ -302,9 +300,7 @@
               "Pastel colors were selected as a supporting palette. They help maintain the project's friendly atmosphere and enhance the gamification elements of the website."
             ]
           },
-          "alts": [
-            "Color selection for the design"
-          ]
+          "alts": ["Color selection for the design"]
         },
         {
           "type": "image_text",
@@ -316,9 +312,20 @@
               "Its simple and clear letterforms ensure comfortable reading of both educational materials and quizzes, supporting a smooth and user-friendly website experience."
             ]
           },
-          "alts": [
-            "Font Roboto"
-          ]
+          "alts": ["Font Roboto"]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "The logo combines two simple symbols — a heart and a medical cross. Together, they create associations with care, trust, and first aid.",
+              "For the wordmark, the Myriad Pro typeface was chosen because it complements the rounded shapes of the symbol and creates a balanced visual identity.",
+              "The word Eksperten is highlighted in red to make the name more noticeable and improve brand recognition."
+            ]
+          },
+          "alts": ["Førstehjælpseksperten logo"]
         }
       ]
     }

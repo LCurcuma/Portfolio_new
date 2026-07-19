@@ -260,6 +260,22 @@
               "text": "6 uger"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_moodboard.png"
+          ],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "For at fastlægge projektets visuelle retning begyndte vi med at udvikle et moodboard. Formålet var at formidle en følelse af tryghed, sikkerhed og fællesskab.",
+              "Efterfølgende blev moodboardet testet på repræsentanter fra målgruppen. Deltagerne blev bedt om at beskrive de følelser og associationer, de fik. De mest gennemgående svar var tryghed, fællesskab, tillid og hjælpsomhed, hvilket bekræftede, at den valgte visuelle retning understøttede projektets mål."
+            ]
+          },
+          "alts": [
+            "Moodboard"
+          ]
         }
       ]
     }

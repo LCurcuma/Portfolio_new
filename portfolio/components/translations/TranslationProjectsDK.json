@@ -228,37 +228,36 @@
         {
           "type": "image_text",
           "images": [
-            "/images/projects/animations/manya_fail_f.gif",
-            "/images/projects/animations/manya_fail.png"
+            "/images/projects/websites/first_help_experts_screenshot.png"
           ],
           "text": {
-            "h": "Project Name",
+            "h": "Førstehjælpseksperten",
             "p": [
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
+              "Et teamprojekt udviklet af en gruppe på fire personer. Projektet omfatter en hjemmeside, en serie videoer til sociale medier samt en styleguide, som tilsammen udgør en samlet visuel og digital løsning.",
+              "Projektet blev udviklet for en mindre privat virksomhed, der ønskede at forny sit brand gennem et nyt websitekoncept, forbedret funktionalitet og en sammenhængende visuel identitet.",
+              "Den primære målgruppe er unge i alderen 17–25 år, som forbereder sig på at tage kørekort eller er i gang med det obligatoriske førstehjælpskursus."
             ]
           },
-          "alts": ["Image", "Image"],
+          "alts": ["Førstehjælpseksperten webside"],
           "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/first_help_experts/",
-          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"]
-        },
-        {
-          "type": "text",
-          "text": [
+          "hrefs": ["https://github.com/LCurcuma/First_Help_Experts"],
+          "description": [
             {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
+              "head": "Rolle",
+              "text": "UI/UX Designer • Front-end Developer • SoMe Content Planner"
             },
             {
-              "h": "Process section",
-              "p": [
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi.",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eaque optio modi suscipit odio possimus expedita perspiciatis, magnam culpa vitae itaque vero nulla. Nemo, a temporibus. Veniam voluptatibus quia modi."
-              ]
+              "head": "Team",
+              "text": "4 personer"
+            },
+            {
+              "head": "Teknologier",
+              "text": "PHP • HTML • SCSS • Bootstrap • JavaScript • SQL • phpMyAdmin"
+            },
+            {
+              "head": "Varighed",
+              "text": "6 uger"
             }
           ]
         }

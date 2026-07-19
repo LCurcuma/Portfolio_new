@@ -1,9 +1,41 @@
 "use client";
 import styles from "./page.module.css";
+import { useState, useEffect } from "react";
 
 export default function ProjectSection({ translation, links, id }) {
+    const [clickedMore, setClickedMore] = useState(false);
+  
+  useEffect(() => {
+      const elements = document.querySelectorAll(`.scroll_show_animate`);
+  
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            } else {
+              entry.target.classList.remove("show");
+            }
+          });
+        },
+        {
+          threshold: 0.1,
+        },
+      );
+  
+      elements.forEach((el) => {
+        observer.observe(el);
+  
+        if (el.getBoundingClientRect().top < window.innerHeight) {
+          el.classList.add("show");
+        }
+      });
+  
+      return () => observer.disconnect();
+    }, [clickedMore]);
+
   return (
-    <section className={styles.project_section}>
+    <section className={`${styles.project_section} scroll_show_animate`}>
       {translation.sections_project.map((section, sectionId) => {
         if (
           section.type === "image_text" &&
@@ -11,7 +43,10 @@ export default function ProjectSection({ translation, links, id }) {
           sectionId !== 0
         )
           return (
-            <div key={sectionId} className={`${styles.section}`}>
+            <div
+              key={sectionId}
+              className={`${styles.section} scroll_show_animate`}
+            >
               <div className={`${styles.text} ${styles.inverted_order2}`}>
                 {section.href ? (
                   <div className={styles.h}>
@@ -64,7 +99,10 @@ export default function ProjectSection({ translation, links, id }) {
           );
         else if (section.type === "image_text" && sectionId === 0)
           return (
-            <div key={sectionId} className={`${styles.section}`}>
+            <div
+              key={sectionId}
+              className={`${styles.section} scroll_show_animate`}
+            >
               <div className={`${styles.text} ${styles.inverted_order2}`}>
                 {section.href ? (
                   <div className={styles.h}>
@@ -136,7 +174,10 @@ export default function ProjectSection({ translation, links, id }) {
           );
         else if (section.type === "image_text" && sectionId % 2 !== 0)
           return (
-            <div key={sectionId} className={`${styles.section}`}>
+            <div
+              key={sectionId}
+              className={`${styles.section} scroll_show_animate`}
+            >
               <div className={styles.image_container}>
                 {section.images.map((image, imageId) => (
                   <img
@@ -187,7 +228,10 @@ export default function ProjectSection({ translation, links, id }) {
           );
         else if (section.type === "text")
           return (
-            <div key={sectionId} className={`${styles.section}`}>
+            <div
+              key={sectionId}
+              className={`${styles.section} scroll_show_animate`}
+            >
               {section.text.map((text, textId) => (
                 <div key={textId} className={styles.text}>
                   <h2

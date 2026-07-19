@@ -20,7 +20,7 @@ export default function Header({ translation }) {
     <>
       {/*Burger menu*/}
       {isClickedBurger && (
-        <div className={`${styles.burger} introBig`}>
+        <div className={`${styles.burger} introBig scroll_show_animate`}>
           {translation.header.hooks.map((hook, index) => (
             <a
               key={index}
@@ -32,7 +32,7 @@ export default function Header({ translation }) {
                 } else {
                   setClickedBurger(true);
                 }
-               }}
+              }}
             >
               {translation.header.navigation[index]}
             </a>
@@ -40,7 +40,7 @@ export default function Header({ translation }) {
         </div>
       )}
 
-      <header className={styles.header}>
+      <header className={`${styles.header} scroll_show_animate`}>
         {/*language container*/}
         <div className={`${styles.language} introBig`}>
           <a
@@ -85,9 +85,7 @@ export default function Header({ translation }) {
         </div>
 
         {/*Mobile version of navigation*/}
-        <nav
-          className={`${styles.navigation_mobile} introBig`}
-        >
+        <nav className={`${styles.navigation_mobile} introBig`}>
           <div
             onClick={() => {
               if (isClickedBurger) {
@@ -114,9 +112,7 @@ export default function Header({ translation }) {
         </nav>
 
         {/*Desktop version of navigation*/}
-        <nav
-          className={`${styles.navigation_desktop} introBig`}
-        >
+        <nav className={`${styles.navigation_desktop} introBig`}>
           {translation.header.hooks.map((hook, index) => (
             <a
               key={index}

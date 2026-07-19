@@ -276,6 +276,20 @@
           "alts": [
             "Moodboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_styleguide.png"
+          ],
+          "text": {
+            "h": "Style Guide",
+            "p": [
+              "Based on the approved moodboard, we developed a style guide that brought together the project's core visual identity elements, including the color palette, typography, logo, and guidelines for their consistent use."
+            ]
+          },
+          "alts": ["Style Guide"],
+          "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
         }
       ]
     }

@@ -290,6 +290,21 @@
           },
           "alts": ["Styleguide"],
           "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/first_help_experts_colors.png"],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Baseret på resultaterne fra testen af moodboardet blev grøn valgt som den primære farve, da den bedst understøttede den ønskede stemning af tryghed og sikkerhed.",
+              "Rød blev brugt som en accentfarve til knapper og vigtige interaktive elementer for at lede brugerens opmærksomhed mod centrale handlinger.",
+              "Pastelfarver blev valgt som en sekundær farvepalette. De understøtter projektets venlige udtryk og styrker de gamification-elementer, der er en del af websitet."
+            ]
+          },
+          "alts": [
+            "Farvevalg for design"
+          ]
         }
       ]
     }

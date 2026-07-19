@@ -305,6 +305,20 @@
           "alts": [
             "Color selection for the design"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/first_help_experts_font.png"],
+          "text": {
+            "h": "Typography",
+            "p": [
+              "The Roboto typeface was selected for the project due to its modern, minimalistic appearance and high readability. As one of the most commonly used typefaces in digital interfaces, it is already familiar to the younger audience through its use in Android and many popular applications.",
+              "Its simple and clear letterforms ensure comfortable reading of both educational materials and quizzes, supporting a smooth and user-friendly website experience."
+            ]
+          },
+          "alts": [
+            "Font Roboto"
+          ]
         }
       ]
     }

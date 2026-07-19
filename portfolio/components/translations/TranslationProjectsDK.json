@@ -276,6 +276,20 @@
           "alts": [
             "Moodboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_styleguide.png"
+          ],
+          "text": {
+            "h": "Styleguide",
+            "p": [
+              "På baggrund af det godkendte moodboard udarbejdede vi en styleguide, der samlede projektets centrale visuelle identitet, herunder farvepaletten, typografien, logoet og retningslinjer for deres anvendelse."
+            ]
+          },
+          "alts": ["Styleguide"],
+          "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
         }
       ]
     }

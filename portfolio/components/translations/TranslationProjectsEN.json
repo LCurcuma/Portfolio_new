@@ -290,6 +290,21 @@
           },
           "alts": ["Style Guide"],
           "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/first_help_experts_colors.png"],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "Based on the results of the moodboard testing, green was chosen as the primary color, as it best represented the desired atmosphere of trust and safety.",
+              "Red was used as an accent color for buttons and important interactive elements to draw users' attention to key actions.",
+              "Pastel colors were selected as a supporting palette. They help maintain the project's friendly atmosphere and enhance the gamification elements of the website."
+            ]
+          },
+          "alts": [
+            "Color selection for the design"
+          ]
         }
       ]
     }

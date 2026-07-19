@@ -305,6 +305,20 @@
           "alts": [
             "Farvevalg for design"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/first_help_experts_font.png"],
+          "text": {
+            "h": "Typografi",
+            "p": [
+              "Skrifttypen Roboto blev valgt til projektet på grund af dens moderne, minimalistiske udtryk og høje læsbarhed. Som en af de mest anvendte skrifttyper i digitale brugergrænseflader er den allerede kendt af den yngre målgruppe gennem brugen i Android og mange populære applikationer.",
+              "De enkle og tydelige former gør det nemt at læse både undervisningsmaterialer og quizzer og bidrager dermed til en brugervenlig oplevelse på websitet."
+            ]
+          },
+          "alts": [
+            "Skrifttypen Roboto"
+          ]
         }
       ]
     }

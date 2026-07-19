@@ -326,6 +326,22 @@
             ]
           },
           "alts": ["Førstehjælpseksperten logo"]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_prototype.png"
+          ],
+          "text": {
+            "h": "Prototype",
+            "p": [
+              "The prototype design was developed collaboratively by the entire team. We used one team member's initial concept as a foundation and further refined it together.",
+              "My contribution included designing specific interface elements, such as the purchase confirmation modal window, as well as improving and refining selected screens.",
+              "During the design process, we focused especially on gamification and simple user interactions to make the learning experience as clear, engaging, and accessible as possible."
+            ]
+          },
+          "alts": ["Førstehjælpseksperten prototype"],
+          "href": "https://www.figma.com/design/QhEN12e6ydf1ZUEpKQC9y5/2S-Prøve?node-id=61-2&p=f&t=BTltsbbWYePCl8JC-0"
         }
       ]
     }

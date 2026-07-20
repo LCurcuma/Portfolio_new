@@ -427,6 +427,25 @@
               "text": "6 uger"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_user_journey_tour.jpg"
+          ],
+          "text": {
+            "h": "User Journey",
+            "p": [
+              "For bedre at forstå målgruppens behov gennemførte vi en praktisk brugerundersøgelse (User Journey).",
+              "Til undersøgelsen valgte vi fire lokale steder, som personer, der bruger kørestol, potentielt kunne besøge. Vi planlagde en rute mellem disse steder og gennemførte derefter to separate tests.",
+              "Under den første rute brugte et af teammedlemmerne en kørestol, hvilket gjorde det muligt for os selv at identificere potentielle udfordringer og barrierer fra brugerens perspektiv.",
+              "Den anden test blev gennemført sammen med en person, der bruger kørestol til daglig. Under ruten gennemførte vi et interview for at forstå, hvilken information der er mest værdifuld, når man søger efter tilgængelige steder.",
+              "De indsamlede resultater blev grundlaget for websitets information om tilgængelighed og påvirkede de efterfølgende designbeslutninger."
+            ]
+          },
+          "alts": [
+            "Kort over den rute, der skulle tilbagelægges under researchen (User Journey)"
+          ]
         }
       ]
     }

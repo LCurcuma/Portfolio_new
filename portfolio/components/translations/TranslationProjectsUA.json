@@ -396,6 +396,51 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_screenshot.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "Командний проєкт, реалізований групою з чотирьох людей. Вебсайт створено на запит невеликої приватної компанії, яка прагнула оновити дизайн і покращити користувацький досвід свого сервісу.",
+              "Цільовою аудиторією є люди з інвалідністю, які потребують інформації про доступність громадських місць. Мета вебсайту — допомогти користувачам знаходити заклади, що відповідають їхнім потребам, надаючи детальну інформацію про їхню доступність."
+            ]
+          },
+          "alts": [
+            "Вебсайт Waybly"
+          ],
+          "icons": [
+            "/images/design_icons/github_icon.png"
+          ],
+          "href": "https://curcumalumilidmn.dk/waybly/",
+          "hrefs": [
+            "https://github.com/LCurcuma/Waybly"
+          ],
+          "description": [
+            {
+              "head": "Роль",
+              "text": "UI/UX-designer • Front-end Developer • Logo designer"
+            },
+            {
+              "head": "Команда",
+              "text": "4 людини"
+            },
+            {
+              "head": "Технології",
+              "text": "HTML • SCSS • Bootstrap • JS • JSON • SQL"
+            },
+            {
+              "head": "Тривалість",
+              "text": "6 тижнів"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

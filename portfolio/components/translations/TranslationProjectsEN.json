@@ -357,6 +357,23 @@
           },
           "alts": ["Videos for Førstehjælpseksperten"],
           "href": "https://www.youtube.com/playlist?list=PL_Si5jxDV-GFr1-N-8y-QJ1VcZmHi1bBC"
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_content_plan.jpg"
+          ],
+          "text": {
+            "h": "Content Plan",
+            "p": [
+              "To demonstrate how the project could continue to grow after launch, we also developed a one-week content plan for social media.",
+              "When creating the plan, we focused on finding a balance between a consistent posting schedule and the time required to produce video content. For this reason, posts were scheduled for three days a week—Monday, Wednesday, and Friday. Each post was planned for 4:00 PM, a time commonly recommended for higher user engagement on social media.",
+              "The content plan was built around the videos created as part of the project. Their purpose was to maintain audience interest, increase brand awareness, and attract new users to the platform."
+            ]
+          },
+          "alts": [
+            "Content Plan for a week"
+          ]
         }
       ]
     }

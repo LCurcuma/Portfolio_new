@@ -376,6 +376,153 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_screenshot.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "A team project developed by a group of four people. The website was created for a small private company that wanted to update its design and improve the user experience of its service.",
+              "The target audience is people with disabilities who need information about the accessibility of public places. The goal of the website is to help users find locations that meet their needs by providing detailed information about their accessibility."
+            ]
+          },
+          "alts": [
+            "Waybly website"
+          ],
+          "icons": [
+            "/images/design_icons/github_icon.png"
+          ],
+          "href": "https://curcumalumilidmn.dk/waybly/",
+          "hrefs": [
+            "https://github.com/LCurcuma/Waybly"
+          ],
+          "description": [
+            {
+              "head": "Role",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer"
+            },
+            {
+              "head": "Team",
+              "text": "4 people"
+            },
+            {
+              "head": "Technologies",
+              "text": "HTML • SCSS • Bootstrap • JavaScript • JSON • SQL"
+            },
+            {
+              "head": "Duration",
+              "text": "6 weeks"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_user_journey_tour.jpg"
+          ],
+          "text": {
+            "h": "User Journey",
+            "p": [
+              "To better understand the needs of the target audience, we conducted practical user research (User Journey).",
+              "For this research, we selected four local locations that people using wheelchairs might potentially visit. We created a route between these places and conducted two separate testing sessions.",
+              "During the first route, one of the team members used a wheelchair, allowing us to identify potential challenges and accessibility barriers from the user's perspective.",
+              "The second testing session was conducted together with a person who uses a wheelchair on a daily basis. During the route, we conducted an interview to understand what information is most valuable when searching for accessible locations.",
+              "The collected insights became the foundation for the website content regarding accessibility and influenced further design decisions."
+            ]
+          },
+          "alts": [
+            "Map of the path that had to be covered during the research (User Journey)"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_moodboard.jpg"
+          ],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "To define the future visual direction of the project, we created a moodboard, which was later tested with representatives of the target audience.",
+              "During the testing, participants described their associations with the moodboard. The most common associations were trust, functionality, simplicity, and accessibility, confirming that the chosen visual direction matched the needs of the project."
+            ]
+          },
+          "alts": [
+            "Moodboard"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_colors.jpg"
+          ],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "Blue was chosen as the primary color because it is associated with trust, safety, and reliability. Additionally, this color is widely used in digital products, especially in financial services, where building user trust is important.",
+              "White is used for the background, while black is used for text to ensure high readability. Red, green, and yellow are used to indicate different levels of accessibility of locations.",
+              "To make the information understandable also for people with color vision deficiencies or visual impairments, accessibility icons are used alongside color-based indicators."
+            ]
+          },
+          "alts": [
+            "Color selection for Waybly design"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_font.jpg"
+          ],
+          "text": {
+            "h": "Typography",
+            "p": [
+              "The DM Sans typeface was chosen for the project due to its simple, modern appearance, high readability, and good adaptation to digital interfaces.",
+              "Its clean forms and balanced structure ensure comfortable text perception and support the overall simplicity and accessibility of the design."
+            ]
+          },
+          "alts": [
+            "Font DM Sans"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_logo.png"
+          ],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "Since the main function of the website is to help users find accessible locations, the logo was based on elements commonly associated with map services.",
+              "The logo represents movement towards a destination and the search for an accessible route, directly reflecting the main idea behind the project."
+            ]
+          },
+          "alts": [
+            "Waybly logo"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_prototype.png"
+          ],
+          "text": {
+            "h": "Prototype",
+            "p": [
+              "The prototype design was created by the entire team. One team member’s concept was used as a starting point, after which we collaboratively improved and refined the design.",
+              "The main focus was placed on creating a simple and minimalistic design that would make the website accessible, understandable, and easy to use.",
+              "The prototype was tested together with a representative of the target audience. The testing focused on navigation, interface clarity, and overall usability. The collected feedback confirmed that the chosen design solutions met the needs of the users."
+            ]
+          },
+          "alts": [
+            "Waybly prototype"
+          ],
+          "href": "https://www.figma.com/design/0LkTZ5vAXcdnw2tPYKGHVd/S2.-Tema-3---UX?node-id=25-6&p=f&t=VpHDa1OSPFLDbD0p-0"
+        }
+      ]
     }
   ]
 }

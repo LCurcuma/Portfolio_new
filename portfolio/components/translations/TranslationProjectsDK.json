@@ -384,6 +384,51 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_screenshot.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "Et teamprojekt udviklet af en gruppe på fire personer. Websitet blev skabt for en lille privat virksomhed, som ønskede at opdatere sit design og forbedre brugeroplevelsen af deres service.",
+              "Målgruppen er mennesker med handicap, som har brug for information om tilgængeligheden af offentlige steder. Formålet med websitet er at hjælpe brugere med at finde steder, der passer til deres behov, ved at give detaljerede oplysninger om deres tilgængelighed."
+            ]
+          },
+          "alts": [
+            "Waybly webside"
+          ],
+          "icons": [
+            "/images/design_icons/github_icon.png"
+          ],
+          "href": "https://curcumalumilidmn.dk/waybly/",
+          "hrefs": [
+            "https://github.com/LCurcuma/Waybly"
+          ],
+          "description": [
+            {
+              "head": "Rolle",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer"
+            },
+            {
+              "head": "Team",
+              "text": "4 personer"
+            },
+            {
+              "head": "Teknologier",
+              "text": "HTML • SCSS • Bootstrap • JavaScript • JSON • SQL"
+            },
+            {
+              "head": "Varighed",
+              "text": "6 uger"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

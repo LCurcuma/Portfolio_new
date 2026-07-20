@@ -273,9 +273,7 @@
               "Efterfølgende blev moodboardet testet på repræsentanter fra målgruppen. Deltagerne blev bedt om at beskrive de følelser og associationer, de fik. De mest gennemgående svar var tryghed, fællesskab, tillid og hjælpsomhed, hvilket bekræftede, at den valgte visuelle retning understøttede projektets mål."
             ]
           },
-          "alts": [
-            "Moodboard"
-          ]
+          "alts": ["Moodboard"]
         },
         {
           "type": "image_text",
@@ -302,9 +300,7 @@
               "Pastelfarver blev valgt som en sekundær farvepalette. De understøtter projektets venlige udtryk og styrker de gamification-elementer, der er en del af websitet."
             ]
           },
-          "alts": [
-            "Farvevalg for design"
-          ]
+          "alts": ["Farvevalg for design"]
         },
         {
           "type": "image_text",
@@ -316,9 +312,7 @@
               "De enkle og tydelige former gør det nemt at læse både undervisningsmaterialer og quizzer og bidrager dermed til en brugervenlig oplevelse på websitet."
             ]
           },
-          "alts": [
-            "Skrifttypen Roboto"
-          ]
+          "alts": ["Skrifttypen Roboto"]
         },
         {
           "type": "image_text",
@@ -331,9 +325,7 @@
               "Ordet Eksperten er fremhævet med rød farve for at gøre navnet mere synligt og styrke genkendelsen af brandet."
             ]
           },
-          "alts": [
-            "Førstehjælpseksperten logo"
-          ]
+          "alts": ["Førstehjælpseksperten logo"]
         },
         {
           "type": "image_text",
@@ -379,9 +371,7 @@
               "Contentplanen tog udgangspunkt i de videoer, der blev produceret som en del af projektet. Formålet var at fastholde målgruppens interesse, øge kendskabet til brandet og tiltrække nye brugere til platformen."
             ]
           },
-          "alts": [
-            "Contentplan for en uge"
-          ]
+          "alts": ["Contentplan for en uge"]
         }
       ]
     },
@@ -389,9 +379,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_screenshot.png"
-          ],
+          "images": ["/images/projects/websites/waybly_screenshot.png"],
           "text": {
             "h": "Waybly",
             "p": [
@@ -399,16 +387,10 @@
               "Målgruppen er mennesker med handicap, som har brug for information om tilgængeligheden af offentlige steder. Formålet med websitet er at hjælpe brugere med at finde steder, der passer til deres behov, ved at give detaljerede oplysninger om deres tilgængelighed."
             ]
           },
-          "alts": [
-            "Waybly webside"
-          ],
-          "icons": [
-            "/images/design_icons/github_icon.png"
-          ],
+          "alts": ["Waybly webside"],
+          "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/waybly/",
-          "hrefs": [
-            "https://github.com/LCurcuma/Waybly"
-          ],
+          "hrefs": ["https://github.com/LCurcuma/Waybly"],
           "description": [
             {
               "head": "Rolle",
@@ -430,9 +412,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_user_journey_tour.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_user_journey_tour.jpg"],
           "text": {
             "h": "User Journey",
             "p": [
@@ -445,6 +425,20 @@
           },
           "alts": [
             "Kort over den rute, der skulle tilbagelægges under researchen (User Journey)"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/waybly_moodboard.jpg"],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "For at definere projektets fremtidige visuelle retning udviklede vi et moodboard, som efterfølgende blev testet på repræsentanter fra målgruppen.",
+              "Under testen beskrev deltagerne deres associationer med moodboardet. De mest fremtrædende associationer var tryghed, funktionalitet, enkelhed og tilgængelighed, hvilket bekræftede, at den valgte visuelle retning passede til projektets behov."
+            ]
+          },
+          "alts": [
+            "Moodboard"
           ]
         }
       ]

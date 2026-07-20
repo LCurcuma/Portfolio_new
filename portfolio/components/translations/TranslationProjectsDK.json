@@ -365,6 +365,23 @@
           },
           "alts": ["Videoer til Førstehjælpseksperten"],
           "href": "https://www.youtube.com/playlist?list=PL_Si5jxDV-GFr1-N-8y-QJ1VcZmHi1bBC"
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/first_help_experts_content_plan.jpg"
+          ],
+          "text": {
+            "h": "Contentplan",
+            "p": [
+              "For at vise, hvordan projektet kunne udvikle sig efter lanceringen, udarbejdede vi også en contentplan for én uge til sociale medier.",
+              "Under planlægningen havde vi fokus på at skabe en balance mellem en fast udgivelsesrytme og den tid, der kræves til produktion af videoindhold. Derfor blev opslag planlagt til tre ugedage - mandag, onsdag og fredag. Hvert opslag var planlagt til kl. 16.00, da dette tidspunkt ofte anbefales som en periode med høj brugeraktivitet på sociale medier.",
+              "Contentplanen tog udgangspunkt i de videoer, der blev produceret som en del af projektet. Formålet var at fastholde målgruppens interesse, øge kendskabet til brandet og tiltrække nye brugere til platformen."
+            ]
+          },
+          "alts": [
+            "Contentplan for en uge"
+          ]
         }
       ]
     }

@@ -273,9 +273,7 @@
               "Після створення мудборд протестували на представниках цільової аудиторії. Учасники описували свої асоціації, серед яких найчастіше зустрічалися безпека, спільнота, довіра та взаємодопомога. Це підтвердило, що обраний візуальний напрям відповідає поставленій меті."
             ]
           },
-          "alts": [
-            "Мудборд"
-          ]
+          "alts": ["Мудборд"]
         },
         {
           "type": "image_text",
@@ -288,16 +286,12 @@
               "На основі затвердженого мудборду було створено стайлгайд, який об'єднав ключові елементи візуальної айдентики проєкту: кольорову палітру, типографіку, логотип і правила їх використання."
             ]
           },
-          "alts": [
-            "Стайлгайд"
-          ],
+          "alts": ["Стайлгайд"],
           "href": "https://www.figma.com/slides/YfX0GFqcHqfR28WdRCSJGn"
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/first_help_experts_colors.png"
-          ],
+          "images": ["/images/projects/websites/first_help_experts_colors.png"],
           "text": {
             "h": "Вибір кольорів",
             "p": [
@@ -306,15 +300,11 @@
               "Пастельні кольори є допоміжною палітрою. Вони підтримують дружню атмосферу проєкту та підсилюють елементи гейміфікації."
             ]
           },
-          "alts": [
-            "Кольорова гамма дизайну"
-          ]
+          "alts": ["Кольорова гамма дизайну"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/first_help_experts_font.png"
-          ],
+          "images": ["/images/projects/websites/first_help_experts_font.png"],
           "text": {
             "h": "Типографіка",
             "p": [
@@ -322,15 +312,11 @@
               "Його прості форми забезпечують комфортне читання як навчальних матеріалів, так і квізів, підтримуючи зручність користування вебсайтом."
             ]
           },
-          "alts": [
-            "Шрифт Roboto"
-          ]
+          "alts": ["Шрифт Roboto"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_full_logo.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
           "text": {
             "h": "Логотип",
             "p": [
@@ -339,9 +325,7 @@
               "Слово Eksperten виділено червоним кольором, щоб зробити назву більш помітною та покращити її запам'ятовуваність."
             ]
           },
-          "alts": [
-            "Логотип Førstehjælpseksperten"
-          ]
+          "alts": ["Логотип Førstehjælpseksperten"]
         },
         {
           "type": "image_text",
@@ -356,9 +340,7 @@
               "Під час розробки ми приділяли особливу увагу гейміфікації та простоті взаємодії, щоб зробити навчання максимально зрозумілим і цікавим."
             ]
           },
-          "alts": [
-            "Прототип Førstehjælpseksperten"
-          ],
+          "alts": ["Прототип Førstehjælpseksperten"],
           "href": "https://www.figma.com/design/QhEN12e6ydf1ZUEpKQC9y5/2S-Prøve?node-id=61-2&p=f&t=BTltsbbWYePCl8JC-0"
         },
         {
@@ -373,9 +355,7 @@
               "Замість традиційного серйозного підходу ми використали гумор і короткий формат, щоб привернути увагу молодої аудиторії та зробити тему першої допомоги більш доступною."
             ]
           },
-          "alts": [
-            "Відео для Førstehjælpseksperten"
-          ],
+          "alts": ["Відео для Førstehjælpseksperten"],
           "href": "https://www.youtube.com/playlist?list=PL_Si5jxDV-GFr1-N-8y-QJ1VcZmHi1bBC"
         },
         {
@@ -391,9 +371,7 @@
               "Основою контент-плану стали відео, створені в межах проєкту. Їхньою метою було підтримувати інтерес аудиторії, підвищувати впізнаваність бренду та залучати нових користувачів до платформи."
             ]
           },
-          "alts": [
-            "Контент-план на тиждень"
-          ]
+          "alts": ["Контент-план на тиждень"]
         }
       ]
     },
@@ -401,9 +379,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_screenshot.png"
-          ],
+          "images": ["/images/projects/websites/waybly_screenshot.png"],
           "text": {
             "h": "Waybly",
             "p": [
@@ -411,16 +387,10 @@
               "Цільовою аудиторією є люди з інвалідністю, які потребують інформації про доступність громадських місць. Мета вебсайту — допомогти користувачам знаходити заклади, що відповідають їхнім потребам, надаючи детальну інформацію про їхню доступність."
             ]
           },
-          "alts": [
-            "Вебсайт Waybly"
-          ],
-          "icons": [
-            "/images/design_icons/github_icon.png"
-          ],
+          "alts": ["Вебсайт Waybly"],
+          "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/waybly/",
-          "hrefs": [
-            "https://github.com/LCurcuma/Waybly"
-          ],
+          "hrefs": ["https://github.com/LCurcuma/Waybly"],
           "description": [
             {
               "head": "Роль",
@@ -442,9 +412,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_user_journey_tour.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_user_journey_tour.jpg"],
           "text": {
             "h": "User Journey",
             "p": [
@@ -461,9 +429,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_moodboard.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_moodboard.jpg"],
           "text": {
             "h": "Мудборд",
             "p": [
@@ -471,47 +437,35 @@
               "Під час тестування учасники описували свої асоціації з мудбордом. Найчастіше вони відзначали довіру, функціональність, простоту та доступність, що підтвердило відповідність обраного візуального напряму потребам проєкту."
             ]
           },
-          "alts": [
-            "Мудборд"
-          ]
+          "alts": ["Мудборд"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_colors.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_colors.jpg"],
           "text": {
             "h": "Вибір кольорів",
             "p": [
               "Основним кольором було обрано синій, оскільки він асоціюється з довірою, безпекою та надійністю. Крім того, цей колір широко використовується в цифрових продуктах, зокрема у фінансових сервісах, де важливо викликати довіру користувачів.",
               "Для фону використано білий колір, а для тексту — чорний, щоб забезпечити високу читабельність. Червоний, зелений та жовтий застосовуються для позначення рівня доступності закладів.",
               "Щоб інформація була зрозумілою також людям із порушеннями кольоросприйняття або вадами зору, окрім кольорового маркування використовуються іконки доступності."
-              ]
+            ]
           },
-          "alts": [
-            "Кольори для Waybly"
-          ]
+          "alts": ["Кольори для Waybly"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_font.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_font.jpg"],
           "text": {
             "h": "Типографіка",
             "p": [
               "Для проєкту було обрано шрифт DM Sans завдяки його простому сучасному вигляду, високій читабельності та гарній адаптації до цифрових інтерфейсів. Його чисті форми та збалансована структура забезпечують комфортне сприйняття тексту й підтримують загальну простоту та доступність дизайну."
-              ]
+            ]
           },
-          "alts": [
-            "Шрифт DM Sans"
-          ]
+          "alts": ["Шрифт DM Sans"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_logo.png"
-          ],
+          "images": ["/images/projects/logos/waybly_logo.png"],
           "text": {
             "h": "Логотип",
             "p": [
@@ -519,15 +473,11 @@
               "Логотип символізує рух до пункту призначення та пошук доступного маршруту, що безпосередньо відображає основну ідею проєкту."
             ]
           },
-          "alts": [
-            "Логотип Waybly"
-          ]
+          "alts": ["Логотип Waybly"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_prototype.png"
-          ],
+          "images": ["/images/projects/websites/waybly_prototype.png"],
           "text": {
             "h": "Прототип",
             "p": [
@@ -536,10 +486,45 @@
               "Прототип протестували разом із представником цільової аудиторії. Основний фокус тестування був спрямований на навігацію, зрозумілість інтерфейсу та загальну зручність користування. Отриманий зворотний зв'язок підтвердив, що обрані дизайнерські рішення відповідають потребам користувачів."
             ]
           },
-          "alts": [
-            "Прототип Waybly"
-          ],
+          "alts": ["Прототип Waybly"],
           "href": "https://www.figma.com/design/0LkTZ5vAXcdnw2tPYKGHVd/S2.-Tema-3---UX?node-id=25-6&p=f&t=VpHDa1OSPFLDbD0p-0"
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/spotless_screenshot.png"],
+          "text": {
+            "h": "Spotless",
+            "p": [
+              "Командний навчальний проєкт, реалізований групою з чотирьох людей. Spotless — мобільний вебдодаток, створений для цифрового обліку прибирань у громадських вбиральнях. Його мета — замінити паперові журнали прибирання цифровою системою, яка дозволяє швидко переглядати історію прибирань і фіксувати нові записи.",
+              "Основною цільовою аудиторією є клінінгові компанії, підприємства та державні установи, які відповідають за обслуговування громадських вбиралень."
+            ]
+          },
+          "alts": ["Spotless"],
+          "icons": ["/images/design_icons/github_icon.png"],
+          "href": "https://curcumalumilidmn.dk/spotless/index.php",
+          "hrefs": ["https://github.com/LCurcuma/Spotless"],
+          "description": [
+            {
+              "head": "Роль",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer"
+            },
+            {
+              "head": "Команда",
+              "text": "4 людини"
+            },
+            {
+              "head": "Технології",
+              "text": "HTML • SCSS • Bootstrap • JavaScript • SQL • PhpMyAdmin"
+            },
+            {
+              "head": "Тривалість",
+              "text": "6 тижнів"
+            }
+          ]
         }
       ]
     }

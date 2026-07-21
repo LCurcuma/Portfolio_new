@@ -440,6 +440,73 @@
           "alts": [
             "Moodboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_colors.jpg"
+          ],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Blå blev valgt som den primære farve, da den forbindes med tillid, tryghed og pålidelighed. Derudover bruges denne farve ofte i digitale produkter, især inden for finansielle tjenester, hvor det er vigtigt at skabe brugernes tillid.",
+              "Hvid bruges som baggrundsfarve, mens sort bruges til teksten for at sikre høj læsbarhed. Rød, grøn og gul bruges til at vise forskellige niveauer af tilgængelighed for stederne.",
+              "For at gøre informationen forståelig også for personer med farvesynsproblemer eller synshandicap anvendes tilgængelighedsikoner sammen med farvemarkeringerne."
+            ]
+          },
+          "alts": [
+            "Farver for Waybly"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_font.jpg"
+          ],
+          "text": {
+            "h": "Typografi",
+            "p": [
+              "Skrifttypen DM Sans blev valgt til projektet på grund af dens enkle, moderne udtryk, høje læsbarhed og gode tilpasning til digitale brugergrænseflader.",
+              "Dens rene former og afbalancerede struktur sikrer en behagelig læseoplevelse og understøtter samtidig designets overordnede enkelhed og tilgængelighed."
+            ]
+          },
+          "alts": [
+            "DM Sans skrifttype"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_logo.png"
+          ],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "Da websitets primære funktion er at hjælpe brugere med at finde tilgængelige steder, blev logoet baseret på elementer fra korttjenester.",
+              "Logoet symboliserer bevægelse mod en destination og søgningen efter en tilgængelig rute, hvilket direkte afspejler projektets hovedidé."
+            ]
+          },
+          "alts": [
+            "Waybly logo"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/waybly_prototype.png"
+          ],
+          "text": {
+            "h": "Prototype",
+            "p": [
+              "Designet af prototypen blev udviklet af hele teamet. En af teammedlemmernes koncepter blev brugt som udgangspunkt, hvorefter vi i fællesskab videreudviklede og forbedrede designet.",
+              "Der blev lagt stor vægt på et enkelt og minimalistisk design, som skulle gøre websitet mere tilgængeligt, forståeligt og nemt at bruge.",
+              "Prototypen blev testet sammen med en repræsentant fra målgruppen. Testen fokuserede på navigation, forståelsen af brugergrænsefladen og den generelle brugervenlighed. Den indsamlede feedback bekræftede, at de valgte designløsninger opfyldte brugernes behov."
+            ]
+          },
+          "alts": [
+            "Prototypen af Waybly"
+          ],
+          "href": "https://www.figma.com/design/0LkTZ5vAXcdnw2tPYKGHVd/S2.-Tema-3---UX?node-id=25-6&p=f&t=VpHDa1OSPFLDbD0p-0"
         }
       ]
     }

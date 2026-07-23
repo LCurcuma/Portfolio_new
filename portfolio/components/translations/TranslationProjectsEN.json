@@ -371,9 +371,7 @@
               "The content plan was built around the videos created as part of the project. Their purpose was to maintain audience interest, increase brand awareness, and attract new users to the platform."
             ]
           },
-          "alts": [
-            "Content Plan for a week"
-          ]
+          "alts": ["Content Plan for a week"]
         }
       ]
     },
@@ -381,9 +379,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_screenshot.png"
-          ],
+          "images": ["/images/projects/websites/waybly_screenshot.png"],
           "text": {
             "h": "Waybly",
             "p": [
@@ -391,16 +387,10 @@
               "The target audience is people with disabilities who need information about the accessibility of public places. The goal of the website is to help users find locations that meet their needs by providing detailed information about their accessibility."
             ]
           },
-          "alts": [
-            "Waybly website"
-          ],
-          "icons": [
-            "/images/design_icons/github_icon.png"
-          ],
+          "alts": ["Waybly website"],
+          "icons": ["/images/design_icons/github_icon.png"],
           "href": "https://curcumalumilidmn.dk/waybly/",
-          "hrefs": [
-            "https://github.com/LCurcuma/Waybly"
-          ],
+          "hrefs": ["https://github.com/LCurcuma/Waybly"],
           "description": [
             {
               "head": "Role",
@@ -422,9 +412,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_user_journey_tour.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_user_journey_tour.jpg"],
           "text": {
             "h": "User Journey",
             "p": [
@@ -441,9 +429,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_moodboard.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_moodboard.jpg"],
           "text": {
             "h": "Moodboard",
             "p": [
@@ -451,15 +437,11 @@
               "During the testing, participants described their associations with the moodboard. The most common associations were trust, functionality, simplicity, and accessibility, confirming that the chosen visual direction matched the needs of the project."
             ]
           },
-          "alts": [
-            "Moodboard"
-          ]
+          "alts": ["Moodboard"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_colors.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_colors.jpg"],
           "text": {
             "h": "Color Selection",
             "p": [
@@ -468,15 +450,11 @@
               "To make the information understandable also for people with color vision deficiencies or visual impairments, accessibility icons are used alongside color-based indicators."
             ]
           },
-          "alts": [
-            "Color selection for Waybly design"
-          ]
+          "alts": ["Color selection for Waybly design"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_font.jpg"
-          ],
+          "images": ["/images/projects/websites/waybly_font.jpg"],
           "text": {
             "h": "Typography",
             "p": [
@@ -484,15 +462,11 @@
               "Its clean forms and balanced structure ensure comfortable text perception and support the overall simplicity and accessibility of the design."
             ]
           },
-          "alts": [
-            "Font DM Sans"
-          ]
+          "alts": ["Font DM Sans"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_logo.png"
-          ],
+          "images": ["/images/projects/logos/waybly_logo.png"],
           "text": {
             "h": "Logo",
             "p": [
@@ -500,15 +474,11 @@
               "The logo represents movement towards a destination and the search for an accessible route, directly reflecting the main idea behind the project."
             ]
           },
-          "alts": [
-            "Waybly logo"
-          ]
+          "alts": ["Waybly logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/waybly_prototype.png"
-          ],
+          "images": ["/images/projects/websites/waybly_prototype.png"],
           "text": {
             "h": "Prototype",
             "p": [
@@ -517,10 +487,111 @@
               "The prototype was tested together with a representative of the target audience. The testing focused on navigation, interface clarity, and overall usability. The collected feedback confirmed that the chosen design solutions met the needs of the users."
             ]
           },
-          "alts": [
-            "Waybly prototype"
-          ],
+          "alts": ["Waybly prototype"],
           "href": "https://www.figma.com/design/0LkTZ5vAXcdnw2tPYKGHVd/S2.-Tema-3---UX?node-id=25-6&p=f&t=VpHDa1OSPFLDbD0p-0"
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/spotless_screenshot.png"],
+          "text": {
+            "h": "Spotless",
+            "p": [
+              "A team-based educational project developed by a group of four people. Spotless is a mobile web application designed to digitize cleaning records in public restrooms. Its goal is to replace traditional paper cleaning logs with a digital system that allows staff to quickly view cleaning history and record new cleaning activities.",
+              "The primary target audience consists of cleaning companies, businesses, and public institutions responsible for maintaining public restrooms."
+            ]
+          },
+          "alts": ["Spotless"],
+          "icons": ["/images/design_icons/github_icon.png"],
+          "href": "https://curcumalumilidmn.dk/spotless/index.php",
+          "hrefs": ["https://github.com/LCurcuma/Spotless"],
+          "description": [
+            {
+              "head": "Role",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer"
+            },
+            {
+              "head": "Team",
+              "text": "4 people"
+            },
+            {
+              "head": "Technologies",
+              "text": "HTML • SCSS • Bootstrap • JavaScript • SQL • PhpMyAdmin"
+            },
+            {
+              "head": "Duration",
+              "text": "6 weeks"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/spotless_moodboard.jpg"],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "To define the project's visual direction, we created a moodboard and tested it with representatives of the target audience.",
+              "During the testing, participants described the associations the moodboard evoked. The most common responses were cleanliness, modernity, innovation, and professionalism, confirming that the chosen visual direction aligned with the project's goals."
+            ]
+          },
+          "alts": ["Moodboard"]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/spotless_colors.jpg"],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "Blue was chosen as the primary color because it is associated with cleanliness, reliability, and professionalism. This choice also reinforces the project's theme of order and hygiene.",
+              "Blue shades with a light-blue gradient were used for the background, giving the interface a modern appearance and creating a sense of freshness. White is used for buttons and text on dark backgrounds, while black is used for text on light backgrounds to ensure high readability."
+            ]
+          },
+          "alts": ["Colors for Spotless"]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/spotless_font.jpg"],
+          "text": {
+            "h": "Typography",
+            "p": [
+              "The Roboto typeface was chosen for the project due to its high readability and wide range of font weights. This allowed us to create a clear typographic hierarchy, where text became one of the key elements of the interface."
+            ]
+          },
+          "alts": ["Font Roboto"]
+        },
+        {
+          "type": "image_text",
+          "images": ["/images/projects/logos/spotless_logo.png"],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "The logo was created based on the moodboard. The main symbol is a hummingbird, which is associated with lightness, cleanliness, and speed. Its silhouette also resembles the letter S, creating an additional connection with the project name.",
+              "The logo was designed in a simple and minimalistic style to harmoniously match the overall visual design of the application."
+            ]
+          },
+          "alts": ["Spotless logo"]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/spotless_prototype_1.png",
+            "/images/projects/websites/spotless_prototype_2.png"
+          ],
+          "text": {
+            "h": "Prototype",
+            "p": [
+              "The prototype design was created by the entire team. My interface concept was used as a foundation, which we further improved together by adding additional visual elements and refinements.",
+              "After the prototype was completed, it was tested with representatives of the target audience. Participants performed typical tasks that a cleaning staff member would complete in their daily work: viewing cleaning history and adding new records. The feedback showed that the interface was simple and intuitive, and that information about the latest cleaning was significantly easier to notice compared to a traditional paper log."
+            ]
+          },
+          "alts": [
+            "My variant of the Spotless prototype",
+            "Spotless prototype"
+          ],
+          "href": "https://www.figma.com/design/XIpFZPTplrJxdKGIGReuq2/S2-Tema-2---SasS?node-id=1-3&t=2NPuJDcs2JfFxUdn-0"
         }
       ]
     }

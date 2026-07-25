@@ -594,6 +594,115 @@
           "href": "https://www.figma.com/design/XIpFZPTplrJxdKGIGReuq2/S2-Tema-2---SasS?node-id=1-3&t=2NPuJDcs2JfFxUdn-0"
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/manya_sit_screenshot.png"],
+          "text": {
+            "h": "ManyaSit",
+            "p": [
+              "A personal project created as an interactive clicker game gift. The application combines simple gameplay mechanics, original illustrations, and a leaderboard system.",
+              "The primary target audience is the gift recipient and the VTuber fan community for whom the project was created."
+            ]
+          },
+          "alts": ["ManyaSit website"],
+          "icons": ["/images/design_icons/github_icon.png"],
+          "href": "https://manya-sit.vercel.app/login",
+          "hrefs": ["https://github.com/LCurcuma/ManyaSit"],
+          "description": [
+            {
+              "head": "Role",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer • Illustrator"
+            },
+            {
+              "head": "Team",
+              "text": "Personal project"
+            },
+            {
+              "head": "Technologies",
+              "text": "Next.js • React • SQL"
+            },
+            {
+              "head": "Duration",
+              "text": "5 weeks"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_morning.png",
+            "/images/projects/websites/manya_sit_day.png",
+            "/images/projects/websites/manya_sit_evening.png",
+            "/images/projects/websites/manya_sit_night.png"
+          ],
+          "text": {
+            "h": "Color Palette",
+            "p": [
+              "The interface features four gradient color themes that automatically change depending on the time of day. The dark color palette provides sufficient contrast with the white text, ensuring good readability regardless of the active theme."
+            ]
+          },
+          "alts": [
+            "Morning gradient on ManyaSit",
+            "Days gradient on ManyaSit",
+            "Evening gradient on ManyaSit",
+            "Night gradient on ManyaSit"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_font.png"
+          ],
+          "text": {
+            "h": "Typography",
+            "p": [
+              "The Pacifico typeface was chosen for the project because of its friendly handwritten style, which complements the playful atmosphere of the application. As the interface contains only a small amount of text, the focus was placed on visual style without compromising readability, thanks to the use of large font sizes."
+            ]
+          },
+          "alts": [
+            "Pacifico font"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_model_1.png",
+            "/images/projects/websites/manya_sit_model_2.png",
+            "/images/projects/websites/manya_sit_model_3.png",
+            "/images/projects/animations/manya_sit_model_animation.gif"
+          ],
+          "text": {
+            "h": "Character Animation",
+            "p": [
+              "Three separate illustrations were created for the character and used as animation frames. In its idle state, the character remains static, while a subtle CSS animation adds a sense of liveliness. When the character is clicked, the frames quickly switch to create a simple crouching animation. The use of an intermediate frame makes the movement appear smoother and more natural."
+            ]
+          },
+          "alts": [
+            "First frame of animation",
+            "Second frame of animation",
+            "Third frame of animation",
+            "Example of animation"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/manya_sit_logo.png"
+          ],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "The logo features a stylized cat's head, which is easily recognizable to the target audience because the character is used as the community's avatar. Its minimalistic cartoon style complements the overall visual identity of the web application."
+            ]
+          },
+          "alts": [
+            "ManyaSit logo"
+          ]
+        }
+      ]
     }
   ]
 }

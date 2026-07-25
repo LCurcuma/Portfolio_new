@@ -591,6 +591,115 @@
           "href": "https://www.figma.com/design/XIpFZPTplrJxdKGIGReuq2/S2-Tema-2---SasS?node-id=1-3&t=2NPuJDcs2JfFxUdn-0"
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/websites/manya_sit_screenshot.png"],
+          "text": {
+            "h": "ManyaSit",
+            "p": [
+              "Et personligt projekt skabt som en interaktiv klikspil-gave. Applikationen kombinerer enkle spilmekanikker, originale illustrationer og et leaderboard.",
+              "Den primære målgruppe er modtageren af gaven samt VTuber-fællesskabet, som projektet er skabt til."
+            ]
+          },
+          "alts": ["ManyaSit webside"],
+          "icons": ["/images/design_icons/github_icon.png"],
+          "href": "https://manya-sit.vercel.app/login",
+          "hrefs": ["https://github.com/LCurcuma/ManyaSit"],
+          "description": [
+            {
+              "head": "Rolle",
+              "text": "UI/UX Designer • Front-end Developer • Logo Designer • Illustrator"
+            },
+            {
+              "head": "Team",
+              "text": "Personligt projekt"
+            },
+            {
+              "head": "Teknologier",
+              "text": "Next.js • React • SQL"
+            },
+            {
+              "head": "Varighed",
+              "text": "5 uger"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_morning.png",
+            "/images/projects/websites/manya_sit_day.png",
+            "/images/projects/websites/manya_sit_evening.png",
+            "/images/projects/websites/manya_sit_night.png"
+          ],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Der blev udviklet fire gradientbaserede farvetemaer til interfacet, som automatisk skifter afhængigt af tidspunktet på dagen. De mørke farvetoner skaber en tydelig kontrast til den hvide tekst og sikrer god læsbarhed uanset det valgte tema."
+            ]
+          },
+          "alts": [
+            "Morgengradient i ManyaSit",
+            "Eftermiddaggradient i ManyaSit",
+            "Aftengradient i ManyaSit",
+            "Natgradient i ManyaSit"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_font.png"
+          ],
+          "text": {
+            "h": "Typografi",
+            "p": [
+              "Skrifttypen Pacifico blev valgt til projektet på grund af dens venlige, håndskrevne stil, som passer godt til applikationens legende udtryk. Da interfacet indeholder meget lidt tekst, blev der lagt vægt på det visuelle udtryk uden at gå på kompromis med læsbarheden, blandt andet ved at bruge store skriftstørrelser."
+            ]
+          },
+          "alts": [
+            "Skrifttypen Pacifico"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/websites/manya_sit_model_1.png",
+            "/images/projects/websites/manya_sit_model_2.png",
+            "/images/projects/websites/manya_sit_model_3.png",
+            "/images/projects/animations/manya_sit_model_animation.gif"
+          ],
+          "text": {
+            "h": "Karakteranimation",
+            "p": [
+              "Der blev tegnet tre separate illustrationer af figuren, som bruges som animationsframes. I sin normale tilstand er figuren statisk, mens en diskret CSS-animation giver den et mere levende udtryk. Når brugeren klikker på figuren, skifter billederne hurtigt og skaber en enkel huggeanimation. Brugen af et mellemframe gør bevægelsen mere flydende og naturlig."
+            ]
+          },
+          "alts": [
+            "Første ramme af animationen",
+            "Anden ramme af animationen",
+            "Tredje ramme af animationen",
+            "Eksempel af animationen"
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/manya_sit_logo.png"
+          ],
+          "text": {
+            "h": "Logo",
+            "p": [
+              "Logoet forestiller et stiliseret kattehoved, som målgruppen let genkender, da figuren bruges som fællesskabets avatar. Logoets minimalistiske, tegneserieinspirerede stil passer harmonisk sammen med webapplikationens overordnede visuelle udtryk."
+            ]
+          },
+          "alts": [
+            "ManyaSits logo"
+          ]
+        }
+      ]
     }
   ]
 }

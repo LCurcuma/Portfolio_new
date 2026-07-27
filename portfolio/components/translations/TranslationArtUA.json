@@ -12,7 +12,7 @@
   },
   "section": [
     {
-      "h2": "Illustrations",
+      "h2": "Ілюстрації",
       "alt": [
         "Кішка Міллі",
         "Фелікс Аргайл",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "h2": "Animations",
+      "h2": "Анімації",
       "alt": [
         "Короткий анімаційний ролик-реклама для BilligStyling",
         "Маня падає",
@@ -37,14 +37,14 @@
         "Маня стоїть"
       ],
       "links": [
-        "/project/en/10",
-        "/project/en/11",
-        "/project/en/12",
-        "/project/en/13"
+        "/project/ua/10",
+        "/project/ua/11",
+        "/project/ua/12",
+        "/project/ua/13"
       ]
     },
     {
-      "h2": "Logos",
+      "h2": "Логотипи",
       "alt": [
         "Лого Førstehjælpseksperten",
         "Редизайн лого No Limitation",

@@ -66,7 +66,7 @@ export default function Projects() {
       return (
         <>
           <Header translation={translationArtUA} />
-          <ImagesSection translation={translationArtEN} links={links} />
+          <ImagesSection translation={translationArtUA} links={links} />
         </>
       );
     } 

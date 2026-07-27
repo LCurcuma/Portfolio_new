@@ -653,18 +653,14 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/manya_sit_font.png"
-          ],
+          "images": ["/images/projects/websites/manya_sit_font.png"],
           "text": {
             "h": "Typography",
             "p": [
               "The Pacifico typeface was chosen for the project because of its friendly handwritten style, which complements the playful atmosphere of the application. As the interface contains only a small amount of text, the focus was placed on visual style without compromising readability, thanks to the use of large font sizes."
             ]
           },
-          "alts": [
-            "Pacifico font"
-          ]
+          "alts": ["Pacifico font"]
         },
         {
           "type": "image_text",
@@ -689,17 +685,59 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/manya_sit_logo.png"
-          ],
+          "images": ["/images/projects/logos/manya_sit_logo.png"],
           "text": {
             "h": "Logo",
             "p": [
               "The logo features a stylized cat's head, which is easily recognizable to the target audience because the character is used as the community's avatar. Its minimalistic cartoon style complements the overall visual identity of the web application."
             ]
           },
+          "alts": ["ManyaSit logo"]
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/illustrations/mll.png"],
+          "text": {
+            "h": "Millie",
+            "p": [
+              "A personal character sketch created in a freehand style. The main focus was on conveying the character's emotions, facial expression, and color palette."
+            ]
+          },
+          "alts": ["Millie the Cat"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Colored Sketch"
+            },
+            {
+              "head": "Format",
+              "text": "Headshot"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mll_line.png",
+            "/images/projects/illustrations/mll_color.png"
+          ],
+          "text": {
+            "h": "Process",
+            "p": [
+            "The illustration was created step by step, starting with a sketch, followed by base colors, shading, and final details. Separate layers were used to organize the sketch, colors, shadows, and details, making the illustration easier to edit throughout the process."
+            ]
+          },
           "alts": [
-            "ManyaSit logo"
+            "Sketch line of the illustration",
+            "Illustration coloring"
           ]
         }
       ]

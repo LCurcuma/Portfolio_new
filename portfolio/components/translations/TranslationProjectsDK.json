@@ -826,6 +826,27 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/ynyn_sketch.png",
+            "/images/projects/illustrations/ynyn_lineart.png",
+            "/images/projects/illutrations/ynyn_flat_colors.png",
+            "/images/projects/illustrations/ynyn_colors.png"
+          ],
+          "text": {
+            "h": "Proces",
+            "p": [
+              "Illustrationen blev skabt trin for trin – fra skitse og lineart til grundfarver, skygger, de sidste detaljer, farvekorrektion og visuelle effekter. Separate lag blev brugt til at organisere de forskellige elementer, hvilket gjorde illustrationen lettere at redigere gennem hele processen."
+            ]
+          },
+          "alts": [
+            "Skitse",
+            "Linjetegninger",
+            "Grundfarver",
+            "Fuld farve uden effekter"
+          ]
         }
       ]
     }

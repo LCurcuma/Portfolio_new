@@ -731,6 +731,23 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mll_line.png",
+            "/images/projects/illustrations/mll_color.png"
+          ],
+          "text": {
+            "h": "Proces",
+            "p": [
+              "Illustrationen blev skabt trin for trin – fra den første skitse til grundfarver, skygger og de sidste detaljer. Separate lag blev brugt til at organisere skitsen, farverne, skyggerne og detaljerne, hvilket gjorde det nemmere at redigere de enkelte elementer undervejs."
+            ]
+          },
+          "alts": [
+            "Skitse linje illustration",
+            "Illustrationsfarvning"
+          ]
         }
       ]
     }

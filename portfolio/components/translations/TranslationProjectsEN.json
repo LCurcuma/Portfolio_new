@@ -793,6 +793,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/ynyn.png"
+          ],
+          "text": {
+            "h": "Yunyun in Her Eyes",
+            "p": [
+              "A fan illustration featuring Yunyun and Q-T from Yunyun Syndrome!? Rhythm Psychosis. The main focus was on the overall atmosphere, the interaction between the characters, and the color palette."
+            ]
+          },
+          "alts": [
+            "Yunyun in Her Eyes"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Finished Illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Combined Composition (Full Body + Close-up)"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

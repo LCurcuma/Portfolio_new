@@ -741,6 +741,37 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/illustrations/fmb.png"
+
+          ],
+          "text": {
+            "h": "Felix Argyle",
+            "p": [
+              "An illustration of Felix Argyle created as a commissioned request. The main focus was on conveying the character's emotions, facial expression, and a harmonious color palette."
+            ]
+          },
+          "alts": ["Felix Argyle"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Finished Illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Bust"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

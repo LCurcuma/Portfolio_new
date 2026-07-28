@@ -770,6 +770,27 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/fmb_sketch.png",
+            "/images/projects/illustrations/fmb_lineart.png",
+            "/images/projects/illustrations/fmb_flat_colors.png",
+            "/images/projects/illustrations/fmb_colors.png"
+          ],
+          "text": {
+            "h": "Process",
+            "p": [
+              "The illustration was created step by step, starting with a sketch, followed by line art, base colors, shading, final details, color correction, and visual effects. Separate layers were used to organize the different elements, making the illustration easier to edit throughout the process."
+            ]
+          },
+          "alts": [
+            "Sketch",
+            "Lineart",
+            "Basic colors",
+            "Full colored"
+          ]
         }
       ]
     }

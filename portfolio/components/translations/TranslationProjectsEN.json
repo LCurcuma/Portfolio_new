@@ -847,6 +847,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/study.png"
+          ],
+          "text": {
+            "h": "Mekka in an Apartment Building Corridor",
+            "p": [
+              "An illustration created to improve skills in background design and color work. The main focus was placed on developing the environment, color palette, and a lineless art style."
+            ]
+          },
+          "alts": [
+            "Mekka in an Apartment Building Corridor"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Colored Sketch"
+            },
+            {
+              "head": "Format",
+              "text": "Full Body"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

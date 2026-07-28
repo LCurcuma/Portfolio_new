@@ -898,6 +898,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mhndfornyunderthechristmastree.png"
+          ],
+          "text": {
+            "h": "Nadiia og Maha under juletræet",
+            "p": [
+              "En kollaborativ illustration skabt sammen med en anden kunstner. Mit bidrag omfattede tegningen af karakteren Nadiia, baggrunden samt tilføjelsen af visuelle effekter for at integrere den anden kunstners karakter harmonisk i den samlede komposition."
+            ]
+          },
+          "alts": [
+            "Nadiia og Maha under juletræet"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Færdig illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Hel figur"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -913,6 +913,25 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mhndfornyunderthechristmastree_lineart.png",
+            "/images/projects/illustrations/mhndfornyunderthechristmastree_flat_colors.png",
+            "/images/projects/illustrations/mhndfornyunderthechristmastree_colors.png"
+          ],
+          "text": {
+            "h": "Процес",
+            "p": [
+              "Ілюстрація створювалася поетапно: лайнарт, базові кольори, тіні, корекція кольору та додавання візуальних ефектів. Для зручності редагування окремі елементи були організовані на різних шарах."
+            ]
+          },
+          "alts": [
+            "Лайнарт",
+            "Базові кольори", 
+            "Повний покрас моєї частини"
+          ]
         }
       ]
     }

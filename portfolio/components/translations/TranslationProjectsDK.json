@@ -849,6 +849,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/study.png"
+          ],
+          "text": {
+            "h": "Mekka i en lejlighedsopgang",
+            "p": [
+              "En illustration skabt for at udvikle færdigheder inden for baggrundstegning og farvearbejde. Fokus var især på opbygningen af miljøet, farvepaletten og en linjeløs tegnestil."
+            ]
+          },
+          "alts": [
+            "Mekka i en lejlighedsopgang"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Farvelagt skitse"
+            },
+            {
+              "head": "Format",
+              "text": "Hel figur"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

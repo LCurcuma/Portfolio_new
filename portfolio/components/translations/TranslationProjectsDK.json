@@ -700,6 +700,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mll.png"
+          ],
+          "text": {
+            "h": "Millie",
+            "p": [
+              "En personlig karakterskitse udført i en fri tegnestil. Fokus var på at formidle figurens følelser, ansigtsudtryk og farvepalette."
+            ]
+          },
+          "alts": [
+            "Katten Millie"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Farvelagt skitse"
+            },
+            {
+              "head": "Format",
+              "text": "Portræt (Headshot)"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

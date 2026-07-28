@@ -878,6 +878,22 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/original_image_to_the_stud.jpg"
+          ],
+          "text": {
+            "h": "Process",
+            "p": [
+              "The original photograph used as a reference during the creation process is shown next to the illustration.",
+              "The artwork was created step by step: sketch, base colors, rendering, and adding the character to the completed background. To improve rendering skills, the final illustration was created almost entirely on a single layer."
+            ]
+          },
+          "alts": [
+            "Reference"
+          ]
         }
       ]
     }

@@ -795,6 +795,39 @@
           "alts": ["Skitse", "Linjer", "Grundfarver", "Fuld farve"]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/ynyn.png"
+          ],
+          "text": {
+            "h": "Yunyun in Her Eyes",
+            "p": [
+              "En fanillustration af Yunyun og Q-T fra Yunyun Syndrome!? Rhythm Psychosis. Fokus var på værkets stemning, samspillet mellem figurerne og farvepaletten."
+            ]
+          },
+          "alts": [
+            "Yunyun in Her Eyes"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Færdig illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Kombineret komposition (Hel figur + Nærbillede)"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

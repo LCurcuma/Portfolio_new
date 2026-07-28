@@ -880,6 +880,22 @@
               "text": "Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/original_image_to_the_stud.jpg"
+          ],
+          "text": {
+            "h": "Proces",
+            "p": [
+              "Det originale fotografi, som blev brugt som reference under skabelsen af illustrationen, vises ved siden af.",
+              "Illustrationen blev skabt trin for trin – fra skitse og grundfarver til rendering og tilføjelse af figuren til den færdige baggrund. For at forbedre mine rendering-færdigheder blev den endelige illustration næsten udelukkende lavet på ét lag."
+            ]
+          },
+          "alts": [
+            "Reference"
+          ]
         }
       ]
     }

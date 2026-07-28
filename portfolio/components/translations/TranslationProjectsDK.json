@@ -750,6 +750,35 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/illustrations/fmb.png"],
+          "text": {
+            "h": "Felix Argyle",
+            "p": [
+              "En illustration af Felix Argyle, skabt som en bestillingsopgave (request). Fokus var på at formidle figurens følelser, ansigtsudtryk og en harmonisk farvepalette."
+            ]
+          },
+          "alts": ["Felix Argyle"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Færdig illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Buste"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

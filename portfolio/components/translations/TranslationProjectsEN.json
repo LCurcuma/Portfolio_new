@@ -896,6 +896,39 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/mhndfornyunderthechristmastree.png"
+          ],
+          "text": {
+            "h": "Nadiia and Maha Under the Christmas Tree",
+            "p": [
+              "A collaborative illustration created together with another artist. My contribution included drawing the character Nadiia, creating the background, and adding visual effects to seamlessly integrate the other artist’s character into the overall composition."
+            ]
+          },
+          "alts": [
+            "Nadiia and Maha Under the Christmas Tree"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Finished Illustration"
+            },
+            {
+              "head": "Format",
+              "text": "Full Body"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -732,13 +732,10 @@
           "text": {
             "h": "Process",
             "p": [
-            "The illustration was created step by step, starting with a sketch, followed by base colors, shading, and final details. Separate layers were used to organize the sketch, colors, shadows, and details, making the illustration easier to edit throughout the process."
+              "The illustration was created step by step, starting with a sketch, followed by base colors, shading, and final details. Separate layers were used to organize the sketch, colors, shadows, and details, making the illustration easier to edit throughout the process."
             ]
           },
-          "alts": [
-            "Sketch line of the illustration",
-            "Illustration coloring"
-          ]
+          "alts": ["Sketch line of the illustration", "Illustration coloring"]
         }
       ]
     },
@@ -746,9 +743,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": ["/images/projects/illustrations/fmb.png"
-
-          ],
+          "images": ["/images/projects/illustrations/fmb.png"],
           "text": {
             "h": "Felix Argyle",
             "p": [
@@ -785,12 +780,7 @@
               "The illustration was created step by step, starting with a sketch, followed by line art, base colors, shading, final details, color correction, and visual effects. Separate layers were used to organize the different elements, making the illustration easier to edit throughout the process."
             ]
           },
-          "alts": [
-            "Sketch",
-            "Lineart",
-            "Basic colors",
-            "Full colored"
-          ]
+          "alts": ["Sketch", "Lineart", "Basic colors", "Full colored"]
         }
       ]
     },
@@ -798,18 +788,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/illustrations/ynyn.png"
-          ],
+          "images": ["/images/projects/illustrations/ynyn.png"],
           "text": {
             "h": "Yunyun in Her Eyes",
             "p": [
               "A fan illustration featuring Yunyun and Q-T from Yunyun Syndrome!? Rhythm Psychosis. The main focus was on the overall atmosphere, the interaction between the characters, and the color palette."
             ]
           },
-          "alts": [
-            "Yunyun in Her Eyes"
-          ],
+          "alts": ["Yunyun in Her Eyes"],
           "description": [
             {
               "head": "Type",
@@ -852,18 +838,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/illustrations/study.png"
-          ],
+          "images": ["/images/projects/illustrations/study.png"],
           "text": {
             "h": "Mekka in an Apartment Building Corridor",
             "p": [
               "An illustration created to improve skills in background design and color work. The main focus was placed on developing the environment, color palette, and a lineless art style."
             ]
           },
-          "alts": [
-            "Mekka in an Apartment Building Corridor"
-          ],
+          "alts": ["Mekka in an Apartment Building Corridor"],
           "description": [
             {
               "head": "Type",
@@ -891,9 +873,7 @@
               "The artwork was created step by step: sketch, base colors, rendering, and adding the character to the completed background. To improve rendering skills, the final illustration was created almost entirely on a single layer."
             ]
           },
-          "alts": [
-            "Reference"
-          ]
+          "alts": ["Reference"]
         }
       ]
     },
@@ -910,9 +890,7 @@
               "A collaborative illustration created together with another artist. My contribution included drawing the character Nadiia, creating the background, and adding visual effects to seamlessly integrate the other artist’s character into the overall composition."
             ]
           },
-          "alts": [
-            "Nadiia and Maha Under the Christmas Tree"
-          ],
+          "alts": ["Nadiia and Maha Under the Christmas Tree"],
           "description": [
             {
               "head": "Type",
@@ -941,10 +919,33 @@
               "The illustration was created step by step: line art, base colors, shading, color correction, and adding visual effects. Separate layers were used to organize the different elements, making the illustration easier to edit."
             ]
           },
-          "alts": [
-            "Lineart",
-            "Basic colors",
-            "Full color of my part"
+          "alts": ["Lineart", "Basic colors", "Full color of my part"]
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "video_text",
+          "video": ["/images/projects/animations/video2_redigeret.mp4"],
+          "text": {
+            "h": "Video for BilligStyling",
+            "p": [
+              "A short promotional video created as a concept for BilligStyling's social media channels. The goal was to introduce a new content format that would fit naturally into the brand's humorous communication style.",
+              "The concept was partly inspired by the popular internet meme 'Boo, got scared?'. However, it was adapted to suit BilligStyling's target audience by changing the dialogue, presentation, and context to match the company's automotive focus and tone of voice.",
+              "The primary target audience consists of car enthusiasts interested in automotive accessories, tuning, and services who enjoy humorous and entertaining content.",
+              "Since BilligStyling is active on platforms such as TikTok and Facebook, the video was produced in a vertical format optimized for viewing on mobile devices."
+            ]
+          },
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-Frame Animation with Sound"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint • Adobe Premiere Pro"
+            }
           ]
         }
       ]

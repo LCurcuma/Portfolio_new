@@ -946,6 +946,35 @@
           "alts": ["Lineart", "Grundlæggende farver", "Fuld farve på min del"]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "video_text",
+          "videos": [
+            "/images/projects/animations/video2_redigeret.mp4"
+          ],
+          "text": {
+            "h": "Video til BilligStyling",
+            "p": [
+              "En kort reklamevideo udviklet som et koncept til BilligStylings sociale medier. Formålet var at præsentere et nyt indholdsformat, der naturligt passer til brandets humoristiske kommunikationsstil.",
+              "Idéen til videoen var delvist inspireret af det populære internetmeme \"Bøh, blev du bange?\". Konceptet blev dog tilpasset BilligStylings målgruppe ved at ændre dialogen, præsentationen og konteksten, så det passede til virksomhedens fokus på biler og dens kommunikationsstil.",
+              "Den primære målgruppe er bilentusiaster med interesse for biltilbehør, tuning og services, som foretrækker humoristisk og underholdende indhold.",
+              "Da BilligStyling er aktiv på platforme som TikTok og Facebook, blev videoen produceret i et vertikalt format, der er optimeret til visning på mobile enheder."
+            ]
+          },
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame-animation med lyd"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint • Adobe Premiere Pro"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

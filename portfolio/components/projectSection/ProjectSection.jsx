@@ -248,6 +248,80 @@ export default function ProjectSection({ translation, links, id }) {
               ))}
             </div>
           );
+        else if (section.type === "video_text" && sectionId === 0)
+          return (
+            <div
+              key={sectionId}
+              className={`${styles.section} scroll_show_animate`}
+            >
+              <div className={`${styles.text} ${styles.inverted_order2}`}>
+                {section.href ? (
+                  <div className={styles.h}>
+                    <a
+                      href={section.href}
+                      className={`${styles.link} ${styles.hover_underline}`}
+                      target="_blank"
+                    >
+                      <h1 className={`${styles.h1} introBig`}>
+                        {section.text.h}
+                      </h1>
+                    </a>
+                    {section.icons &&
+                      section.icons.map((icon, iconId) => (
+                        <a
+                          key={iconId}
+                          href={section.hrefs[iconId]}
+                          target="_blank"
+                        >
+                          <img src={icon} className={styles.icon} />
+                        </a>
+                      ))}
+                  </div>
+                ) : (
+                  <h1
+                    className={`${styles.h1} ${styles.h_without_anim} introBig`}
+                  >
+                    {section.text.h}
+                  </h1>
+                )}
+                <div className={styles.description}>
+                  {section.description.map((desc, descId) => (
+                    <p key={descId} className={`${styles.desc} introMain`}>
+                      <span
+                        style={{
+                          color: "rgb(244, 193, 210)",
+                          fontSize: 16,
+                          lineHeight: 2,
+                        }}
+                      >
+                        <i>
+                          <b>{desc.head}</b>
+                        </i>
+                      </span>
+                      <br />
+                      {desc.text}
+                    </p>
+                  ))}
+                </div>
+                {section.text.p.map((text, textId) => (
+                  <p key={textId} className={`${styles.p} introMain`}>
+                    {text}
+                  </p>
+                ))}
+              </div>
+              <div
+                className={`${styles.image_container} ${styles.inverted_order}`}
+              >
+                {section.videos.map((video, videoId) => (
+                  <video
+                    key={videoId}
+                    src={video}
+                    className={styles.image}
+                  ></video>
+                ))}
+              </div>
+            </div>
+          );
       })}
     </section>
   );

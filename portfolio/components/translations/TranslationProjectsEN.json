@@ -947,6 +947,22 @@
               "text": "Clip Studio Paint • Adobe Premiere Pro"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/storyboard.jpg"
+          ],
+          "text": {
+            "h": "Storyboard",
+            "p": [
+              "Before starting the animation, a storyboard was created to plan the shot composition, character poses, dialogue, and the sequence of scenes.",
+              "During production, several scenes were simplified or removed to maintain a dynamic pace and achieve a runtime of approximately 15 seconds, which is considered optimal for short-form social media videos."
+            ]
+          },
+          "alts": [
+            "Storyboard"
+          ]
         }
       ]
     }

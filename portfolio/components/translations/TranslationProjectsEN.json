@@ -927,7 +927,7 @@
       "sections_project": [
         {
           "type": "video_text",
-          "video": ["/images/projects/animations/video2_redigeret.mp4"],
+          "videos": ["/images/projects/animations/video2_redigeret.mp4"],
           "text": {
             "h": "Video for BilligStyling",
             "p": [

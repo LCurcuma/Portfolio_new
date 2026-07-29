@@ -989,6 +989,59 @@
           "alts": [
             "Storyboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/anim1.gif",
+            "/images/projects/animations/start.png",
+            "/images/projects/animations/closed.png",
+            "/images/projects/animations/e.png",
+            "/images/projects/animations/i.png",
+            "/images/projects/animations/u.png",
+            "/images/projects/animations/а.png",
+            "/images/projects/animations/anim2.png",
+            "/images/projects/animations/anim3.png",
+            "/images/projects/animations/anim4_closed.png",
+            "/images/projects/animations/anim4_e.png",
+            "/images/projects/animations/anim4_i.png",
+            "/images/projects/animations/anim4_jeg.png",
+            "/images/projects/animations/anim4_o.png",
+            "/images/projects/animations/anim5.png",
+            "/images/projects/animations/anim5_closed.png",
+            "/images/projects/animations/anim5_closed_eyes.png",
+            "/images/projects/animations/anim5_half_closed_eyes.png",
+            "/images/projects/animations/anim5_e.png",
+            "/images/projects/animations/anim5_i.png",
+            "/images/projects/animations/anim5_o.png",
+            "/images/projects/animations/anim5_u.png"
+          ],
+          "text": {
+            "h": "Animation",
+            "p": [
+              "Arbejdet begyndte med at skabe en stiliseret karakter baseret på en person, der regelmæssigt optræder i BilligStylings videoer. For at simulere tale blev der lavet flere ansigtsudtryk med forskellige mundpositioner samt en frame-by-frame-animation af karakterens indtræden i scenen.",
+              "Frame-by-frame-animationen blev skabt i Clip Studio Paint, hvorefter alle grafiske elementer, lyd og baggrundselementer blev importeret til Adobe Premiere Pro. I den afsluttende fase blev videoen redigeret, lydsynkroniseringen blev justeret, elementer blev skaleret og flyttet, og de nødvendige visuelle effekter blev tilføjet."
+            ]
+          },
+          "alts": [
+            "Opstartsanimation",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme",
+            "Ramme"
+          ]
         }
       ]
     }

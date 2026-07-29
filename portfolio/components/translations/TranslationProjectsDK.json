@@ -973,6 +973,22 @@
               "text": "Clip Studio Paint • Adobe Premiere Pro"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/storyboard.jpg"
+          ],
+          "text": {
+            "h": "Storyboard",
+            "p": [
+              "Før animationsarbejdet begyndte, blev der udarbejdet et storyboard for at planlægge billedkomposition, karakterens positurer, replikker og rækkefølgen af scenerne.",
+              "Under produktionen blev nogle scener forenklet eller fjernet for at bevare et dynamisk tempo og opnå en varighed på cirka 15 sekunder, hvilket anses for at være optimalt til korte videoer på sociale medier."
+            ]
+          },
+          "alts": [
+            "Storyboard"
+          ]
         }
       ]
     }

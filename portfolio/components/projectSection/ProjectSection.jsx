@@ -317,6 +317,9 @@ export default function ProjectSection({ translation, links, id }) {
                     key={videoId}
                     src={video}
                     className={styles.image}
+                    autoPlay
+                    loop
+                    playsInline
                   ></video>
                 ))}
               </div>

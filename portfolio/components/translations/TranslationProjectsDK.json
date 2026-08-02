@@ -1044,6 +1044,36 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/manya_fail_f.gif"
+          ],
+          "text": {
+            "h": "Manya falder",
+            "p": [
+              "En kort frame-by-frame-animation skabt på bestilling for en privat kunde. Animationen bruges i et spil og afspilles, når spilleren taber efter et mislykket klik.",
+              "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
+            ]
+          },
+          "alts": [
+            "Manya falder"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame-animation"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint • Adobe Photoshop"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

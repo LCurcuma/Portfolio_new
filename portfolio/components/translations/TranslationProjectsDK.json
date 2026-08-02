@@ -1072,6 +1072,25 @@
               "text": "Clip Studio Paint • Adobe Photoshop"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/Manya_fail_sketch.png",
+            "/images/projects/animations/Manya_fail_sketch.gif",
+            "/images/projects/animations/Manya_fail_flat_color.gif"
+          ],
+          "text": {
+            "h": "Proces",
+            "p": [
+              "Animationen blev skabt trin for trin: fastlæggelse af nøglebilleder, oprettelse af mellembilleder, lineart, grundfarver og rendering. På hvert trin blev bevægelserne justeret og forfinet for at opnå en flydende og udtryksfuld animation."
+            ]
+          },
+          "alts": [
+            "Nøglepositurskitse",
+            "Animationsskitse",
+            "Animationslinje og basisfarver"
+          ]
         }
       ]
     }

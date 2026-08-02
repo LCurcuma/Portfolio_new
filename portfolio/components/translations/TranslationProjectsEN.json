@@ -1023,6 +1023,36 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/manya_fail_f.gif"
+          ],
+          "text": {
+            "h": "Manya falls",
+            "p": [
+              "A short frame-by-frame animation created as a commissioned project for a private client. The animation is used in a game and plays when the player loses after a failed click.",
+              "The target audience consists of the creator's fan community and fans of the character for whom the game was made."
+            ]
+          },
+          "alts": [
+            "Manya falls"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-Frame Animation"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint • Adobe Photoshop"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

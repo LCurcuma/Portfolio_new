@@ -1145,6 +1145,25 @@
               "text": "Clip Studio Paint • Adobe Photoshop"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/Manya_stay_sketch.png",
+            "/images/projects/animations/Manya_stay_sketch.gif",
+            "/images/projects/animations/Manya_stay_flat_color.gif"
+          ],
+          "text": {
+            "h": "Process",
+            "p": [
+              "The animation was created step by step: defining keyframes, creating in-between frames, drawing the line art, applying base colors, and rendering. At each stage, the movement was refined and adjusted to achieve smooth and expressive animation."
+            ]
+          },
+          "alts": [
+            "Keyframe Sketch",
+            "Animation Sketch",
+            "Animation Line and Base Colors"
+          ]
         }
       ]
     }

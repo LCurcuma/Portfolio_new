@@ -1117,6 +1117,36 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/manya_stand_а.gif"
+          ],
+          "text": {
+            "h": "Manya stands",
+            "p": [
+              "A short frame-by-frame animation created as a commissioned project for a private client. The animation is used in the game as an idle animation, which plays while the character is in an idle state.",
+              "The target audience consists of the creator's fan community and fans of the character for whom the game was made."
+            ]
+          },
+          "alts": [
+            "Manya stands"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-Frame Animation"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint • Adobe Photoshop"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1093,6 +1093,34 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/animations/manya_sit_f.gif"],
+          "text": {
+            "h": "Manya laver squats",
+            "p": [
+              "En kort frame-by-frame-animation skabt på bestilling for en privat kunde. Animationen bruges i et spil og afspilles, når spilleren klikker korrekt.",
+              "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
+            ]
+          },
+          "alts": [
+            "Manya laver squats"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame-animation"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint • Adobe Photoshop"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

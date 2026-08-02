@@ -1140,6 +1140,36 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/manya_stand_а.gif"
+          ],
+          "text": {
+            "h": "Manya står",
+            "p": [
+              "En kort frame-by-frame-animation skabt på bestilling for en privat kunde. Animationen bruges i spillet som en idle-animation, der afspilles, når karakteren er i sin idle-tilstand.",
+              "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
+            ]
+          },
+          "alts": [
+            "Manya står"
+          ],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame-animation"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint • Adobe Photoshop"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

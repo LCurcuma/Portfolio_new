@@ -1084,6 +1084,25 @@
               "text": "Clip Studio Paint • Adobe Photoshop"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/Manya_sit_sketch.png",
+            "/images/projects/animations/Manya_sit_sketch.gif",
+            "/images/projects/animations/Manya_sit_flat_colors.gif"
+          ],
+          "text": {
+            "h": "Процес",
+            "p": [
+              "Анімація створювалася поетапно: визначення ключових кадрів, створення проміжних кадрів, лайнарт, базові кольори та рендеринг. На кожному етапі рухи уточнювалися й коригувалися для досягнення плавної та виразної анімації."
+            ]
+          },
+          "alts": [
+            "Скетч ключового кадру",
+            "Скетч анімації", 
+            "Лайн та базові кольори анімації"
+          ]
         }
       ]
     }

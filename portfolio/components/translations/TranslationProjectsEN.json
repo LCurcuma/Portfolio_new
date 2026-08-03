@@ -1166,6 +1166,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_full_logo.png"
+          ],
+          "text": {
+            "h": "Førstehjælpseksperten",
+            "p": [
+              "A logo created for the Førstehjælpseksperten project. Its visual concept is built around the ideas of safety, mutual support, and first aid, reflecting the project's purpose and values."
+            ]
+          },
+          "alts": [
+            "Førstehjælpseksperten logo"
+          ],
+          "description": [
+            {
+              "head": "Tools",
+              "text": "Adobe Illustrator"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

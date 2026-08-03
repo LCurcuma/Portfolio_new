@@ -1205,6 +1205,22 @@
           "alts": [
             "Logos sketches"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_colors.png"
+          ],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "After the concept had been finalized, a vector version of the logo was created to explore different color palettes. A variation featuring a solid-colored heart was also tested, but it was discarded because it closely resembled the visual identity commonly used by pharmacies.",
+              "The final logo uses green, white, and red as its primary colors. These colors had already been selected during the project's mood board testing phase and aligned with the overall visual concept."
+            ]
+          },
+          "alts": [
+            "Variants of logos colors"
+          ]
         }
       ]
     }

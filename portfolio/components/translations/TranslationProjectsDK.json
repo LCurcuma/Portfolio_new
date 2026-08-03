@@ -1228,6 +1228,22 @@
           "alts": [
             "Skitser af ideer af logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_colors.png"
+          ],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Efter at konceptet var blevet godkendt, blev der lavet en vektorversion af logoet for at afprøve forskellige farvepaletter. En version med et ensfarvet hjerte blev også testet, men den blev fravalgt, fordi den mindede for meget om den visuelle identitet, der ofte forbindes med apoteker.",
+              "Logoets endelige farvepalette består af grøn, hvid og rød. Disse farver blev valgt allerede under testfasen af projektets moodboard og stemte overens med den overordnede visuelle identitet."
+            ]
+          },
+          "alts": [
+            "Farve varianter af logo"
+          ]
         }
       ]
     }

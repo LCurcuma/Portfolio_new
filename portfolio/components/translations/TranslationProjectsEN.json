@@ -1239,6 +1239,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_logo_redesign.png"
+          ],
+          "text": {
+            "h": "NoLimitation Logo Redesign",
+            "p": [
+              "A logo redesign project for NoLimitation, a company specializing in website development."
+            ]
+          },
+          "alts": [
+            "Redesign og the NoLimitations logo"
+          ],
+          "description": [
+            {
+              "head": "Tools",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

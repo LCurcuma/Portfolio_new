@@ -1262,6 +1262,22 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_logo_original.png"
+          ],
+          "text": {
+            "h": "Reason for Redesign",
+            "p": [
+              "Although the previous logo was minimalistic, simple, and communicated the company's connection to the technology sector, it did not sufficiently reflect the brand name and its core idea.",
+              "After analysis, it was decided to preserve the main strengths of the previous solution — simplicity and minimalism — while changing the visual concept to create a stronger connection with the name NoLimitation. The number of colors in the logo was also reduced to three in order to create a more cohesive visual identity."
+            ]
+          },
+          "alts": [
+            "Original logo"
+          ]
         }
       ]
     }

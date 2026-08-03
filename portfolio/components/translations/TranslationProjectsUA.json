@@ -1227,6 +1227,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_logo_redesign.png"
+          ],
+          "text": {
+            "h": "Редизайн логотипу NoLimitation",
+            "p": [
+              "Редизайн логотипу NoLimitation — компанії, що спеціалізується на створенні вебсайтів."
+            ]
+          },
+          "alts": [
+            "Редизайни логотипу NoLimitation"
+          ],
+          "description": [
+            {
+              "head": "Інструменти",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

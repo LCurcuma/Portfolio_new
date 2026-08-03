@@ -1189,6 +1189,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_full_logo.png"
+          ],
+          "text": {
+            "h": "Førstehjælpseksperten",
+            "p": [
+              "Et logo udviklet til Førstehjælpseksperten-projektet. Det visuelle koncept er bygget op omkring associationer til tryghed, hjælpsomhed og førstehjælp, hvilket afspejler projektets formål og værdier."
+            ]
+          },
+          "alts": [
+            "Førstehjælpseksperten logo"
+          ],
+          "description": [
+            {
+              "head": "Værktøjer",
+              "text": "Adobe Illustrator"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -20,12 +20,21 @@
 }
 
 .image{
-    height: 200px;
+    height: 100%;
+    width: 100%;
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+
+    @media (min-width: 767px) {
+        height: 150px;
+    }
+
+    @media (min-width: 1020px) {
+        height: 200px;
+    }
 }
 
 .image:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }

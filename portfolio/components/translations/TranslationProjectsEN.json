@@ -1221,6 +1221,22 @@
           "alts": [
             "Variants of logos colors"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_fonts.jpg"
+          ],
+          "text": {
+            "h": "Typeface Selection",
+            "p": [
+              "Several sans-serif typefaces were tested for the final version of the logo, including Calibri, Abel, Franklin Gothic Demi, and Myriad Pro. Myriad Pro was ultimately selected because the weight of its strokes complemented the geometry of the logo mark most effectively.",
+              "The word Eksperten was highlighted in red to make the brand name more distinctive and improve its memorability."
+            ]
+          },
+          "alts": [
+            "The font selection for logo"
+          ]
         }
       ]
     }

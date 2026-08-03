@@ -1154,6 +1154,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_full_logo.png"
+          ],
+          "text": {
+            "h": "Førstehjælpseksperten",
+            "p": [
+              "Логотип, створений для проєкту Førstehjælpseksperten. Його візуальна концепція побудована навколо асоціацій із безпекою, взаємодопомогою та першою медичною допомогою."
+            ]
+          },
+          "alts": [
+            "Логотип Førstehjælpseksperten"
+          ],
+          "description": [
+            {
+              "head": "Інструменти",
+              "text": "Adobe Illustrator"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

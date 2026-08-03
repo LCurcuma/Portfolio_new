@@ -1294,6 +1294,22 @@
           "alts": [
             "Moodboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_sketch.jpg"
+          ],
+          "text": {
+            "h": "Sketches",
+            "p": [
+              "After analyzing the moodboard, an arrow was chosen as the main symbol of the logo, as it is directly connected with the ideas of moving forward, progress, and overcoming limitations.",
+              "Several sketch variations of the logo were created and later discussed with a company representative. After receiving feedback, the three strongest concepts were converted into vector format and tested together with the brand name."
+            ]
+          },
+          "alts": [
+            "Sketches of logo"
+          ]
         }
       ]
     }

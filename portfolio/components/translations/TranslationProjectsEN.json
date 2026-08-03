@@ -1189,6 +1189,22 @@
               "text": "Adobe Illustrator"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_sketch.jpg"
+          ],
+          "text": {
+            "h": "Sketches",
+            "p": [
+              "To find the strongest concept, a series of quick paper sketches was created. Since the project focuses on first aid education through quizzes, the medical cross was chosen as the primary symbol. Different variations incorporating a checkmark were also explored, with its shape refined to find the most recognizable solution.",
+              "After discussing the concepts as a team, we selected the version combining a medical cross and a heart. The exclamation mark at the bottom of the logo was removed, as the composition itself already created a similar visual association."
+            ]
+          },
+          "alts": [
+            "Logos sketches"
+          ]
         }
       ]
     }

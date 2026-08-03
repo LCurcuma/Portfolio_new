@@ -1244,6 +1244,22 @@
           "alts": [
             "Farve varianter af logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_fonts.jpg"
+          ],
+          "text": {
+            "h": "Valg af skrifttype",
+            "p": [
+              "Flere sans serif-skrifttyper blev testet til den endelige version af logoet, herunder Calibri, Abel, Franklin Gothic Demi og Myriad Pro. Myriad Pro blev valgt, fordi skrifttypens stregtykkelse passede bedst til logoets geometriske formsprog.",
+              "Ordet Eksperten blev fremhævet med rød for at gøre navnet mere iøjnefaldende og lettere at huske."
+            ]
+          },
+          "alts": [
+            "Skrifttypes varianter af logo"
+          ]
         }
       ]
     }

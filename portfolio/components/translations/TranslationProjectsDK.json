@@ -1212,6 +1212,22 @@
               "text": "Adobe Illustrator"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/first_help_experts_sketch.jpg"
+          ],
+          "text": {
+            "h": "Skitser",
+            "p": [
+              "For at finde det stærkeste koncept blev der lavet en række hurtige skitser på papir. Da projektet handler om førstehjælp og læring gennem quizzer, blev det medicinske kors valgt som det primære symbol. Der blev også udforsket forskellige variationer med et flueben, hvor formen blev justeret for at finde den mest genkendelige løsning.",
+              "Efter en fælles diskussion i teamet blev konceptet, der kombinerer et medicinsk kors og et hjerte, valgt. Udråbstegnet nederst i logoet blev fjernet, da kompositionen allerede skabte den samme visuelle association."
+            ]
+          },
+          "alts": [
+            "Skitser af ideer af logo"
+          ]
         }
       ]
     }

@@ -1250,6 +1250,12 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_logo_original.png"
+          ]
         }
       ]
     }

@@ -1301,6 +1301,22 @@
           "alts": [
             "Originalt logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_moodboard.jpg"
+          ],
+          "text": {
+            "h": "Moodboard",
+            "p": [
+              "For at definere retningen for det nye logo og finde passende visuelle symboler blev der skabt et moodboard, som repræsenterede brandets nøgleidéer: frihed fra begrænsninger, bevægelse fremad og udvikling.",
+              "Efter udarbejdelsen blev moodboardet testet, og resultaterne bekræftede, at den valgte visuelle retning stemte overens med virksomhedens koncept."
+            ]
+          },
+          "alts": [
+            "Moodboard"
+          ]
         }
       ]
     }

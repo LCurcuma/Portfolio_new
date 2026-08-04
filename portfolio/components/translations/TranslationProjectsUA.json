@@ -1300,6 +1300,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_logo.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "Логотип, створений для проєкту Waybly — вебдодатка, розробленого для людей з інвалідністю, який допомагає знаходити доступні громадські місця."
+            ]
+          },
+          "alts": [
+            "Логотип Waybly"
+          ],
+          "description": [
+            {
+              "head": "Інструменти",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

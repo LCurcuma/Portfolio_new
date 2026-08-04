@@ -1317,6 +1317,22 @@
           "alts": [
             "Moodboard"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/no_limitation_sketch.jpg"
+          ],
+          "text": {
+            "h": "Skitser",
+            "p": [
+              "Efter analysen af moodboardet blev en pil valgt som det primære symbol for logoet, da den er direkte forbundet med idéerne om bevægelse fremad, fremskridt og at overvinde begrænsninger.",
+              "Der blev skabt flere skitsevarianter af logoet, som efterfølgende blev diskuteret med en repræsentant fra virksomheden. Efter modtagelse af feedback blev de tre stærkeste koncepter omdannet til vektorformat og testet sammen med brandnavnet."
+            ]
+          },
+          "alts": [
+            "Skitser af logo"
+          ]
         }
       ]
     }

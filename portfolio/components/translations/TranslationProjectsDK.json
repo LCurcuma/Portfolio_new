@@ -1335,6 +1335,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_logo.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "Et logo udviklet til Waybly – en webapplikation designet til at hjælpe mennesker med handicap med at finde tilgængelige offentlige steder."
+            ]
+          },
+          "alts": [
+            "Waybly logo"
+          ],
+          "description": [
+            {
+              "head": "Værktøjer",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

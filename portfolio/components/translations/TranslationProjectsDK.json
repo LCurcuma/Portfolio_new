@@ -1374,6 +1374,22 @@
           "alts": [
             "Skitser af logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_color.jpg"
+          ],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Da blå blev valgt som projektets primære farve, blev logoet også udformet i blå nuancer for at skabe en sammenhængende visuel identitet.",
+              "Mørkeblå blev anvendt til logoets hovedelementer, mens navigationsmarkøren blev fremhævet med lyseblå. Denne løsning skaber en tydelig kontrast mod den hvide baggrund og fremhæver samtidig det centrale element, som symboliserer destinationen."
+            ]
+          },
+          "alts": [
+            "Farvevarianter for logo"
+          ]
         }
       ]
     }

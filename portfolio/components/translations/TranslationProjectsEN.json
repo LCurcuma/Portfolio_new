@@ -1351,6 +1351,22 @@
           "alts": [
             "Sketches of the logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_color.jpg"
+          ],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "As blue was chosen as the primary color of the project, the logo was also designed using a blue color palette to maintain a consistent visual identity.",
+              "Dark blue was used for the main elements of the logo, while the navigation marker was highlighted in light blue. This combination provides strong contrast against a white background while emphasizing the key element that represents the destination."
+            ]
+          },
+          "alts": [
+            "Color variants for logo"
+          ]
         }
       ]
     }

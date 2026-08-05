@@ -1358,6 +1358,22 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_sketch.jpg"
+          ],
+          "text": {
+            "h": "Skitser",
+            "p": [
+              "For at finde det stærkeste logokoncept blev der udarbejdet flere skitseforslag. Da projektets navn allerede var fastlagt på dette tidspunkt, var alle koncepterne baseret på et stiliseret W.",
+              "Under udviklingen var hovedfokus at sikre, at logoet afspejlede projektets kerneidé: at hjælpe brugerne med at finde tilgængelige ruter og nå deres destination."
+            ]
+          },
+          "alts": [
+            "Skitser af logo"
+          ]
         }
       ]
     }

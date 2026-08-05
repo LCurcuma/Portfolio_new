@@ -1312,6 +1312,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_logo.png"
+          ],
+          "text": {
+            "h": "Waybly",
+            "p": [
+              "A logo created for the Waybly project — a web application designed to help people with disabilities find accessible public places."
+            ]
+          },
+          "alts": [
+            "Waybly logo"
+          ],
+          "description": [
+            {
+              "head": "Tools",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1335,6 +1335,22 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/waybly_sketch.jpg"
+          ],
+          "text": {
+            "h": "Sketches",
+            "p": [
+              "To determine the strongest logo concept, several sketch variations were created. Since the project name had already been finalized at this stage, all concepts were based on a stylized W.",
+              "During the exploration process, the main focus was on ensuring that the logo reflected the project's core purpose: helping users find accessible routes and reach their destination."
+            ]
+          },
+          "alts": [
+            "Sketches of the logo"
+          ]
         }
       ]
     }

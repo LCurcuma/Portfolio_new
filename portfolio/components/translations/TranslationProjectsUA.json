@@ -1357,6 +1357,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_logo.png"
+          ],
+          "text": {
+            "h": "Spotless",
+            "p": [
+              "Логотип, створений для проєкту Spotless — мобільного вебдодатка для цифрового обліку прибирань у громадських вбиральнях."
+            ]
+          },
+          "alts": [
+            "Логотип Spotless"
+          ],
+          "description": [
+            {
+              "head": "Інструменти",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

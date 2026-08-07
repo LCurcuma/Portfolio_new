@@ -1447,6 +1447,21 @@
           "alts": [
             "Farvevarianter af logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_font.jpg"
+          ],
+          "text": {
+            "h": "Valg af skrifttype",
+            "p": [
+              "Der blev valgt en sans serif-skrifttype til logoets tekst. Hovedfokus var at finde en skrifttype, hvis stregtykkelse harmonerede med logoets geometri og understøttede det minimalistiske udtryk."
+            ]
+          },
+          "alts": [
+            "Skrifttypes varianter af logo"
+          ]
         }
       ]
     }

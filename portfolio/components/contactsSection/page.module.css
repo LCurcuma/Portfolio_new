@@ -1,0 +1,45 @@
+.contactDiv{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    gap: 25px;
+    padding: 50px 7vw;
+
+    @media (min-width: 768px) {
+    grid-template-columns: auto auto;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.h2{
+    color: rgb(254, 180, 151);
+  font-size: 30px;
+}
+
+.p{
+    color: rgb(244, 193, 210);
+    font-size: 18px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(254, 180, 151);
+    list-style-type: none;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link{
+    text-decoration: none;
+}

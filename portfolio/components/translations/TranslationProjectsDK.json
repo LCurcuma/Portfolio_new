@@ -1431,6 +1431,22 @@
           "alts": [
             "Skitser af logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_colors.jpg"
+          ],
+          "text": {
+            "h": "Farvevalg",
+            "p": [
+              "Da blå er projektets primære farve, blev den også valgt som logoets hovedfarve for at skabe en sammenhængende visuel identitet.",
+              "Da logoet hovedsageligt vises på en blå baggrund i applikationen, blev der også udviklet en hvid version af logoet for at sikre høj kontrast og god læsbarhed."
+            ]
+          },
+          "alts": [
+            "Farvevarianter af logo"
+          ]
         }
       ]
     }

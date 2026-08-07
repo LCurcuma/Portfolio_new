@@ -35,20 +35,27 @@ export default function ContactsSection({ translation, links }) {
   }, [clickedMore]);
 
   return (
-    <div className={styles.contactDiv}>
+    <div className={`${styles.contactDiv} scroll_show_animate`}>
       {translation.contacts.sections.map((section, sectionId) => (
         <div key={sectionId} className={styles.container}>
           <h2 className={`${styles.h2} introBig`}>{section.h2}</h2>
           <p className={`${styles.p} introMain`}>{section.p}</p>
           <ul className={styles.ul}>
-            {section.ul.map((item, itemId) => (
-              <a key={itemId} href={item.a} className={styles.link}>
-                <li className={styles.list}>
+            {section.ul.map((item, itemId) => {
+              return item.a ? (
+                <a key={itemId} href={item.a} className={styles.link}>
+                  <li className={styles.list}>
+                    <img src={item.img} className={`${styles.img}`} />
+                    <p className={`introMain ${styles.links}`}>{item.p}</p>
+                  </li>
+                </a>
+              ) : (
+                <li key={itemId} className={styles.list}>
                   <img src={item.img} className={`${styles.img}`} />
                   <p className={`introMain ${styles.links}`}>{item.p}</p>
                 </li>
-              </a>
-            ))}
+              );
+            })}
           </ul>
         </div>
       ))}

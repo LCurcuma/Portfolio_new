@@ -236,6 +236,10 @@
             "a": "https://t.me/alya_curcuma",
             "img": "/images/contact_icons/telegram.png",
             "p": "@alya_curcuma"
+          },
+          {
+            "img": "/images/contact_icons/discord.png",
+            "p": "lumili_"
           }
         ]
       },

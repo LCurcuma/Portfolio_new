@@ -1392,6 +1392,22 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_sketch.jpg"
+          ],
+          "text": {
+            "h": "Sketches",
+            "p": [
+              "The concept exploration began with a series of sketches inspired by the project's key themes: cleanliness, cleaning, time, and public restrooms.",
+              "After exploring different ideas, a stylized S was chosen as the foundation of the logo. Its shape resembles either a white hummingbird or a swan. The white hummingbird symbolizes cleanliness, while the use of the letter S creates a direct connection to the project's name."
+            ]
+          },
+          "alts": [
+            "Sketches of logo"
+          ]
         }
       ]
     }

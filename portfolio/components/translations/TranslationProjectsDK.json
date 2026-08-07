@@ -1415,6 +1415,22 @@
               "text": "Adobe Illustrator • Clip Studio Paint"
             }
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_sketch.jpg"
+          ],
+          "text": {
+            "h": "Skitser",
+            "p": [
+              "Udviklingen af konceptet begyndte med en række skitser inspireret af projektets centrale temaer: renlighed, rengøring, tid og offentlige toiletter.",
+              "Efter at have udforsket forskellige idéer blev et stiliseret S valgt som grundlag for logoet. Formen minder om enten en hvid kolibri eller en svane. Den hvide kolibri forbindes med renhed, mens bogstavet S skaber en direkte forbindelse til projektets navn."
+            ]
+          },
+          "alts": [
+            "Skitser af logo"
+          ]
         }
       ]
     }

@@ -1424,6 +1424,21 @@
           "alts": [
             "Color variants of logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_font.jpg"
+          ],
+          "text": {
+            "h": "Typeface Selection",
+            "p": [
+              "A sans-serif typeface was chosen for the text portion of the logo. The primary criterion was selecting a typeface whose stroke weight complemented the geometry of the logo mark while reinforcing its minimalist aesthetic."
+            ]
+          },
+          "alts": [
+            "Font variants"
+          ]
         }
       ]
     }

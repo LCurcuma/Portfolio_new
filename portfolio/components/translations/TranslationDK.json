@@ -218,6 +218,7 @@
     ]
   },
   "footer": {
-    "h2": "Har du en spændende idé? Lad os gøre den til virkelighed sammen"
+    "h2": "Har du en spændende idé? Lad os gøre den til virkelighed sammen",
+    "link": "/dk/contacts"
   }
 }

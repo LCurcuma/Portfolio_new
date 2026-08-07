@@ -1369,6 +1369,31 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_logo.png"
+          ],
+          "text": {
+            "h": "Spotless",
+            "p": [
+              "A logo created for the Spotless project — a mobile web application for digitally tracking cleaning activities in public restrooms."
+            ]
+          },
+          "alts": [
+            "Spotless logo"
+          ],
+          "description": [
+            {
+              "head": "Tools",
+              "text": "Adobe Illustrator • Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

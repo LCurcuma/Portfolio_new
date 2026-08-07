@@ -1408,6 +1408,22 @@
           "alts": [
             "Sketches of logo"
           ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/logos/spotless_colors.jpg"
+          ],
+          "text": {
+            "h": "Color Selection",
+            "p": [
+              "As blue is the primary color of the project, it was also chosen as the main color of the logo to maintain a consistent visual identity.",
+              "Since the logo is primarily displayed on a blue background within the application, a white version of the logo was also created to ensure strong contrast and readability."
+            ]
+          },
+          "alts": [
+            "Color variants of logo"
+          ]
         }
       ]
     }

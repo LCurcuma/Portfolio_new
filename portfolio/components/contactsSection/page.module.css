@@ -32,6 +32,7 @@
     gap: 10px;
     color: rgb(254, 180, 151);
     list-style-type: none;
+    align-items: center;
 }
 
 .ul{
@@ -42,4 +43,8 @@
 
 .link{
     text-decoration: none;
+}
+
+.img{
+    height: 25px;
 }

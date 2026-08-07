@@ -220,5 +220,41 @@
   "footer": {
     "h2": "Є цікава ідея? Давайте втілимо її в життя разом!",
     "link": "/ua/contacts"
+  },
+  "contacts": {
+    "sections": [
+      {
+        "h2": "Контактні дані",
+        "p": "Для зв’язку щодо проєктів, співпраці або додаткових запитань використовуйте один із наведених нижче контактів.",
+        "ul": [
+          {
+            "a": "https://mail.google.com/mail/u/0/?fs=1&to=lumilicurcuma@gmail.com&tf=cm",
+            "img": "/images/contact_icons/email.png",
+            "p": "lumilicurcuma@gmail.com"
+          },
+          {
+            "a": "https://t.me/alya_curcuma",
+            "img": "/images/contact_icons/telegram.png",
+            "p": "@alya_curcuma"
+          }
+        ]
+      },
+      {
+        "h2": "Соціальні мережі",
+        "p": "Нижче наведено посилання на платформи, де можна переглянути більше моїх робіт: скетчі, ілюстрації та анімації, які не представлені в цьому портфоліо.",
+        "ul": [
+          {
+            "a": "https://t.me/lumili_yayyy",
+            "img": "/images/contact_icons/telegram.png",
+            "p": "@lumili_yayyy"
+          },
+          {
+            "a": "https://www.instagram.com/lumili_yayyy/?hl=en",
+            "img": "/images/contact_icons/instagram.png",
+            "p": "@lumili_yayyy"
+          }
+        ]
+      }
+    ]
   }
 }

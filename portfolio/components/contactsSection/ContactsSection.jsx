@@ -46,7 +46,7 @@ export default function ContactsSection({ translation, links }) {
           <ul className={styles.ul}>
             <a href="" className={styles.link}>
               <li className={styles.list}>
-                <img src="" />
+                            <img src="/images/contact_icons/email.png" className={styles.img} />
                 <p>zhihnadya2002@gmail.com</p>
               </li>
             </a>

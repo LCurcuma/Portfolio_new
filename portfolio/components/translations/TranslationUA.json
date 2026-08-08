@@ -266,6 +266,11 @@
             "a": "https://bsky.app/profile/curcumalumili.bsky.social",
             "img": "/images/contact_icons/bluesky.png",
             "p": "@curcumalumili.bsky.social"
+          },
+          {
+            "a": "https://www.threads.com/@lumili_yayyy?hl=ru",
+            "img": "/images/contact_icons/threads.png",
+            "p": "@lumili_yayyy"
           }
         ]
       }

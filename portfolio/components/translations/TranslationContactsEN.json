@@ -69,6 +69,12 @@
               "img": "/images/contact_icons/threads.png",
               "p": "@lumili_yayyy",
               "alt": "Threads logo"
+            },
+            {
+              "a": "https://github.com/LCurcuma",
+              "img": "/images/contact_icons/github.png",
+              "p": "@LCurcuma",
+              "alt": "Github logo"
             }
           ]
         }

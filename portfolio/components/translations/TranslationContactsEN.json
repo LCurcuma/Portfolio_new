@@ -1,0 +1,13 @@
+{
+  "header": {
+    "languages": ["EN", "UA", "DK"],
+    "lang_link": ["/en/contacts", "/ua/contacts", "/dk/contacts"],
+    "navigation": ["About me", "Websites", "Art", "Contact"],
+    "hooks": [
+      "/en",
+      "/projects/websites/en",
+      "/projects/art/en",
+      "/en/contacts"
+    ]
+  }
+}

@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Header from "@/components/header/Header";
 import ContactsSection from "@/components/contactsSection/ContactsSection";
-import translationEN from "@/components/translations/TranslationEN.json";
-import translationDK from "@/components/translations/TranslationDK.json";
-import translationUA from "@/components/translations/TranslationUA.json";
+import translationEN from "@/components/translations/TranslationContactsEN.json";
+import translationDK from "@/components/translations/TranslationContactsDK.json";
+import translationUA from "@/components/translations/TranslationContactsUA.json";
 import links from "@/components/translations/links.json";
 
 export default function ContactsPage() {

@@ -256,6 +256,11 @@
             "a": "https://www.instagram.com/lumili_yayyy/?hl=en",
             "img": "/images/contact_icons/instagram.png",
             "p": "@lumili_yayyy"
+          },
+          {
+            "a": "https://x.com/Lumili_yay",
+            "img": "/images/contact_icons/x.png",
+            "p": "@Lumili_yay"
           }
         ]
       }

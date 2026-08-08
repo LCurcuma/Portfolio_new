@@ -9,5 +9,69 @@
       "/projects/art/en",
       "/en/contacts"
     ]
+  },
+  "contacts": {
+    "sections": [
+        {
+          "h2": "Contact Information",
+          "p": "For inquiries about projects, collaborations, or any additional questions, please use one of the contact methods listed below.",
+          "ul": [
+            {
+              "a": "https://mail.google.com/mail/u/0/?fs=1&to=lumilicurcuma@gmail.com&tf=cm",
+              "img": "/images/contact_icons/email.png",
+              "p": "lumilicurcuma@gmail.com",
+              "alt": "Email icon"
+            },
+            {
+              "a": "https://t.me/alya_curcuma",
+              "img": "/images/contact_icons/telegram.png",
+              "p": "@alya_curcuma",
+              "alt": "Telegram logo"
+            },
+            {
+              "a": "www.linkedin.com/in/nadiia-zhykharieva-069b9a339",
+              "img": "/images/contact_icons/linkedin.png",
+              "p": "Nadiia Zhykharieva",
+              "alt": "Linkedin logo"
+            }
+          ]
+        },
+        {
+          "h2": "Social Media",
+          "p": "Below you can find links to platforms where you can view more of my work, including sketches, illustrations, and animations that are not featured in this portfolio.",
+          "ul": [
+            {
+              "a": "https://t.me/lumili_yayyy",
+              "img": "/images/contact_icons/telegram.png",
+              "p": "@lumili_yayyy",
+              "alt": "Telegram logo"
+            },
+            {
+              "a": "https://www.instagram.com/lumili_yayyy/?hl=en",
+              "img": "/images/contact_icons/instagram.png",
+              "p": "@lumili_yayyy",
+              "alt": "Instagram logo"
+            },
+            {
+              "a": "https://x.com/Lumili_yay",
+              "img": "/images/contact_icons/x.png",
+              "p": "@Lumili_yay",
+              "alt": "X logo"
+            },
+            {
+              "a": "https://bsky.app/profile/curcumalumili.bsky.social",
+              "img": "/images/contact_icons/bluesky.png",
+              "p": "@curcumalumili.bsky.social",
+              "alt": "Bluesky logo"
+            },
+            {
+              "a": "https://www.threads.com/@lumili_yayyy?hl=ru",
+              "img": "/images/contact_icons/threads.png",
+              "p": "@lumili_yayyy",
+              "alt": "Threads logo"
+            }
+          ]
+        }
+    ]
   }
 }

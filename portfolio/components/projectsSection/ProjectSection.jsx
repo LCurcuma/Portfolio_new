@@ -36,7 +36,7 @@ export default function ProjectSection({ translation, links }) {
   
   return (
     <section className={`${styles.projects_section} scroll_show_animate`}>
-      <h1 className={`${styles.h1} introBig`}>Websites</h1>
+      <h1 className={`${styles.h1} introBig`}>{translation.projects.h1}</h1>
       <div className={styles.projects_container}>
         {translation.projects.h2.map((project, id) => (
           <div

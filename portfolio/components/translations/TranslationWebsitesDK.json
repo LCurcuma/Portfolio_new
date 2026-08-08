@@ -15,6 +15,7 @@
     ]
   },
   "projects": {
+    "h1": "Websider",
     "h2": ["Førstehjælpseksperten", "Waybly", "Spotless", "ManyaSit"],
     "dato": [
       "Maj 2026 - Juni 2026",
@@ -34,7 +35,12 @@
       "Brugerne kan hurtigt registrere tidspunktet for den seneste rengøring og se de tre foregående registreringer, så rengøringshistorikken er let at følge. Projektet blev udviklet som en studieopgave med fokus på at løse en almindelig hverdagsudfordring gennem en brugervenlig løsning til mobile enheder.",
       "Projektet kombinerer spilelementer med webudvikling og giver brugerne mulighed for at konkurrere om den højeste score på en rangliste. Det viser mine kompetencer inden for udvikling af interaktive webapplikationer med fokus på gamification og brugerengagement."
     ],
-    "alt": ["Førstehjælpseksperten Webside", "Waybly Webside", "Spotless Webside", "ManyaSit Webside"],
+    "alt": [
+      "Førstehjælpseksperten Webside",
+      "Waybly Webside",
+      "Spotless Webside",
+      "ManyaSit Webside"
+    ],
     "href": ["/project/dk/1", "/project/dk/2", "/project/dk/3", "/project/dk/4"]
   }
 }

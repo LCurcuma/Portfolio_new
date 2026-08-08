@@ -1,10 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import styles from "./page.module.css";
 
 export default function ContactsSection({ translation, links }) {
-  const [clickedMore, setClickedMore] = useState(false);
-
   useEffect(() => {
     const elements = document.querySelectorAll(`.scroll_show_animate`);
 
@@ -32,7 +30,7 @@ export default function ContactsSection({ translation, links }) {
     });
 
     return () => observer.disconnect();
-  }, [clickedMore]);
+  }, []);
 
   return (
     <div className={`${styles.contactDiv} scroll_show_animate`}>

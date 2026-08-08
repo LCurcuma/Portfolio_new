@@ -35,7 +35,7 @@ export default function Hero({ translation, links }) {
     });
 
     return () => observer.disconnect();
-  }, [clickedMore]);
+  }, []);
 
   return (
     <>

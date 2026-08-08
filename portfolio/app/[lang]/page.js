@@ -1,7 +1,6 @@
 "use client";
-import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
 import Header from "@/components/header/Header";
+import { useParams } from "next/navigation";
 import translationEN from "@/components/translations/TranslationEN.json";
 import translationDK from "@/components/translations/TranslationDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
@@ -10,40 +9,23 @@ import Hero from "@/components/hero/Hero";
 import Project from "@/components/projects/Projects";
 import Footer from "@/components/footer/Footer";
 
+const translations = {
+  en: translationEN,
+  dk: translationDK,
+  ua: translationUA,
+};
+
 export default function MainPage() {
-  const [lang, setLang] = useState("");
   const l = useParams();
 
-  useEffect(() => {
-    setLang(l.lang);
-  }, [l]);
+  const translation = translations[l.lang] ?? translationUA;
 
-  if (lang === "en") {
-    return (
-      <>
-        <Header translation={translationEN} />
-        <Hero translation={translationEN} links={links} />
-        <Project translation={translationEN} links={links} />
-        <Footer translation={translationEN} links={links} />
-      </>
-    );
-  } else if (lang === "dk") {
-    return (
-      <>
-        <Header translation={translationDK} />
-        <Hero translation={translationDK} links={links} />
-        <Project translation={translationDK} links={links} />
-        <Footer translation={translationDK} links={links} />
-      </>
-    );
-  } else {
-    return (
-      <>
-        <Header translation={translationUA} />
-        <Hero translation={translationUA} links={links} />
-        <Project translation={translationUA} links={links} />
-        <Footer translation={translationUA} links={links} />
-      </>
-    );
-  }
+  return (
+    <>
+      <Header translation={translation} />
+      <Hero translation={translation} links={links} />
+      <Project translation={translation} links={links} />
+      <Footer translation={translation} links={links} />
+    </>
+  );
 }

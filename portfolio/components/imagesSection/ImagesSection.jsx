@@ -1,9 +1,8 @@
+"use client";
 import styles from "./page.module.css";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function ImagesSection({ translation, links }) {
-        const [clickedMore, setClickedMore] = useState(false);
-
         useEffect(() => {
           const elements = document.querySelectorAll(`.scroll_show_animate`);
 
@@ -31,7 +30,7 @@ export default function ImagesSection({ translation, links }) {
           });
 
           return () => observer.disconnect();
-        }, [clickedMore]);
+        }, []);
   
   return (
     <section className={styles.image_section}>

@@ -1,6 +1,5 @@
 "use client";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
 import translationWebsitesEN from "@/components/translations/TranslationWebsitesEN.json";
 import translationArtEN from "@/components/translations/TranslationArtEN.json";
 import translationWebsitesDK from "@/components/translations/TranslationWebsitesDK.json";
@@ -12,63 +11,37 @@ import Header from "@/components/header/Header";
 import ProjectSection from "@/components/projectsSection/ProjectSection";
 import ImagesSection from "@/components/imagesSection/ImagesSection";
 
+const translations = {
+  en: {
+    websites: translationWebsitesEN,
+    art: translationArtEN,
+  },
+  dk: {
+    websites: translationWebsitesDK,
+    art: translationArtDK,
+  },
+  ua: {
+    websites: translationWebsitesUA,
+    art: translationArtUA,
+  },
+};
+
 export default function Projects() {
-  const [lang, setLang] = useState("");
-  const [projects, setProjects] = useState("");
-  const params = useParams();
+  const l = useParams();
+  const translation = translations[l.lang]?.[l.project];
 
-  useEffect(() => {
-    setLang(params.lang);
-    setProjects(params.project);
-  }, []);
-
-  if (lang === "en") {
-    if (projects === "websites") {
-      return (
-        <>
-          <Header translation={translationWebsitesEN} />
-          <ProjectSection translation={translationWebsitesEN} links={links}/>
-        </>
-      );
-    } else if (projects === "art") {
-      return (
-        <>
-          <Header translation={translationArtEN} />
-          <ImagesSection translation={translationArtEN} links={links}/>
-        </>
-      );
-    }
-  } else if (lang === "dk") {
-    if (projects === "websites") {
-      return (
-        <>
-          <Header translation={translationWebsitesDK} />
-          <ProjectSection translation={translationWebsitesDK} links={links} />
-        </>
-      );
-    } else if (projects === "art") {
-      return (
-        <>
-          <Header translation={translationArtDK} />
-          <ImagesSection translation={translationArtDK} links={links} />
-        </>
-      );
-    } 
-  } else {
-    if (projects === "websites") {
-      return (
-        <>
-          <Header translation={translationWebsitesUA} />
-          <ProjectSection translation={translationWebsitesUA} links={links} />
-        </>
-      );
-    } else if (projects === "art") {
-      return (
-        <>
-          <Header translation={translationArtUA} />
-          <ImagesSection translation={translationArtUA} links={links} />
-        </>
-      );
-    } 
+  if (!translation) {
+    return null;
   }
+
+  return (
+    <>
+      <Header translation={translation} />
+      {l.project === "websites" ? (
+        <ProjectSection translation={translation} links={links} />
+      ) : (
+        <ImagesSection translation={translation} links={links} />
+      )}
+    </>
+  );
 }

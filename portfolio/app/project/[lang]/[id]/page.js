@@ -7,42 +7,25 @@ import translationProjectDK from "@/components/translations/TranslationProjectsD
 import translationProjectUA from "@/components/translations/TranslationProjectsUA.json";
 import links from "@/components/translations/links.json";
 
-export default function projectPage() {
-  const { lang, id } = useParams();
-  const projectId = Number(id);
+const translations = {
+  en: translationProjectEN,
+  dk: translationProjectDK,
+  ua: translationProjectUA,
+};
 
-  if (lang === "en") {
-    return (
-      <>
-        <Header translation={translationProjectEN.headers[projectId - 1]} />
-        <ProjectSection
-          translation={translationProjectEN.sections[projectId - 1]}
-          links={links}
-          id={projectId}
-        />
-      </>
-    );
-  } else if (lang === "dk") {
-    return (
-      <>
-        <Header translation={translationProjectDK.headers[projectId - 1]} />
-        <ProjectSection
-          translation={translationProjectDK.sections[projectId - 1]}
-          links={links}
-          id={projectId}
-        />
-      </>
-    );
-  } else {
-    return (
-      <>
-        <Header translation={translationProjectUA.headers[projectId - 1]} />
-        <ProjectSection
-          translation={translationProjectUA.sections[projectId - 1]}
-          links={links}
-          id={projectId}
-        />
-      </>
-    );
-  }
+export default function projectPage() {
+  const l = useParams();
+  const projectId = Number(l.id);
+  const translation = translations[l.lang] ?? translationProjectUA;
+
+  return (
+    <>
+      <Header translation={translation.headers[projectId - 1]} />
+      <ProjectSection
+        translation={translation.sections[projectId - 1]}
+        links={links}
+        id={projectId}
+      />
+    </>
+  );
 }

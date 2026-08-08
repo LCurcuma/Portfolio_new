@@ -6,9 +6,8 @@ export default function Project({ translation, links }) {
   const [projectURL, setProjectURL] = useState(
     "/images/projects/websites/first_help_experts_screenshot.png",
   );
-
-  const [projectAlt, setProjectAlt] = useState(translation.projects_section.alts[0])
-
+  const [projectAlt, setProjectAlt] = useState(translation.projects_section.alts[0]);
+  
   return (
     <>
       <h2

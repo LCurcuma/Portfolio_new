@@ -6,8 +6,6 @@ import translationDK from "@/components/translations/TranslationDK.json";
 import translationUA from "@/components/translations/TranslationUA.json";
 import links from "@/components/translations/links.json";
 import Hero from "@/components/hero/Hero";
-import Project from "@/components/projects/Projects";
-import Footer from "@/components/footer/Footer";
 
 const translations = {
   en: translationEN,
@@ -24,8 +22,6 @@ export default function MainPage() {
     <>
       <Header translation={translation} />
       <Hero translation={translation} links={links} />
-      <Project translation={translation} links={links} />
-      <Footer translation={translation} links={links} />
     </>
   );
 }

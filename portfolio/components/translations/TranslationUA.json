@@ -230,17 +230,20 @@
           {
             "a": "https://mail.google.com/mail/u/0/?fs=1&to=lumilicurcuma@gmail.com&tf=cm",
             "img": "/images/contact_icons/email.png",
-            "p": "lumilicurcuma@gmail.com"
+            "p": "lumilicurcuma@gmail.com",
+            "alt": "Іконка пошти"
           },
           {
             "a": "https://t.me/alya_curcuma",
             "img": "/images/contact_icons/telegram.png",
-            "p": "@alya_curcuma"
+            "p": "@alya_curcuma",
+            "alt": "Логотип Telegram"
           },
           {
             "a": "www.linkedin.com/in/nadiia-zhykharieva-069b9a339",
             "img": "/images/contact_icons/linkedin.png",
-            "p": "Nadiia Zhykharieva"
+            "p": "Nadiia Zhykharieva",
+            "alt": "Логотип Linkedin"
           }
         ]
       },
@@ -251,27 +254,32 @@
           {
             "a": "https://t.me/lumili_yayyy",
             "img": "/images/contact_icons/telegram.png",
-            "p": "@lumili_yayyy"
+            "p": "@lumili_yayyy",
+            "alt": "Логотип Telegram"
           },
           {
             "a": "https://www.instagram.com/lumili_yayyy/?hl=en",
             "img": "/images/contact_icons/instagram.png",
-            "p": "@lumili_yayyy"
+            "p": "@lumili_yayyy",
+            "alt": "Логотип Instagram"
           },
           {
             "a": "https://x.com/Lumili_yay",
             "img": "/images/contact_icons/x.png",
-            "p": "@Lumili_yay"
+            "p": "@Lumili_yay",
+            "alt": "Логотип X"
           },
           {
             "a": "https://bsky.app/profile/curcumalumili.bsky.social",
             "img": "/images/contact_icons/bluesky.png",
-            "p": "@curcumalumili.bsky.social"
+            "p": "@curcumalumili.bsky.social",
+            "alt": "Логотип Bluesky"
           },
           {
             "a": "https://www.threads.com/@lumili_yayyy?hl=ru",
             "img": "/images/contact_icons/threads.png",
-            "p": "@lumili_yayyy"
+            "p": "@lumili_yayyy",
+            "alt": "Логотип Threads"
           }
         ]
       }

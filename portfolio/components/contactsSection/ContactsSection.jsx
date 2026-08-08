@@ -45,13 +45,21 @@ export default function ContactsSection({ translation, links }) {
               return item.a ? (
                 <a key={itemId} href={item.a} className={styles.link}>
                   <li className={styles.list}>
-                    <img src={item.img} className={`${styles.img}`} />
+                    <img
+                      src={item.img}
+                      className={`${styles.img}`}
+                      alt={item.alt}
+                    />
                     <p className={`introMain ${styles.links}`}>{item.p}</p>
                   </li>
                 </a>
               ) : (
                 <li key={itemId} className={styles.list}>
-                  <img src={item.img} className={`${styles.img}`} />
+                  <img
+                    src={item.img}
+                    className={`${styles.img}`}
+                    alt={item.alt}
+                  />
                   <p className={`introMain ${styles.links}`}>{item.p}</p>
                 </li>
               );

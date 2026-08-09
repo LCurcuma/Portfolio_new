@@ -41,7 +41,7 @@ export default function ContactsSection({ translation, links }) {
           <ul className={styles.ul}>
             {section.ul.map((item, itemId) => {
               return item.a ? (
-                <a key={itemId} href={item.a} className={styles.link}>
+                <a key={itemId} href={item.a} target="_blank" className={styles.link}>
                   <li className={styles.list}>
                     <img
                       src={item.img}

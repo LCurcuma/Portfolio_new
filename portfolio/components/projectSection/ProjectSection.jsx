@@ -4,33 +4,33 @@ import { useEffect } from "react";
 
 export default function ProjectSection({ translation, links, id }) {
   useEffect(() => {
-      const elements = document.querySelectorAll(`.scroll_show_animate`);
-  
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("show");
-            } else {
-              entry.target.classList.remove("show");
-            }
-          });
-        },
-        {
-          threshold: 0.1,
-        },
-      );
-  
-      elements.forEach((el) => {
-        observer.observe(el);
-  
-        if (el.getBoundingClientRect().top < window.innerHeight) {
-          el.classList.add("show");
-        }
-      });
-  
-      return () => observer.disconnect();
-    }, []);
+    const elements = document.querySelectorAll(`.scroll_show_animate`);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      },
+    );
+
+    elements.forEach((el) => {
+      observer.observe(el);
+
+      if (el.getBoundingClientRect().top < window.innerHeight) {
+        el.classList.add("show");
+      }
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <section className={`${styles.project_section} scroll_show_animate`}>

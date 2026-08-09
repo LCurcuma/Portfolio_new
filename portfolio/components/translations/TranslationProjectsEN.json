@@ -950,9 +950,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/storyboard.jpg"
-          ],
+          "images": ["/images/projects/animations/storyboard.jpg"],
           "text": {
             "h": "Storyboard",
             "p": [
@@ -960,9 +958,7 @@
               "During production, several scenes were simplified or removed to maintain a dynamic pace and achieve a runtime of approximately 15 seconds, which is considered optimal for short-form social media videos."
             ]
           },
-          "alts": [
-            "Storyboard"
-          ]
+          "alts": ["Storyboard"]
         },
         {
           "type": "image_text",
@@ -1028,9 +1024,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/manya_fail_f.gif"
-          ],
+          "images": ["/images/projects/animations/manya_fail_f.gif"],
           "text": {
             "h": "Manya falls",
             "p": [
@@ -1038,9 +1032,7 @@
               "The target audience consists of the creator's fan community and fans of the character for whom the game was made."
             ]
           },
-          "alts": [
-            "Manya falls"
-          ],
+          "alts": ["Manya falls"],
           "description": [
             {
               "head": "Type",
@@ -1122,9 +1114,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/manya_stand_а.gif"
-          ],
+          "images": ["/images/projects/animations/manya_stand_а.gif"],
           "text": {
             "h": "Manya stands",
             "p": [
@@ -1132,9 +1122,7 @@
               "The target audience consists of the creator's fan community and fans of the character for whom the game was made."
             ]
           },
-          "alts": [
-            "Manya stands"
-          ],
+          "alts": ["Manya stands"],
           "description": [
             {
               "head": "Type",
@@ -1171,18 +1159,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_full_logo.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
           "text": {
             "h": "Førstehjælpseksperten",
             "p": [
               "A logo created for the Førstehjælpseksperten project. Its visual concept is built around the ideas of safety, mutual support, and first aid, reflecting the project's purpose and values."
             ]
           },
-          "alts": [
-            "Førstehjælpseksperten logo"
-          ],
+          "alts": ["Førstehjælpseksperten logo"],
           "description": [
             {
               "head": "Tools",
@@ -1192,9 +1176,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_sketch.jpg"],
           "text": {
             "h": "Sketches",
             "p": [
@@ -1202,15 +1184,11 @@
               "After discussing the concepts as a team, we selected the version combining a medical cross and a heart. The exclamation mark at the bottom of the logo was removed, as the composition itself already created a similar visual association."
             ]
           },
-          "alts": [
-            "Logos sketches"
-          ]
+          "alts": ["Logos sketches"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_colors.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_colors.png"],
           "text": {
             "h": "Color Selection",
             "p": [
@@ -1218,15 +1196,11 @@
               "The final logo uses green, white, and red as its primary colors. These colors had already been selected during the project's mood board testing phase and aligned with the overall visual concept."
             ]
           },
-          "alts": [
-            "Variants of logos colors"
-          ]
+          "alts": ["Variants of logos colors"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_fonts.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_fonts.jpg"],
           "text": {
             "h": "Typeface Selection",
             "p": [
@@ -1234,9 +1208,7 @@
               "The word Eksperten was highlighted in red to make the brand name more distinctive and improve its memorability."
             ]
           },
-          "alts": [
-            "The font selection for logo"
-          ]
+          "alts": ["The font selection for logo"]
         }
       ]
     },
@@ -1244,18 +1216,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_redesign.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_redesign.png"],
           "text": {
             "h": "NoLimitation Logo Redesign",
             "p": [
               "A logo redesign project for NoLimitation, a company specializing in website development."
             ]
           },
-          "alts": [
-            "Redesign og the NoLimitations logo"
-          ],
+          "alts": ["Redesign og the NoLimitations logo"],
           "description": [
             {
               "head": "Tools",
@@ -1265,9 +1233,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_original.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_original.png"],
           "text": {
             "h": "Reason for Redesign",
             "p": [
@@ -1275,15 +1241,11 @@
               "After analysis, it was decided to preserve the main strengths of the previous solution — simplicity and minimalism — while changing the visual concept to create a stronger connection with the name NoLimitation. The number of colors in the logo was also reduced to three in order to create a more cohesive visual identity."
             ]
           },
-          "alts": [
-            "Original logo"
-          ]
+          "alts": ["Original logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_moodboard.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_moodboard.jpg"],
           "text": {
             "h": "Moodboard",
             "p": [
@@ -1291,15 +1253,11 @@
               "After its creation, the moodboard was tested, and the results confirmed that the chosen visual direction aligned with the company's concept."
             ]
           },
-          "alts": [
-            "Moodboard"
-          ]
+          "alts": ["Moodboard"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_sketch.jpg"],
           "text": {
             "h": "Sketches",
             "p": [
@@ -1307,9 +1265,7 @@
               "Several sketch variations of the logo were created and later discussed with a company representative. After receiving feedback, the three strongest concepts were converted into vector format and tested together with the brand name."
             ]
           },
-          "alts": [
-            "Sketches of logo"
-          ]
+          "alts": ["Sketches of logo"]
         }
       ]
     },
@@ -1317,18 +1273,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_logo.png"
-          ],
+          "images": ["/images/projects/logos/waybly_logo.png"],
           "text": {
             "h": "Waybly",
             "p": [
               "A logo created for the Waybly project — a web application designed to help people with disabilities find accessible public places."
             ]
           },
-          "alts": [
-            "Waybly logo"
-          ],
+          "alts": ["Waybly logo"],
           "description": [
             {
               "head": "Tools",
@@ -1338,9 +1290,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_sketch.jpg"],
           "text": {
             "h": "Sketches",
             "p": [
@@ -1348,15 +1298,11 @@
               "During the exploration process, the main focus was on ensuring that the logo reflected the project's core purpose: helping users find accessible routes and reach their destination."
             ]
           },
-          "alts": [
-            "Sketches of the logo"
-          ]
+          "alts": ["Sketches of the logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_color.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_color.jpg"],
           "text": {
             "h": "Color Selection",
             "p": [
@@ -1364,9 +1310,7 @@
               "Dark blue was used for the main elements of the logo, while the navigation marker was highlighted in light blue. This combination provides strong contrast against a white background while emphasizing the key element that represents the destination."
             ]
           },
-          "alts": [
-            "Color variants for logo"
-          ]
+          "alts": ["Color variants for logo"]
         }
       ]
     },
@@ -1374,18 +1318,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_logo.png"
-          ],
+          "images": ["/images/projects/logos/spotless_logo.png"],
           "text": {
             "h": "Spotless",
             "p": [
               "A logo created for the Spotless project — a mobile web application for digitally tracking cleaning activities in public restrooms."
             ]
           },
-          "alts": [
-            "Spotless logo"
-          ],
+          "alts": ["Spotless logo"],
           "description": [
             {
               "head": "Tools",
@@ -1395,9 +1335,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_sketch.jpg"],
           "text": {
             "h": "Sketches",
             "p": [
@@ -1405,15 +1343,11 @@
               "After exploring different ideas, a stylized S was chosen as the foundation of the logo. Its shape resembles either a white hummingbird or a swan. The white hummingbird symbolizes cleanliness, while the use of the letter S creates a direct connection to the project's name."
             ]
           },
-          "alts": [
-            "Sketches of logo"
-          ]
+          "alts": ["Sketches of logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_colors.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_colors.jpg"],
           "text": {
             "h": "Color Selection",
             "p": [
@@ -1421,24 +1355,18 @@
               "Since the logo is primarily displayed on a blue background within the application, a white version of the logo was also created to ensure strong contrast and readability."
             ]
           },
-          "alts": [
-            "Color variants of logo"
-          ]
+          "alts": ["Color variants of logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_font.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_font.jpg"],
           "text": {
             "h": "Typeface Selection",
             "p": [
               "A sans-serif typeface was chosen for the text portion of the logo. The primary criterion was selecting a typeface whose stroke weight complemented the geometry of the logo mark while reinforcing its minimalist aesthetic."
             ]
           },
-          "alts": [
-            "Font variants"
-          ]
+          "alts": ["Font variants"]
         }
       ]
     }

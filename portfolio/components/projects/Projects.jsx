@@ -6,8 +6,10 @@ export default function Project({ translation, links }) {
   const [projectURL, setProjectURL] = useState(
     "/images/projects/websites/first_help_experts_screenshot.png",
   );
-  const [projectAlt, setProjectAlt] = useState(translation.projects_section.alts[0]);
-  
+  const [projectAlt, setProjectAlt] = useState(
+    translation.projects_section.alts[0],
+  );
+
   return (
     <>
       <h2
@@ -18,7 +20,11 @@ export default function Project({ translation, links }) {
       <section className={`${styles.projects} scroll_show_animate`}>
         <div className={`${styles.projectsCarousel}`}>
           <div className={`${styles.image}`}>
-            <img src={projectURL} className={`${styles.projectBigImg}`} alt={projectAlt} />
+            <img
+              src={projectURL}
+              className={`${styles.projectBigImg}`}
+              alt={projectAlt}
+            />
           </div>
           <img src="/images/Nddd_staying.png" className={styles.projectNddd} />
         </div>
@@ -32,7 +38,11 @@ export default function Project({ translation, links }) {
                 setProjectAlt(translation.projects_section.alts[id]);
               }}
             >
-              <img src={links.images.project_button[id]} className={styles.projectImg} alt={translation.projects_section.alts[id]} />
+              <img
+                src={links.images.project_button[id]}
+                className={styles.projectImg}
+                alt={translation.projects_section.alts[id]}
+              />
             </div>
           ))}
         </div>

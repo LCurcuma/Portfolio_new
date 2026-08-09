@@ -1100,7 +1100,7 @@
           },
           "alts": [
             "Скетч ключового кадру",
-            "Скетч анімації", 
+            "Скетч анімації",
             "Лайн та базові кольори анімації"
           ]
         }
@@ -1110,9 +1110,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/manya_stand_а.gif"
-          ],
+          "images": ["/images/projects/animations/manya_stand_а.gif"],
           "text": {
             "h": "Маня стоїть",
             "p": [
@@ -1120,9 +1118,7 @@
               "Цільовою аудиторією є спільнота шанувальників автора та персонажа, для яких створено гру."
             ]
           },
-          "alts": [
-            "Маня стоїть"
-          ],
+          "alts": ["Маня стоїть"],
           "description": [
             {
               "head": "Тип",
@@ -1159,18 +1155,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_full_logo.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
           "text": {
             "h": "Førstehjælpseksperten",
             "p": [
               "Логотип, створений для проєкту Førstehjælpseksperten. Його візуальна концепція побудована навколо асоціацій із безпекою, взаємодопомогою та першою медичною допомогою."
             ]
           },
-          "alts": [
-            "Логотип Førstehjælpseksperten"
-          ],
+          "alts": ["Логотип Førstehjælpseksperten"],
           "description": [
             {
               "head": "Інструменти",
@@ -1180,9 +1172,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_sketch.jpg"],
           "text": {
             "h": "Скетчі",
             "p": [
@@ -1190,15 +1180,11 @@
               "Після обговорення в команді було обрано концепцію, що поєднує медичний хрест і серце. Від знака оклику в нижній частині логотипа відмовилися, оскільки композиція вже візуально створювала аналогічну асоціацію."
             ]
           },
-          "alts": [
-            "Скетчі ідей логотипу"
-          ]
+          "alts": ["Скетчі ідей логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_colors.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_colors.png"],
           "text": {
             "h": "Вибір кольорів",
             "p": [
@@ -1206,15 +1192,11 @@
               "Основними кольорами стали зелений, білий та червоний, які були обрані ще на етапі тестування мудборду та відповідали візуальній концепції проєкту."
             ]
           },
-          "alts": [
-            "Варіанти кольорів логотипу"
-          ]
+          "alts": ["Варіанти кольорів логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_fonts.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_fonts.jpg"],
           "text": {
             "h": "Вибір шрифту",
             "p": [
@@ -1222,9 +1204,7 @@
               "Слово Eksperten було виділено червоним кольором, щоб зробити назву більш помітною та покращити її запам'ятовуваність."
             ]
           },
-          "alts": [
-            "Варіанти шрифтів для логотипу"
-          ]
+          "alts": ["Варіанти шрифтів для логотипу"]
         }
       ]
     },
@@ -1232,18 +1212,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_redesign.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_redesign.png"],
           "text": {
             "h": "Редизайн логотипу NoLimitation",
             "p": [
               "Редизайн логотипу NoLimitation — компанії, що спеціалізується на створенні вебсайтів."
             ]
           },
-          "alts": [
-            "Редизайни логотипу NoLimitation"
-          ],
+          "alts": ["Редизайни логотипу NoLimitation"],
           "description": [
             {
               "head": "Інструменти",
@@ -1253,9 +1229,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_original.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_original.png"],
           "text": {
             "h": "Причина редизайну",
             "p": [
@@ -1263,15 +1237,11 @@
               "Після аналізу було вирішено зберегти основні переваги попереднього рішення — простоту та мінімалізм, але змінити візуальну концепцію так, щоб вона сильніше асоціювалася з назвою NoLimitation. Також було вирішено скоротити кількість кольорів у логотипі до трьох для створення більш цілісної айдентики."
             ]
           },
-          "alts": [
-            "Оригінал логотипу"
-          ]
+          "alts": ["Оригінал логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_moodboard.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_moodboard.jpg"],
           "text": {
             "h": "Мудборд",
             "p": [
@@ -1279,15 +1249,11 @@
               "Після створення мудборд було протестовано, і результати підтвердили відповідність обраного візуального напряму концепції компанії."
             ]
           },
-          "alts": [
-            "Мудборд"
-          ]
+          "alts": ["Мудборд"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_sketch.jpg"],
           "text": {
             "h": "Скетчі",
             "p": [
@@ -1295,9 +1261,7 @@
               "Було створено кілька ескізних варіантів логотипу, які потім обговорили з представником компанії. Після отримання зворотного зв’язку три найкращі концепції було переведено у векторний формат і протестовано разом із назвою бренду."
             ]
           },
-          "alts": [
-            "Скетчеві варіанти логотипів"
-          ]
+          "alts": ["Скетчеві варіанти логотипів"]
         }
       ]
     },
@@ -1305,18 +1269,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_logo.png"
-          ],
+          "images": ["/images/projects/logos/waybly_logo.png"],
           "text": {
             "h": "Waybly",
             "p": [
               "Логотип, створений для проєкту Waybly — вебдодатка, розробленого для людей з інвалідністю, який допомагає знаходити доступні громадські місця."
             ]
           },
-          "alts": [
-            "Логотип Waybly"
-          ],
+          "alts": ["Логотип Waybly"],
           "description": [
             {
               "head": "Інструменти",
@@ -1326,9 +1286,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_sketch.jpg"],
           "text": {
             "h": "Скетчі",
             "p": [
@@ -1336,15 +1294,11 @@
               "Під час пошуку форми основну увагу приділили тому, щоб логотип відображав головну ідею проєкту — допомогу користувачам у знаходженні доступного маршруту та кінцевої точки призначення."
             ]
           },
-          "alts": [
-            "Скетчеві варіанти логотипу"
-          ]
+          "alts": ["Скетчеві варіанти логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_color.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_color.jpg"],
           "text": {
             "h": "Вибір кольорів",
             "p": [
@@ -1352,9 +1306,7 @@
               "Темно-синій використано для основних елементів логотипа, тоді як навігаційну точку виділено світло-блакитним кольором. Таке рішення забезпечує хороший контраст із білим тлом і водночас підкреслює ключовий елемент, що символізує пункт призначення."
             ]
           },
-          "alts": [
-            "Варіанти кольорів логотипу"
-          ]
+          "alts": ["Варіанти кольорів логотипу"]
         }
       ]
     },
@@ -1362,18 +1314,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_logo.png"
-          ],
+          "images": ["/images/projects/logos/spotless_logo.png"],
           "text": {
             "h": "Spotless",
             "p": [
               "Логотип, створений для проєкту Spotless — мобільного вебдодатка для цифрового обліку прибирань у громадських вбиральнях."
             ]
           },
-          "alts": [
-            "Логотип Spotless"
-          ],
+          "alts": ["Логотип Spotless"],
           "description": [
             {
               "head": "Інструменти",
@@ -1383,9 +1331,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_sketch.jpg"],
           "text": {
             "h": "Скетчі",
             "p": [
@@ -1393,15 +1339,11 @@
               "Після аналізу різних ідей було вирішено використати стилізовану літеру S, форма якої нагадує білого колібрі або лебедя. Білий колібрі асоціюється з чистотою, а використання літери S створює прямий зв'язок із назвою проєкту."
             ]
           },
-          "alts": [
-            "Скетчеві варіанти логотипу"
-          ]
+          "alts": ["Скетчеві варіанти логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_colors.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_colors.jpg"],
           "text": {
             "h": "Вибір кольорів",
             "p": [
@@ -1409,24 +1351,18 @@
               "Через те, що логотип у застосунку переважно розміщується на синьому тлі, було створено також білу версію логотипа, яка забезпечує кращий контраст і читабельність."
             ]
           },
-          "alts": [
-            "Варіанти кольорів логотипу"
-          ]
+          "alts": ["Варіанти кольорів логотипу"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_font.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_font.jpg"],
           "text": {
             "h": "Вибір шрифту",
             "p": [
               "Для текстової частини логотипа було обрано шрифт без засічок. Основну увагу приділили тому, щоб товщина його штрихів гармонійно поєднувалася з геометрією знака та підтримувала мінімалістичний стиль логотипа."
             ]
           },
-          "alts": [
-            "Вибір шрифту"
-          ]
+          "alts": ["Вибір шрифту"]
         }
       ]
     }

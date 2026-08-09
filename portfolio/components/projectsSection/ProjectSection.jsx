@@ -65,7 +65,7 @@ export default function ProjectSection({ translation, links }) {
                 href={translation.projects.href[id]}
                 className={`${styles.more} introMain`}
               >
-                More about project
+                {translation.projects.more}
               </a>
             </div>
           </div>

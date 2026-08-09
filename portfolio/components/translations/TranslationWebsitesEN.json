@@ -41,6 +41,7 @@
       "Spotless Website",
       "ManyaSit Website"
     ],
-    "href": ["/project/en/1", "/project/en/2", "/project/en/3", "/project/en/4"]
+    "href": ["/project/en/1", "/project/en/2", "/project/en/3", "/project/en/4"],
+    "more": "More about project"
   }
 }

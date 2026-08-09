@@ -650,18 +650,14 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/websites/manya_sit_font.png"
-          ],
+          "images": ["/images/projects/websites/manya_sit_font.png"],
           "text": {
             "h": "Typografi",
             "p": [
               "Skrifttypen Pacifico blev valgt til projektet på grund af dens venlige, håndskrevne stil, som passer godt til applikationens legende udtryk. Da interfacet indeholder meget lidt tekst, blev der lagt vægt på det visuelle udtryk uden at gå på kompromis med læsbarheden, blandt andet ved at bruge store skriftstørrelser."
             ]
           },
-          "alts": [
-            "Skrifttypen Pacifico"
-          ]
+          "alts": ["Skrifttypen Pacifico"]
         },
         {
           "type": "image_text",
@@ -686,18 +682,14 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/manya_sit_logo.png"
-          ],
+          "images": ["/images/projects/logos/manya_sit_logo.png"],
           "text": {
             "h": "Logo",
             "p": [
               "Logoet forestiller et stiliseret kattehoved, som målgruppen let genkender, da figuren bruges som fællesskabets avatar. Logoets minimalistiske, tegneserieinspirerede stil passer harmonisk sammen med webapplikationens overordnede visuelle udtryk."
             ]
           },
-          "alts": [
-            "ManyaSits logo"
-          ]
+          "alts": ["ManyaSits logo"]
         }
       ]
     },
@@ -705,18 +697,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/illustrations/mll.png"
-          ],
+          "images": ["/images/projects/illustrations/mll.png"],
           "text": {
             "h": "Millie",
             "p": [
               "En personlig karakterskitse udført i en fri tegnestil. Fokus var på at formidle figurens følelser, ansigtsudtryk og farvepalette."
             ]
           },
-          "alts": [
-            "Katten Millie"
-          ],
+          "alts": ["Katten Millie"],
           "description": [
             {
               "head": "Type",
@@ -744,10 +732,7 @@
               "Illustrationen blev skabt trin for trin – fra den første skitse til grundfarver, skygger og de sidste detaljer. Separate lag blev brugt til at organisere skitsen, farverne, skyggerne og detaljerne, hvilket gjorde det nemmere at redigere de enkelte elementer undervejs."
             ]
           },
-          "alts": [
-            "Skitse linje illustration",
-            "Illustrationsfarvning"
-          ]
+          "alts": ["Skitse linje illustration", "Illustrationsfarvning"]
         }
       ]
     },
@@ -800,18 +785,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/illustrations/ynyn.png"
-          ],
+          "images": ["/images/projects/illustrations/ynyn.png"],
           "text": {
             "h": "Yunyun in Her Eyes",
             "p": [
               "En fanillustration af Yunyun og Q-T fra Yunyun Syndrome!? Rhythm Psychosis. Fokus var på værkets stemning, samspillet mellem figurerne og farvepaletten."
             ]
           },
-          "alts": [
-            "Yunyun in Her Eyes"
-          ],
+          "alts": ["Yunyun in Her Eyes"],
           "description": [
             {
               "head": "Type",
@@ -854,18 +835,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/illustrations/study.png"
-          ],
+          "images": ["/images/projects/illustrations/study.png"],
           "text": {
             "h": "Mekka i en lejlighedsopgang",
             "p": [
               "En illustration skabt for at udvikle færdigheder inden for baggrundstegning og farvearbejde. Fokus var især på opbygningen af miljøet, farvepaletten og en linjeløs tegnestil."
             ]
           },
-          "alts": [
-            "Mekka i en lejlighedsopgang"
-          ],
+          "alts": ["Mekka i en lejlighedsopgang"],
           "description": [
             {
               "head": "Type",
@@ -893,9 +870,7 @@
               "Illustrationen blev skabt trin for trin – fra skitse og grundfarver til rendering og tilføjelse af figuren til den færdige baggrund. For at forbedre mine rendering-færdigheder blev den endelige illustration næsten udelukkende lavet på ét lag."
             ]
           },
-          "alts": [
-            "Reference"
-          ]
+          "alts": ["Reference"]
         }
       ]
     },
@@ -912,9 +887,7 @@
               "En kollaborativ illustration skabt sammen med en anden kunstner. Mit bidrag omfattede tegningen af karakteren Nadiia, baggrunden samt tilføjelsen af visuelle effekter for at integrere den anden kunstners karakter harmonisk i den samlede komposition."
             ]
           },
-          "alts": [
-            "Nadiia og Maha under juletræet"
-          ],
+          "alts": ["Nadiia og Maha under juletræet"],
           "description": [
             {
               "head": "Type",
@@ -951,9 +924,7 @@
       "sections_project": [
         {
           "type": "video_text",
-          "videos": [
-            "/images/projects/animations/video2_redigeret.mp4"
-          ],
+          "videos": ["/images/projects/animations/video2_redigeret.mp4"],
           "text": {
             "h": "Video til BilligStyling",
             "p": [
@@ -976,9 +947,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/storyboard.jpg"
-          ],
+          "images": ["/images/projects/animations/storyboard.jpg"],
           "text": {
             "h": "Storyboard",
             "p": [
@@ -986,9 +955,7 @@
               "Under produktionen blev nogle scener forenklet eller fjernet for at bevare et dynamisk tempo og opnå en varighed på cirka 15 sekunder, hvilket anses for at være optimalt til korte videoer på sociale medier."
             ]
           },
-          "alts": [
-            "Storyboard"
-          ]
+          "alts": ["Storyboard"]
         },
         {
           "type": "image_text",
@@ -1049,9 +1016,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/manya_fail_f.gif"
-          ],
+          "images": ["/images/projects/animations/manya_fail_f.gif"],
           "text": {
             "h": "Manya falder",
             "p": [
@@ -1059,9 +1024,7 @@
               "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
             ]
           },
-          "alts": [
-            "Manya falder"
-          ],
+          "alts": ["Manya falder"],
           "description": [
             {
               "head": "Type",
@@ -1106,9 +1069,7 @@
               "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
             ]
           },
-          "alts": [
-            "Manya laver squats"
-          ],
+          "alts": ["Manya laver squats"],
           "description": [
             {
               "head": "Type",
@@ -1145,9 +1106,7 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/animations/manya_stand_а.gif"
-          ],
+          "images": ["/images/projects/animations/manya_stand_а.gif"],
           "text": {
             "h": "Manya står",
             "p": [
@@ -1155,9 +1114,7 @@
               "Målgruppen er skaberens fanfællesskab samt fans af karakteren, som spillet er udviklet til."
             ]
           },
-          "alts": [
-            "Manya står"
-          ],
+          "alts": ["Manya står"],
           "description": [
             {
               "head": "Type",
@@ -1194,18 +1151,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_full_logo.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_full_logo.png"],
           "text": {
             "h": "Førstehjælpseksperten",
             "p": [
               "Et logo udviklet til Førstehjælpseksperten-projektet. Det visuelle koncept er bygget op omkring associationer til tryghed, hjælpsomhed og førstehjælp, hvilket afspejler projektets formål og værdier."
             ]
           },
-          "alts": [
-            "Førstehjælpseksperten logo"
-          ],
+          "alts": ["Førstehjælpseksperten logo"],
           "description": [
             {
               "head": "Værktøjer",
@@ -1215,9 +1168,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_sketch.jpg"],
           "text": {
             "h": "Skitser",
             "p": [
@@ -1225,15 +1176,11 @@
               "Efter en fælles diskussion i teamet blev konceptet, der kombinerer et medicinsk kors og et hjerte, valgt. Udråbstegnet nederst i logoet blev fjernet, da kompositionen allerede skabte den samme visuelle association."
             ]
           },
-          "alts": [
-            "Skitser af ideer af logo"
-          ]
+          "alts": ["Skitser af ideer af logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_colors.png"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_colors.png"],
           "text": {
             "h": "Farvevalg",
             "p": [
@@ -1241,15 +1188,11 @@
               "Logoets endelige farvepalette består af grøn, hvid og rød. Disse farver blev valgt allerede under testfasen af projektets moodboard og stemte overens med den overordnede visuelle identitet."
             ]
           },
-          "alts": [
-            "Farve varianter af logo"
-          ]
+          "alts": ["Farve varianter af logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/first_help_experts_fonts.jpg"
-          ],
+          "images": ["/images/projects/logos/first_help_experts_fonts.jpg"],
           "text": {
             "h": "Valg af skrifttype",
             "p": [
@@ -1257,28 +1200,22 @@
               "Ordet Eksperten blev fremhævet med rød for at gøre navnet mere iøjnefaldende og lettere at huske."
             ]
           },
-          "alts": [
-            "Skrifttypes varianter af logo"
-          ]
+          "alts": ["Skrifttypes varianter af logo"]
         }
       ]
     },
     {
-      "sections_project":[
+      "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_redesign.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_redesign.png"],
           "text": {
             "h": "Redesign af NoLimitation-logoet",
             "p": [
               "Et redesign af logoet for NoLimitation, en virksomhed der specialiserer sig i udvikling af hjemmesider."
             ]
           },
-          "alts": [
-            "Redesign of the NoLimitations logo"
-          ],
+          "alts": ["Redesign of the NoLimitations logo"],
           "description": [
             {
               "head": "Værktøjer",
@@ -1288,9 +1225,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_logo_original.png"
-          ],
+          "images": ["/images/projects/logos/no_limitation_logo_original.png"],
           "text": {
             "h": "Årsag til redesign",
             "p": [
@@ -1298,15 +1233,11 @@
               "Efter en analyse blev det besluttet at bevare de vigtigste styrker ved den tidligere løsning — enkelhed og minimalisme — men ændre det visuelle koncept, så det skabte en stærkere forbindelse til navnet NoLimitation. Antallet af farver i logoet blev også reduceret til tre for at skabe en mere sammenhængende visuel identitet."
             ]
           },
-          "alts": [
-            "Originalt logo"
-          ]
+          "alts": ["Originalt logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_moodboard.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_moodboard.jpg"],
           "text": {
             "h": "Moodboard",
             "p": [
@@ -1314,15 +1245,11 @@
               "Efter udarbejdelsen blev moodboardet testet, og resultaterne bekræftede, at den valgte visuelle retning stemte overens med virksomhedens koncept."
             ]
           },
-          "alts": [
-            "Moodboard"
-          ]
+          "alts": ["Moodboard"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/no_limitation_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/no_limitation_sketch.jpg"],
           "text": {
             "h": "Skitser",
             "p": [
@@ -1330,9 +1257,7 @@
               "Der blev skabt flere skitsevarianter af logoet, som efterfølgende blev diskuteret med en repræsentant fra virksomheden. Efter modtagelse af feedback blev de tre stærkeste koncepter omdannet til vektorformat og testet sammen med brandnavnet."
             ]
           },
-          "alts": [
-            "Skitser af logo"
-          ]
+          "alts": ["Skitser af logo"]
         }
       ]
     },
@@ -1340,18 +1265,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_logo.png"
-          ],
+          "images": ["/images/projects/logos/waybly_logo.png"],
           "text": {
             "h": "Waybly",
             "p": [
               "Et logo udviklet til Waybly – en webapplikation designet til at hjælpe mennesker med handicap med at finde tilgængelige offentlige steder."
             ]
           },
-          "alts": [
-            "Waybly logo"
-          ],
+          "alts": ["Waybly logo"],
           "description": [
             {
               "head": "Værktøjer",
@@ -1361,9 +1282,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_sketch.jpg"],
           "text": {
             "h": "Skitser",
             "p": [
@@ -1371,15 +1290,11 @@
               "Under udviklingen var hovedfokus at sikre, at logoet afspejlede projektets kerneidé: at hjælpe brugerne med at finde tilgængelige ruter og nå deres destination."
             ]
           },
-          "alts": [
-            "Skitser af logo"
-          ]
+          "alts": ["Skitser af logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/waybly_color.jpg"
-          ],
+          "images": ["/images/projects/logos/waybly_color.jpg"],
           "text": {
             "h": "Farvevalg",
             "p": [
@@ -1387,9 +1302,7 @@
               "Mørkeblå blev anvendt til logoets hovedelementer, mens navigationsmarkøren blev fremhævet med lyseblå. Denne løsning skaber en tydelig kontrast mod den hvide baggrund og fremhæver samtidig det centrale element, som symboliserer destinationen."
             ]
           },
-          "alts": [
-            "Farvevarianter for logo"
-          ]
+          "alts": ["Farvevarianter for logo"]
         }
       ]
     },
@@ -1397,18 +1310,14 @@
       "sections_project": [
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_logo.png"
-          ],
+          "images": ["/images/projects/logos/spotless_logo.png"],
           "text": {
             "h": "Spotless",
             "p": [
               "Et logo udviklet til Spotless – en mobil webapplikation til digital registrering af rengøring i offentlige toiletter."
             ]
           },
-          "alts": [
-            "Spotless logo"
-          ],
+          "alts": ["Spotless logo"],
           "description": [
             {
               "head": "Værktøjer",
@@ -1418,9 +1327,7 @@
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_sketch.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_sketch.jpg"],
           "text": {
             "h": "Skitser",
             "p": [
@@ -1428,15 +1335,11 @@
               "Efter at have udforsket forskellige idéer blev et stiliseret S valgt som grundlag for logoet. Formen minder om enten en hvid kolibri eller en svane. Den hvide kolibri forbindes med renhed, mens bogstavet S skaber en direkte forbindelse til projektets navn."
             ]
           },
-          "alts": [
-            "Skitser af logo"
-          ]
+          "alts": ["Skitser af logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_colors.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_colors.jpg"],
           "text": {
             "h": "Farvevalg",
             "p": [
@@ -1444,24 +1347,18 @@
               "Da logoet hovedsageligt vises på en blå baggrund i applikationen, blev der også udviklet en hvid version af logoet for at sikre høj kontrast og god læsbarhed."
             ]
           },
-          "alts": [
-            "Farvevarianter af logo"
-          ]
+          "alts": ["Farvevarianter af logo"]
         },
         {
           "type": "image_text",
-          "images": [
-            "/images/projects/logos/spotless_font.jpg"
-          ],
+          "images": ["/images/projects/logos/spotless_font.jpg"],
           "text": {
             "h": "Valg af skrifttype",
             "p": [
               "Der blev valgt en sans serif-skrifttype til logoets tekst. Hovedfokus var at finde en skrifttype, hvis stregtykkelse harmonerede med logoets geometri og understøttede det minimalistiske udtryk."
             ]
           },
-          "alts": [
-            "Skrifttypes varianter af logo"
-          ]
+          "alts": ["Skrifttypes varianter af logo"]
         }
       ]
     }

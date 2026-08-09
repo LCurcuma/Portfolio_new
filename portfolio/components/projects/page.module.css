@@ -8,7 +8,7 @@
   padding: 0 3vw;
 
   @media (min-width: 768px) {
-  padding: 0 7vw;
+    padding: 0 7vw;
   }
 }
 
@@ -18,7 +18,7 @@
   margin-bottom: 30px;
 
   @media (min-width: 425px) {
-  margin-top: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -73,7 +73,7 @@
   margin: 0 3vw;
 
   @media (min-width: 768px) {
-  margin: 0 7vw;
+    margin: 0 7vw;
   }
 }
 
@@ -90,8 +90,8 @@
   height: 50px;
 
   @media (min-width: 768px) {
-  width: 60px;
-  height: 60px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -131,8 +131,8 @@
   height: 15vh;
 
   @media (min-width: 375px) {
-  bottom: 100px;
-  height: 20vh;
+    bottom: 100px;
+    height: 20vh;
   }
 
   @media (min-width: 768px) {

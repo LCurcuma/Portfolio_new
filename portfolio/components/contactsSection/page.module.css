@@ -1,60 +1,60 @@
-.contactDiv{
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
-    gap: 25px;
-    padding: 50px 7vw;
+.contactDiv {
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  gap: 25px;
+  padding: 50px 7vw;
 
-    @media (min-width: 768px) {
+  @media (min-width: 768px) {
     grid-template-columns: auto auto;
-    }
+  }
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.h2{
-    color: rgb(254, 180, 151);
+.h2 {
+  color: rgb(254, 180, 151);
   font-size: 30px;
 }
 
-.p{
-    color: rgb(244, 193, 210);
-    font-size: 18px;
+.p {
+  color: rgb(244, 193, 210);
+  font-size: 18px;
 }
 
-.list{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    color: rgb(254, 180, 151);
-    list-style-type: none;
-    align-items: center;
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: rgb(254, 180, 151);
+  list-style-type: none;
+  align-items: center;
 }
 
-.ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
-.img{
-    height: 25px;
+.img {
+  height: 25px;
 }
 
-.links{
-    font-size: 18px;
-    color: rgb(254, 180, 151);
-    transition: all 0.5s ease-in-out;
+.links {
+  font-size: 18px;
+  color: rgb(254, 180, 151);
+  transition: all 0.5s ease-in-out;
 }
 
-.links:hover{
-        color: rgb(244, 193, 210);
+.links:hover {
+  color: rgb(244, 193, 210);
 }

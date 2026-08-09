@@ -14,8 +14,8 @@
   background-color: rgb(2, 3, 30);
 
   @media (min-width: 768px) {
-  margin-top: -100px;
-  margin-left: -25px;
+    margin-top: -100px;
+    margin-left: -25px;
   }
 }
 
@@ -305,16 +305,16 @@
   flex-direction: column;
   margin: 0 5px;
 
-  @media (min-width: 768px){
-  display: grid;
-  grid-template-columns: 45% 45%;
-  gap: 50px;
-  padding-top: 30px;
-  min-width: 100%;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 50px;
+    padding-top: 30px;
+    min-width: 100%;
   }
 }
 
-.about_me_anim{
+.about_me_anim {
   width: 250px;
   margin-left: auto;
   margin-top: auto;
@@ -322,7 +322,7 @@
   margin-right: 0;
 
   @media (min-width: 768px) {
-  margin-right: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -337,8 +337,8 @@
   cursor: pointer;
 }
 
-.icon:hover{
-  box-shadow: 0px 0px 10px 2px rgba(254, 180, 151,0.54);
+.icon:hover {
+  box-shadow: 0px 0px 10px 2px rgba(254, 180, 151, 0.54);
 }
 
 .icons {
@@ -356,20 +356,20 @@
   gap: 10px;
 }
 
-.flex_row_div{
+.flex_row_div {
   display: flex;
   flex-direction: column;
-  
+
   padding-left: 0;
   padding-right: 0;
 
-  @media (min-width: 768px){
-  display: grid;
-  grid-template-columns: 45% 45%;
-  gap: 50px;
-  padding-top: 30px;
-  min-width: 100%;
-}
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 50px;
+    padding-top: 30px;
+    min-width: 100%;
+  }
 }
 
 .btn {
@@ -407,7 +407,7 @@
   margin-bottom: 10px;
 }
 
-.h2_added{
+.h2_added {
   color: rgb(244, 193, 210);
   font-size: 24px;
   font-weight: 800;
@@ -426,14 +426,14 @@
   line-height: 24px;
 }
 
-.added_cont{
+.added_cont {
   padding: 10px 30px;
-  box-shadow: 0px 15px 15px 0px rgba(254,180,151,0.30);
+  box-shadow: 0px 15px 15px 0px rgba(254, 180, 151, 0.3);
   border-radius: 25px;
   width: 100%;
 
   @media (min-width: 768px) {
-  width: 90%;
+    width: 90%;
   }
 }
 
@@ -459,9 +459,9 @@
   padding: 20px 35px;
 
   @media (min-width: 768px) {
-  padding-left: 7vw;
-  padding-right: 6vw;
-  margin-top: -35px;
+    padding-left: 7vw;
+    padding-right: 6vw;
+    margin-top: -35px;
   }
 }
 
@@ -501,24 +501,24 @@
   }
 }
 
-.link{
-  color:rgb(244, 193, 210);
+.link {
+  color: rgb(244, 193, 210);
   text-decoration: none;
 }
 
-.marginP{
+.marginP {
   margin-bottom: 10px;
 }
 
-.pink{
+.pink {
   color: rgb(244, 193, 210);
 }
 
-.orange{
+.orange {
   color: rgb(254, 180, 151);
 }
 
-.dt{
+.dt {
   margin: 15px 0;
   font-weight: bold;
   font-size: 18px;

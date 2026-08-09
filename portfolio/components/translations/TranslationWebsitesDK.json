@@ -41,7 +41,12 @@
       "Spotless Webside",
       "ManyaSit Webside"
     ],
-    "href": ["/project/dk/1", "/project/dk/2", "/project/dk/3", "/project/dk/4"],
+    "href": [
+      "/project/dk/1",
+      "/project/dk/2",
+      "/project/dk/3",
+      "/project/dk/4"
+    ],
     "more": "Mere om projektet"
   }
 }

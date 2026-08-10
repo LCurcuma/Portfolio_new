@@ -20,7 +20,7 @@ export default function Header({ translation }) {
     <>
       {/*Burger menu*/}
       {isClickedBurger && (
-        <div className={`${styles.burger} introBig scroll_show_animate`}>
+        <div className={`${styles.burger} introBig show`}>
           {translation.header.hooks.map((hook, index) => (
             <a
               key={index}

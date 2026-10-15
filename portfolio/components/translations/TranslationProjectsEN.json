@@ -1382,6 +1382,45 @@
           "alts": ["Font variants"]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/animations/mother.gif"],
+          "text": {
+            "h": "Mom says: \"No More Internet!\"",
+            "p": [
+              "A short frame-by-frame animation inspired by the rhythm game Yunyun Syndrome?! Rhythm Psychosis. The project draws inspiration from the visual style, atmosphere, and expressive presentation of the original game.",
+              "The target audience is primarily fans of the game and people who enjoy dynamic animation, stylized characters, and expressive movement. The goal of the animation is to convey the character's emotions through exaggerated movements, sharp transitions between poses, and a fast-paced rhythm."
+            ]
+          },
+          "alts": ["Animation"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame animation"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "Process",
+              "p": [
+                "The animation was created step by step in Clip Studio Paint using frame-by-frame animation techniques. First, sketches of the keyframes were developed to establish the character's main poses and the direction of movement. In-between frames were then added to create a sequence of movements and make the transitions between poses more fluid and understandable.",
+                "The next stage involved creating the clean line art, applying base colors, and adding shadows. At each stage, the movements were refined and adjusted to achieve the desired result: a dynamic, sharp, and emotionally expressive animation.",
+                "Special attention was paid to timing, rhythm, and the expressiveness of the poses. The frame-by-frame technique made it possible to control each movement individually and adjust it to achieve the intended effect."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

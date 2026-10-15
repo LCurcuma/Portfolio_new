@@ -220,8 +220,22 @@
           "/dk/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["DK", "EN", "UA"],
+        "lang_link": ["/project/dk/18", "/project/en/18", "/project/ua/18"],
+        "navigation": ["Om mig", "Hjemmesider", "Art", "Kontakter"],
+        "hooks": [
+          "/dk",
+          "/projects/websites/dk",
+          "/projects/art/dk",
+          "/dk/contacts"
+        ]
+      }
     }
   ],
+  
   "sections": [
     {
       "sections_project": [

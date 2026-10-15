@@ -220,6 +220,19 @@
           "/en/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["EN", "UA", "DK"],
+        "lang_link": ["/project/en/18", "/project/ua/18", "/project/dk/18"],
+        "navigation": ["About me", "Websites", "Art", "Contact"],
+        "hooks": [
+          "/en",
+          "/projects/websites/en",
+          "/projects/art/en",
+          "/en/contacts"
+        ]
+      }
     }
   ],
   "sections": [

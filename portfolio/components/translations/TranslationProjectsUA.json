@@ -1378,6 +1378,36 @@
           "alts": ["Вибір шрифту"]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/animations/mother.gif"
+          ],
+          "text": {
+            "h": "Мати каже: \"Більше ніякого інтернету\"",
+            "p": [
+              "Коротка покадрова анімація, створена за мотивами гри \"Yunyun Syndrome?! Rhythm Psychosis\".",
+              "Цільова аудиторія - фанати цієї гри."
+            ]
+          },
+          "alts": [
+            "Анімація"
+          ],
+          "description": [
+            {
+              "head": "Тип",
+              "text": "Покадрова анімація"
+            },
+            {
+              "head": "Інструменти",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

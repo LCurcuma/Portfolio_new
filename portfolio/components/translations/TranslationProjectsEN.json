@@ -233,6 +233,19 @@
           "/en/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["EN", "UA", "DK"],
+        "lang_link": ["/project/en/19", "/project/ua/19", "/project/dk/19"],
+        "navigation": ["About me", "Websites", "Art", "Contact"],
+        "hooks": [
+          "/en",
+          "/projects/websites/en",
+          "/projects/art/en",
+          "/en/contacts"
+        ]
+      }
     }
   ],
   "sections": [

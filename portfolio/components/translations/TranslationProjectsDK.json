@@ -1375,6 +1375,45 @@
           "alts": ["Skrifttypes varianter af logo"]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/animations/mother.gif"],
+          "text": {
+            "h": "Mor siger: \"Ikke mere internet!\"",
+            "p": [
+              "En kort frame-by-frame-animation inspireret af rytmespillet Yunyun Syndrome?! Rhythm Psychosis. Projektet er inspireret af det originale spils visuelle stil, atmosfære og udtryksfulde formidling.",
+              "Målgruppen er primært fans af spillet og personer, der interesserer sig for dynamisk animation, stiliserede karakterer og udtryksfulde bevægelser. Formålet med animationen er at formidle karakterens følelser gennem overdrevne bevægelser, markante overgange mellem positurer og et hurtigt tempo."
+            ]
+          },
+          "alts": ["Animation"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Frame-by-frame-animation"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "Arbejdsproces",
+              "p": [
+                "Animationen blev skabt trin for trin i Clip Studio Paint ved hjælp af frame-by-frame-teknikken. Først lavede jeg skitser af nøglebillederne, for at fastlægge karakterens vigtigste positurer og bevægelsernes retning. Derefter tilføjede jeg mellembilleder for at skabe en sammenhængende bevægelsessekvens og gøre overgangene mellem positurerne mere flydende og forståelige.",
+                "Næste trin var at rentegne stregerne, tilføje grundfarver og lægge skygger på. Undervejs blev bevægelserne justeret og finpudset for at opnå det ønskede resultat: en dynamisk, markant og følelsesmæssigt udtryksfuld animation.",
+                "Jeg lagde særlig vægt på timing, rytme og positurernes udtryk. Frame-by-frame-teknikken gjorde det muligt at kontrollere hver enkelt bevægelse og justere den for at opnå den ønskede effekt."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

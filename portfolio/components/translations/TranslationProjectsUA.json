@@ -233,6 +233,19 @@
           "/ua/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["UA", "EN", "DK"],
+        "lang_link": ["/project/ua/19", "/project/en/19", "/project/dk/19"],
+        "navigation": ["Хто я?", "Вебсайти", "Арти", "Контакти"],
+        "hooks": [
+          "/ua",
+          "/projects/websites/ua",
+          "/projects/art/ua",
+          "/ua/contacts"
+        ]
+      }
     }
   ],
   "sections": [

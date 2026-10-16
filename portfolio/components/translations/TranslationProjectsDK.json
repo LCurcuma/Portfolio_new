@@ -233,6 +233,19 @@
           "/dk/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["DK", "EN", "UA"],
+        "lang_link": ["/project/dk/19", "/project/en/19", "/project/ua/19"],
+        "navigation": ["Om mig", "Hjemmesider", "Art", "Kontakter"],
+        "hooks": [
+          "/dk",
+          "/projects/websites/dk",
+          "/projects/art/dk",
+          "/dk/contacts"
+        ]
+      }
     }
   ],
   

@@ -246,6 +246,19 @@
           "/dk/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["DK", "EN", "UA"],
+        "lang_link": ["/project/dk/20", "/project/en/20", "/project/ua/20"],
+        "navigation": ["Om mig", "Hjemmesider", "Art", "Kontakter"],
+        "hooks": [
+          "/dk",
+          "/projects/websites/dk",
+          "/projects/art/dk",
+          "/dk/contacts"
+        ]
+      }
     }
   ],
   
@@ -1462,6 +1475,52 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/illustrations/ayumi/ayumi.png"],
+          "text": {
+            "h": "Ayumi",
+            "p": [
+              "En illustration af Ayumi Yoshida, en karakter fra anime-serien Detective Conan. Illustrationen er inspireret af nye samlekort fra franchisen, hvor karaktererne er afbildet i kostumer inspireret af eventyret Alice i Eventyrland.",
+              "Formålet var at tegne Ayumi i dette tematiske outfit, samtidig med at jeg bevarede hendes genkendelige træk og indfangede den eventyrlige stemning."
+            ]
+          },
+          "alts": ["Ayumi i Alices kostume"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Farveillustration med enkel naggrund"
+            },
+            {
+              "head": "Format",
+              "text": "Portræt i busteformat"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/ayumi/sketch.png",
+            "/images/projects/illustrations/ayumi/line.png",
+            "/images/projects/illustrations/ayumi/flat_colors.png"
+          ],
+          "text": {
+            "h": "Arbejdsproces",
+            "p": [
+              "Illustrationen blev skabt trin for trin i Clip Studio Paint. Først lavede jeg en skitse for at fastlægge kompositionen, posituren og karakterens grundlæggende proportioner. Derefter tegnede jeg lineart og finpudsede konturerne og detaljerne.",
+              "Herefter begyndte jeg at farvelægge illustrationen pg arbejdede med de enkelte elementer hver for sig, blandt andet hår, hud, kjole og andre detaljer i outfittet. Til sidst finpudsede jeg farverne og detaljerne for at skabe en sammenhængende illustration, der formidlede det ønskede karakterdesign."
+            ]
+          },
+          "alts": ["Skitse", "Lineart", "Flade farver"]
         }
       ]
     }

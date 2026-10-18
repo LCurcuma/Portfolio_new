@@ -1427,6 +1427,43 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/animations/hungry_cat.gif"],
+          "text": {
+            "h": "Den sultne kat",
+            "p": [
+              "En kort vektoranimation, der blev skabt på begrænset tid for at genopfriske de grundlæggende funktioner i Adobe After Effects og styrke min forsåelse af principperne bag vektoranimation.",
+              "Ideen var inspereret af et nyt kattememe. Projektet tager udgangspunkt i en enkel og humoristisk ide, som formidles gennem udtryksfulde bevægelser og minimalistisk grafik."
+            ]
+          },
+          "alts": ["Animation"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Vektoranimation"
+            },
+            {
+              "head": "Værktøjer",
+              "text": "Adobe After Effects"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "Arbejdsproces",
+              "p": [
+                "Under arbejdet genopfriskede jeg de vigtiste værktøjer i Adobe After Effects og principperne for animation af vektorobjekter. Jeg fokuserede især på de enkelte elementers bevægelser, timing og samspil for at gøre animationen tydelig og udtryksfuld på trods af den begrænsede tid."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

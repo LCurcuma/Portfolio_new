@@ -1434,6 +1434,43 @@
           ]
         }
       ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/animations/hungry_cat.gif"],
+          "text": {
+            "h": "Hungry cat",
+            "p": [
+              "A short vector animation created within a limited timeframe to revisit the core features of Adobe After Effects and reinforce my understanding of vector animation principles.",
+              "The idea was inspired by a recent cat meme. The project focuses on a simple, humorous concept conveyed through expressive movement and minimalist graphics."
+            ]
+          },
+          "alts": ["Animation"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Vector animation"
+            },
+            {
+              "head": "Tools",
+              "text": "Adobe After Effects"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": [
+            {
+              "h": "Process",
+              "p": [
+                "During the project, I revisited the main tools in Adobe After Effects and the principles of animating vector objects. Particular attention was paid to the movement of individual elements, timing, and coordination to make the animation clear and expressive despite the limited production time."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

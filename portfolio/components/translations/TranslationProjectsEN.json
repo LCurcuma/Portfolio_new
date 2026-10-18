@@ -246,6 +246,19 @@
           "/en/contacts"
         ]
       }
+    },
+    {
+      "header": {
+        "languages": ["EN", "UA", "DK"],
+        "lang_link": ["/project/en/20", "/project/ua/20", "/project/dk/20"],
+        "navigation": ["About me", "Websites", "Art", "Contact"],
+        "hooks": [
+          "/en",
+          "/projects/websites/en",
+          "/projects/art/en",
+          "/en/contacts"
+        ]
+      }
     }
   ],
   "sections": [
@@ -1469,6 +1482,52 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "sections_project": [
+        {
+          "type": "image_text",
+          "images": ["/images/projects/illustrations/ayumi/ayumi.png"],
+          "text": {
+            "h": "Ayumi",
+            "p": [
+              "An illustration of Ayumi Yoshida, a character from the anime Detective Conan. The artwork was inspired by new collectible cards from the franchise, featuring characters dressed in costumes inspired by Alice in Wonderland.",
+              "The goal was to portray Ayumi in this themed outfit while preserving her recognizable features and capturing the fairytale atmosphere of the concept."
+            ]
+          },
+          "alts": ["Ayumi in the Alices costume"],
+          "description": [
+            {
+              "head": "Type",
+              "text": "Full-color illustration with a simple background"
+            },
+            {
+              "head": "Format",
+              "text": "Bust portrait"
+            },
+            {
+              "head": "Tools",
+              "text": "Clip Studio Paint"
+            }
+          ]
+        },
+        {
+          "type": "image_text",
+          "images": [
+            "/images/projects/illustrations/ayumi/sketch.png",
+            "/images/projects/illustrations/ayumi/line.png",
+            "/images/projects/illustrations/ayumi/flat_colors.png"
+          ],
+          "text": {
+            "h": "Process",
+            "p": [
+              "The illustration was created step by step in Clip Studio Paint. First, I made a sketch to establish the composition, pose, and main proportions of the character. I then created the lineart, refining the outlines and details.",
+              "Next, I moved on to coloring, working on each element individually, including the hair, skin, dress, and other details of the outfit. In the final stage, I refined the colors and details to create a cohesive illustration that conveyed the intended character design."
+            ]
+          },
+          "alts": ["Sketch", "Lineart", "Flat colors"]
         }
       ]
     }
